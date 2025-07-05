@@ -1,0 +1,585 @@
+{
+	"Component[0]": {
+		"Enabled[0]": true,
+		"Name[0]": "SceneRoot"
+	},
+	"Component[10]": {
+		"Enabled[0]": true,
+		"Name[0]": "StableGroundCheck",
+		"Position[0]": [
+			0.0,
+			0.34999996423721313,
+			0.0
+		],
+		"Rotation[0]": [
+			90.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[11]": {
+		"ComponentFieldSublist[0]": {
+			"Word[0]": 64,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Enabled[0]": true,
+		"Name[0]": "StableGroundCheck-Raycast",
+		"Query Flags[0]": 2,
+		"Query Mode[0]": 0,
+		"ReferenceId[0]": {
+			"Word[0]": 13,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[2]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[3]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[4]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[12]": {
+		"Enabled[0]": true,
+		"Has Value[0]": true,
+		"Name[0]": "StableGroundCheck-Range",
+		"Value[0]": 0.5
+	},
+	"Component[13]": {
+		"Enabled[0]": true,
+		"Name[0]": "StableGroundCheck",
+		"ReferenceId[0]": {
+			"Word[0]": 12,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[14]": {
+		"Deadzone[0]": 0.25,
+		"Enabled[0]": true,
+		"Name[0]": "PlayerMovementInput",
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[15]": {
+		"Clear If Null[0]": true,
+		"Enabled[0]": true,
+		"Field Name[0]": "Camera Transform",
+		"Key Type[0]": 1,
+		"Key[0]": "MainCamera-Transform",
+		"Name[0]": "[RR] MainCamera-Transform",
+		"Registry Type[0]": 3
+	},
+	"Component[16]": {
+		"Enabled[0]": true,
+		"Name[0]": "PlayerJumpInput"
+	},
+	"Component[17]": {
+		"Enabled[0]": true,
+		"Name[0]": "GroundCheckHandle",
+		"Position[0]": [
+			0.0,
+			0.3499999940395355,
+			0.0
+		],
+		"Rotation[0]": [
+			90.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[18]": {
+		"ComponentFieldSublist[0]": {
+			"Word[0]": 2,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Enabled[0]": true,
+		"Name[0]": "GroundCheck-Raycast",
+		"Query Flags[0]": 2,
+		"Query Mode[0]": 1,
+		"ReferenceId[0]": {
+			"Word[0]": 20,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[2]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[3]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[4]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Sphere Radius[0]": 0.25
+	},
+	"Component[19]": {
+		"Enabled[0]": true,
+		"Has Value[0]": true,
+		"Name[0]": "GroundCheck-Range",
+		"Value[0]": 0.25
+	},
+	"Component[1]": {
+		"Enabled[0]": true,
+		"Name[0]": "Capsule",
+		"Position[0]": [
+			0.0,
+			0.0,
+			-0.0
+		],
+		"Rotation[0]": [
+			90.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.5,
+			0.5,
+			0.5
+		]
+	},
+	"Component[20]": {
+		"Enabled[0]": true,
+		"Name[0]": "GroundCheck",
+		"ReferenceId[0]": {
+			"Word[0]": 19,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[21]": {
+		"Enabled[0]": true,
+		"Name[0]": "CameraTarget-Transform",
+		"Position[0]": [
+			0.0,
+			0.800000011920929,
+			0.0
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[22]": {
+		"Enabled[0]": true,
+		"InputMode[0]": 0,
+		"Name[0]": "CameraTarget-Position-Raw",
+		"No Input If Disabled[0]": 1,
+		"ReferenceId[0]": {
+			"Word[0]": 22,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[23]": {
+		"Enabled[0]": true,
+		"Name[0]": "CameraTarget-Position",
+		"ReferenceId[0]": {
+			"Word[0]": 23,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Update Speed[0]": 4.0,
+		"Use Unscaled Time[0]": true
+	},
+	"Component[24]": {
+		"Enabled[0]": true,
+		"Key Type[0]": 1,
+		"Key[0]": "CameraTarget-Position",
+		"Name[0]": "[RR] CameraTarget-Position",
+		"Registry Type[0]": 3,
+		"Stored Object[0]": 0
+	},
+	"Component[2]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -2043569917026140316,
+			"Word[1]": 5320719763659107763,
+			"Word[2]": -3512487382027702848,
+			"Word[3]": -631816721263777816
+		},
+		"ReferenceId[1]": {
+			"Word[0]": -5544762299122072879,
+			"Word[1]": -395579393725961726,
+			"Word[2]": -3748659858529901406,
+			"Word[3]": 5712365680221368726
+		},
+		"Static[0]": false
+	},
+	"Component[3]": {
+		"Enabled[0]": true,
+		"Name[0]": "Nose",
+		"Position[0]": [
+			0.0,
+			0.761768639087677,
+			0.19851958751678467
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.15000000596046448,
+			0.15000000596046448,
+			0.4000000059604645
+		]
+	},
+	"Component[4]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -4083568331302256151,
+			"Word[1]": 2688553068341438110,
+			"Word[2]": 1637995706208979168,
+			"Word[3]": 4199279412343241776
+		},
+		"ReferenceId[1]": {
+			"Word[0]": -5544762299122072879,
+			"Word[1]": -395579393725961726,
+			"Word[2]": -3748659858529901406,
+			"Word[3]": 5712365680221368726
+		},
+		"Static[0]": false
+	},
+	"Component[5]": {
+		"Angular Velocity[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Enable CCD[0]": false,
+		"Enabled[0]": true,
+		"Kinematic[0]": false,
+		"Lock[0]": 40,
+		"Mass[0]": 1.0,
+		"Name[0]": "Rigidbody",
+		"Velocity[0]": [
+			0.0,
+			0.0,
+			0.0
+		]
+	},
+	"Component[6]": {
+		"Enabled[0]": true,
+		"Name[0]": "ColliderTransform",
+		"Position[0]": [
+			0.0,
+			0.5,
+			0.0
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.5,
+			0.5,
+			0.5
+		]
+	},
+	"Component[7]": {
+		"Alignment[0]": 1,
+		"Enabled[0]": true,
+		"Height[0]": 1.0,
+		"Is Static[0]": false,
+		"Is Trigger[0]": false,
+		"Layer[0]": 4,
+		"Name[0]": "CapsuleCollider",
+		"Radius[0]": 0.5,
+		"ReferenceId[0]": {
+			"Word[0]": 6441663001997112244,
+			"Word[1]": -3207510812407046645,
+			"Word[2]": -2745770139680046934,
+			"Word[3]": 8710832169499819418
+		}
+	},
+	"Component[8]": {
+		"Acceleration[0]": 4.0,
+		"Enabled[0]": true,
+		"Jump Velocity[0]": 4.0,
+		"Max Velocity[0]": 4.0,
+		"Name[0]": "CharacterMovementController",
+		"ReferenceId[0]": {
+			"Word[0]": 6,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 15,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[2]": {
+			"Word[0]": 17,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[3]": {
+			"Word[0]": 21,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[9]": {
+		"Enabled[0]": true,
+		"Kill Plane[0]": -10.0,
+		"Name[0]": "ReturnToGroundIfKillPlaneReached",
+		"Offset On Return[0]": 2.5,
+		"ReferenceId[0]": {
+			"Word[0]": 6,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 14,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Node[0]": {
+		"Child Count[0]": 9,
+		"Node[0]": {
+			"Child Count[0]": 1,
+			"Node[0]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::MeshRenderer"
+			},
+			"Type[0]": "Jimara::Transform"
+		},
+		"Node[1]": {
+			"Child Count[0]": 1,
+			"Node[0]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::MeshRenderer"
+			},
+			"Type[0]": "Jimara::Transform"
+		},
+		"Node[2]": {
+			"Child Count[0]": 1,
+			"Node[0]": {
+				"Child Count[0]": 1,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::CapsuleCollider"
+				},
+				"Type[0]": "Jimara::Transform"
+			},
+			"Type[0]": "Jimara::Rigidbody"
+		},
+		"Node[3]": {
+			"Child Count[0]": 0,
+			"Type[0]": "Game::CharacterMovementController"
+		},
+		"Node[4]": {
+			"Child Count[0]": 1,
+			"Node[0]": {
+				"Child Count[0]": 3,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::RaycastInput"
+				},
+				"Node[1]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::FloatValueInput"
+				},
+				"Node[2]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::FloatInputHasValueInput"
+				},
+				"Type[0]": "Jimara::Transform"
+			},
+			"Type[0]": "Game::ReturnToGroundIfKillPlaneReached"
+		},
+		"Node[5]": {
+			"Child Count[0]": 1,
+			"Node[0]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::FieldFromRegistry"
+			},
+			"Type[0]": "Game::PlayerMovementInput"
+		},
+		"Node[6]": {
+			"Child Count[0]": 0,
+			"Type[0]": "Game::PlayerJumpInput"
+		},
+		"Node[7]": {
+			"Child Count[0]": 3,
+			"Node[0]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::RaycastInput"
+			},
+			"Node[1]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::FloatValueInput"
+			},
+			"Node[2]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::FloatInputHasValueInput"
+			},
+			"Type[0]": "Jimara::Transform"
+		},
+		"Node[8]": {
+			"Child Count[0]": 2,
+			"Node[0]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::TransformFieldInput"
+			},
+			"Node[1]": {
+				"Child Count[0]": 1,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::RegistryEntry"
+				},
+				"Type[0]": "Jimara::DelayedVector3Input"
+			},
+			"Type[0]": "Jimara::Transform"
+		},
+		"Type[0]": "Jimara::Component"
+	},
+	"Resources[0]": {
+		"Count[0]": 4,
+		"ResourceId[0]": {
+			"Word[0]": -2043569917026140316,
+			"Word[1]": 5320719763659107763,
+			"Word[2]": -3512487382027702848,
+			"Word[3]": -631816721263777816
+		},
+		"ResourceId[1]": {
+			"Word[0]": -5544762299122072879,
+			"Word[1]": -395579393725961726,
+			"Word[2]": -3748659858529901406,
+			"Word[3]": 5712365680221368726
+		},
+		"ResourceId[2]": {
+			"Word[0]": -4083568331302256151,
+			"Word[1]": 2688553068341438110,
+			"Word[2]": 1637995706208979168,
+			"Word[3]": 4199279412343241776
+		},
+		"ResourceId[3]": {
+			"Word[0]": 6441663001997112244,
+			"Word[1]": -3207510812407046645,
+			"Word[2]": -2745770139680046934,
+			"Word[3]": 8710832169499819418
+		}
+	}
+}

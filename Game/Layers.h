@@ -11,6 +11,7 @@ namespace Game {
 		FOLIAGE = 3,
 		PLAYER = 4,
 		CANONBALL = 5,
+		STABLE_GROUND = 6
 	};
 
 	inline static void Game_SetLayerNames() {
@@ -21,5 +22,6 @@ namespace Game {
 		layers[static_cast<Jimara::Layer>(Layer::FOLIAGE)] = "FOLIAGE";
 		layers[static_cast<Jimara::Layer>(Layer::PLAYER)] = "PLAYER";
 		layers[static_cast<Jimara::Layer>(Layer::CANONBALL)] = "CANONBALL";
+		layers[static_cast<Jimara::Layer>(Layer::STABLE_GROUND)] = "STABLE_GROUND";
 	}
 }
