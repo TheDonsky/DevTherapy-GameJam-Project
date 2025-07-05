@@ -17,6 +17,7 @@ namespace Game {
 			JIMARA_SERIALIZE_FIELDS(this, report) {
 				JIMARA_SERIALIZE_FIELD(m_targetTransform, "Target Transform", "");
 				JIMARA_SERIALIZE_FIELD(m_rotationSpeed, "Rotation Speed", "");
+				JIMARA_SERIALIZE_FIELD(m_rotationAmount, "Rotation Amount", "");
 			};
 		}
 
@@ -47,7 +48,7 @@ namespace Game {
 			Reference<Transform> target = m_targetTransform;
 			if (target == nullptr)
 				return;
-			m_targetAngle = (m_targetAngle.has_value() ? m_targetAngle.value() : target->WorldEulerAngles().y) + 90.0f;
+			m_targetAngle = (m_targetAngle.has_value() ? m_targetAngle.value() : target->WorldEulerAngles().y) + m_rotationAmount;
 		}
 
 		virtual void OnPlatformExit() override {
@@ -58,6 +59,7 @@ namespace Game {
 		WeakReference<Transform> m_targetTransform;
 		std::optional<float> m_targetAngle;
 		float m_rotationSpeed = 45.0f;
+		float m_rotationAmount = 90.0f;
 	};
 }
 
