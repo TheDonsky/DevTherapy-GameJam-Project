@@ -65,5 +65,11 @@
     <ClInclude Include="Platforms\MovingPlatform.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Utilities\ActionsOnEnabledOrDisabled.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\ParticleSystemGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

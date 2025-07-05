@@ -365,7 +365,7 @@
 		}
 	},
 	"Component[23]": {
-		"Cannon Ball Speed[0]": 32.0,
+		"Cannon Ball Speed[0]": 24.0,
 		"Enabled[0]": true,
 		"Name[0]": "Cannon",
 		"ReferenceId[0]": {

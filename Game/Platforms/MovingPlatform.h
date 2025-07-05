@@ -16,8 +16,27 @@ namespace Game {
 			JIMARA_SERIALIZE_FIELDS(this, report) {
 				JIMARA_SERIALIZE_FIELD(m_platformTransform, "Platform", "Platform Transform");
 				JIMARA_SERIALIZE_FIELD(m_poses, "Poses", "Pose transforms");
+				JIMARA_SERIALIZE_FIELD(m_interpolationTime, "Time", "Move time");
 				JIMARA_SERIALIZE_FIELD_GET_SET(Target, SetTarget, "Target", "");
 			};
+		}
+
+		virtual void GetSerializedActions(Callback<Jimara::Serialization::SerializedCallback> report) override {
+			UpdatingComponent::GetSerializedActions(report);
+			{
+				static const auto serializer = Jimara::Serialization::DefaultSerializer<size_t>::Create(
+					"Pose Index", "Target Pose Index");
+				report(Jimara::Serialization::SerializedCallback::Create<size_t>::From(
+					"SetTarget", Callback<size_t>(&MovingPlatform::SetTarget, this), serializer));
+			}
+			{
+				report(Jimara::Serialization::SerializedCallback::Create<>::From(
+					"MoveToNextTarget", Callback<>(&MovingPlatform::MoveToNextTarget, this)));
+			}
+			{
+				report(Jimara::Serialization::SerializedCallback::Create<>::From(
+					"MoveToPrevTarget", Callback<>(&MovingPlatform::MoveToPrevTarget, this)));
+			}
 		}
 
 		size_t Target()const { return m_currentTarget; }

@@ -241,10 +241,12 @@ python "%JIMARA_REPO%\__Scripts__\jimara_implement_type_registrator.py" %game_sr
     <ClInclude Include="Platforms\GenericPlatform.h" />
     <ClInclude Include="Platforms\MovingPlatform.h" />
     <ClInclude Include="Platforms\RotatePlatform.h" />
+    <ClInclude Include="Utilities\ActionsOnEnabledOrDisabled.h" />
     <ClInclude Include="Platforms\WindEffector.h" />
     <ClInclude Include="Player\CharacterMovementController.h" />
     <ClInclude Include="Player\ReturnToGroundIfKillPlaneReached.h" />
     <ClInclude Include="TypeRegistry.h" />
+    <ClInclude Include="Utilities\ParticleSystemGroup.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

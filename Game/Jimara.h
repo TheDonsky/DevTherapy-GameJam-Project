@@ -9,6 +9,7 @@
 #include <Jimara/Components/Physics/Collider.h>
 #include <Jimara/Components/Physics/Rigidbody.h>
 #include <Jimara/Components/Animation/Animator.h>
+#include <Jimara/Components/GraphicsObjects/ParticleRenderer.h>
 #include <Jimara/Core/EnumClassBooleanOperands.h>
 #include <Jimara-GenericInputs/Base/VectorInput.h>
 #include <type_traits>
