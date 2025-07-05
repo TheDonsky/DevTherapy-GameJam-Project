@@ -228,11 +228,14 @@ python "%JIMARA_REPO%\__Scripts__\jimara_implement_type_registrator.py" %game_sr
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Camera\ThirdPersonCamera.cpp" />
+    <ClCompile Include="CollisionEvents\CollisionListener.cpp" />
     <ClCompile Include="TypeRegistry.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Camera\ThirdPersonCamera.h" />
+    <ClInclude Include="CollisionEvents\CollisionListener.h" />
     <ClInclude Include="Jimara.h" />
+    <ClInclude Include="Player\CharacterMovementController.h" />
     <ClInclude Include="TypeRegistry.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

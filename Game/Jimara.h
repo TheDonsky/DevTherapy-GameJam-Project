@@ -20,6 +20,10 @@ namespace Game {
 		using namespace ::Jimara::Math;
 	}
 
+	namespace OS {
+		using namespace ::Jimara::OS;
+	}
+
 	using Object = ::Jimara::Object;
 
 	template<typename Type, typename ReferenceCounter = Jimara::JimaraReferenceCounter>
