@@ -26,13 +26,10 @@ namespace Game {
 			if (m_currentTarget == poseIndex)
 				return;
 			m_phase = -1.0f;
+			m_initialPos = std::nullopt;
+			m_initialRotation = std::nullopt;
 			if (poseIndex >= m_poses.size())
 				return;
-			Reference<Transform> platform = m_platformTransform;
-			if (platform == nullptr)
-				return;
-			m_initialPos = platform->WorldPosition();
-			m_initialRotation = platform->WorldEulerAngles();
 			m_currentTarget = poseIndex;
 			m_phase = 0.0f;
 		}
@@ -63,17 +60,23 @@ namespace Game {
 			if (targetPose == nullptr)
 				return;
 
+			if (!m_initialPos.has_value()) {
+				m_initialPos = platform->WorldPosition();
+				m_initialRotation = platform->WorldEulerAngles();
+				m_phase = 0.0f;
+			}
+
 			m_phase = (m_interpolationTime <= std::numeric_limits<float>::epsilon()) ? 1.0f
 				: Math::Min(m_phase + Context()->Time()->ScaledDeltaTime() / m_interpolationTime, 1.0f);
 
 			const Vector3 targetPosition = targetPose->WorldPosition();
 			const Vector3 targetEulerAngles = targetPose->WorldEulerAngles();
 
-			platform->SetWorldPosition(Math::Lerp(m_initialPos, targetPosition, m_phase));
+			platform->SetWorldPosition(Math::Lerp(m_initialPos.value(), targetPosition, m_phase));
 			platform->SetWorldEulerAngles(Vector3(
-				Math::LerpAngles(m_initialRotation.x, targetEulerAngles.x, m_phase),
-				Math::LerpAngles(m_initialRotation.y, targetEulerAngles.y, m_phase),
-				Math::LerpAngles(m_initialRotation.z, targetEulerAngles.z, m_phase)));
+				Math::LerpAngles(m_initialRotation.value().x, targetEulerAngles.x, m_phase),
+				Math::LerpAngles(m_initialRotation.value().y, targetEulerAngles.y, m_phase),
+				Math::LerpAngles(m_initialRotation.value().z, targetEulerAngles.z, m_phase)));
 
 			if (std::abs(m_phase - 1.0f) < std::numeric_limits<float>::epsilon())
 				m_phase = -1.0f;
@@ -86,8 +89,8 @@ namespace Game {
 		
 		float m_phase = -1.0f;
 		size_t m_currentTarget = ~size_t(0u);
-		Vector3 m_initialPos = Vector3(0.0f);
-		Vector3 m_initialRotation = Vector3(0.0f);
+		std::optional<Vector3> m_initialPos = Vector3(0.0f);
+		std::optional<Vector3> m_initialRotation = Vector3(0.0f);
 	};
 }
 
