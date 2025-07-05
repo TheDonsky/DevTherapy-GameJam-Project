@@ -8,7 +8,7 @@ namespace Game {
 
 	class WindEffector : public virtual CollisionListener {
 	public:
-		inline WindEffector(Component* parent, const std::string_view& name = "Cannon") : Component(parent, name) {}
+		inline WindEffector(Component* parent, const std::string_view& name = "WindEffector") : Component(parent, name) {}
 
 		virtual ~WindEffector() {}
 
