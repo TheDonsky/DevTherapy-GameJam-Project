@@ -4,11 +4,13 @@
 
 
 namespace Game {
-	JIMARA_REGISTER_TYPE(Game::BrickWallPlatform);
+	JIMARA_REGISTER_TYPE(Game::BrickWall);
 
-	class BrickWallPlatform : public virtual CollisionListener {
+	class BrickWall : public virtual CollisionListener {
 	public:
-		virtual ~BrickWallPlatform() {}
+		inline BrickWall(Component* parent, const std::string_view& name = "BrickWall") : Component(parent, name) {}
+
+		virtual ~BrickWall() {}
 
 		virtual void GetFields(ReportFiedlFn report)override {
 			CollisionListener::GetFields(report);
@@ -29,6 +31,4 @@ namespace Game {
 	};
 }
 
-namespace Jimara {
-	template<> inline static void TypeIdDetails::GetParentTypesOf<::Game::BrickWallPlatform>(const Callback<TypeId>& report) { report(TypeId::Of<Game::CollisionListener>()); }
-}
+DT_EXPOSE_COMPONENT_DETAILS(Game::BrickWall, "Game/Interactable/BrickWall", "", Game::CollisionListener);

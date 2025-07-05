@@ -1,0 +1,108 @@
+{
+	"Component[0]": {
+		"Enabled[0]": true,
+		"Name[0]": "SceneRoot"
+	},
+	"Component[1]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -4083568331302256151,
+			"Word[1]": 2688553068341438110,
+			"Word[2]": 1637995706208979168,
+			"Word[3]": 4199279412343241776
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[2]": {
+		"Angular Velocity[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Enable CCD[0]": false,
+		"Enabled[0]": false,
+		"Kinematic[0]": false,
+		"Lock[0]": 0,
+		"Mass[0]": 1.0,
+		"Name[0]": "Rigidbody",
+		"Velocity[0]": [
+			0.0,
+			0.0,
+			0.0
+		]
+	},
+	"Component[3]": {
+		"Enabled[0]": true,
+		"Is Static[0]": false,
+		"Is Trigger[0]": false,
+		"Layer[0]": 2,
+		"Name[0]": "BoxCollider",
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Size[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Node[0]": {
+		"Child Count[0]": 2,
+		"Node[0]": {
+			"Child Count[0]": 0,
+			"Type[0]": "Jimara::MeshRenderer"
+		},
+		"Node[1]": {
+			"Child Count[0]": 1,
+			"Node[0]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::BoxCollider"
+			},
+			"Type[0]": "Jimara::Rigidbody"
+		},
+		"Type[0]": "Jimara::Component"
+	},
+	"Resources[0]": {
+		"Count[0]": 1,
+		"ResourceId[0]": {
+			"Word[0]": -4083568331302256151,
+			"Word[1]": 2688553068341438110,
+			"Word[2]": 1637995706208979168,
+			"Word[3]": 4199279412343241776
+		}
+	}
+}

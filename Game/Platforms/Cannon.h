@@ -50,4 +50,4 @@ namespace Game {
 	};
 }
 
-DT_EXPOSE_COMPONENT_DETAILS(Game::Cannon, "Game/Interactable/Cannon", "", Game::Cannon);
+DT_EXPOSE_COMPONENT_DETAILS(Game::Cannon, "Game/Interactable/Cannon", "", Game::GenericPlatform);

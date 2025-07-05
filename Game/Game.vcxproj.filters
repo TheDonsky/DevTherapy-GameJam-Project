@@ -53,5 +53,11 @@
     <ClInclude Include="Platforms\Cannon.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Platforms\BrickWall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player\ReturnToGroundIfKillPlaneReached.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

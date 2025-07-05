@@ -3,18 +3,546 @@
 		"Enabled[0]": true,
 		"Name[0]": "SceneRoot"
 	},
-	"Component[10]": {
-		"Device[0]": 0,
+	"Component[100]": {
 		"Enabled[0]": true,
-		"Flags[0]": 4,
-		"Horizontal[0]": 2,
-		"Max magnitude[0]": null,
-		"Name[0]": "MouseInput",
-		"Vertical[0]": 1
+		"Name[0]": "SpawnPoint",
+		"Position[0]": [
+			-5.602014425676316e-07,
+			0.0,
+			0.4902496337890625
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			1.25,
+			1.25,
+			0.10000000149011612
+		]
+	},
+	"Component[101]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -4083568331302256151,
+			"Word[1]": 2688553068341438110,
+			"Word[2]": 1637995706208979168,
+			"Word[3]": 4199279412343241776
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[102]": {
+		"Alignment[0]": 2,
+		"Enabled[0]": true,
+		"Height[0]": 0.4000000059604645,
+		"Is Static[0]": false,
+		"Is Trigger[0]": false,
+		"Layer[0]": 0,
+		"Name[0]": "CapsuleCollider",
+		"Radius[0]": 0.15000000596046448,
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[103]": {
+		"Enabled[0]": true,
+		"Name[0]": "Platform-Mesh",
+		"Position[0]": [
+			-7.50156230536203e-14,
+			0.06589046865701675,
+			-9.5367431640625e-06
+		],
+		"Rotation[0]": [
+			90.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			1.5,
+			1.5,
+			0.02500000037252903
+		]
+	},
+	"Component[104]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -8347829473749422630,
+			"Word[1]": 2330793742025718585,
+			"Word[2]": 5143884378403799930,
+			"Word[3]": 4210254131585379683
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[105]": {
+		"Enabled[0]": true,
+		"Name[0]": "Canon-LeftTrigger",
+		"Position[0]": [
+			-2.0,
+			0.5348734855651855,
+			-1.1575226380955428e-05
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.5,
+			0.5,
+			0.5
+		]
+	},
+	"Component[106]": {
+		"Enabled[0]": true,
+		"Name[0]": "Cylinder",
+		"Position[0]": [
+			0.0,
+			0.0,
+			-0.0
+		],
+		"Rotation[0]": [
+			89.99999237060547,
+			-180.0,
+			180.0
+		],
+		"Scale[0]": [
+			0.75,
+			0.75,
+			1.0
+		]
+	},
+	"Component[107]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "Cylinder",
+		"ReferenceId[0]": {
+			"Word[0]": -8347829473749422630,
+			"Word[1]": 2330793742025718585,
+			"Word[2]": 5143884378403799930,
+			"Word[3]": 4210254131585379683
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 5878721109056754504,
+			"Word[1]": -3572221403601257083,
+			"Word[2]": -1638342316288954287,
+			"Word[3]": -3071984667425425041
+		},
+		"Static[0]": false
+	},
+	"Component[108]": {
+		"Alignment[0]": 1,
+		"Enabled[0]": true,
+		"Height[0]": 1.0,
+		"Is Static[0]": false,
+		"Is Trigger[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "PlatformTrigger",
+		"Radius[0]": 0.5,
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[109]": {
+		"ComponentFieldSublist[0]": {
+			"Action Name[0]": "SetEnabled",
+			"Enabled[0]": false,
+			"ReferenceId[0]": {
+				"Word[0]": 111,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"ComponentFieldSublist[1]": {
+			"Action Name[0]": "SetEnabled",
+			"Enabled[0]": true,
+			"ReferenceId[0]": {
+				"Word[0]": 111,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Name[0]": "RotatePlatform",
+		"ReferenceId[0]": {
+			"Word[0]": 109,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 98,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Rotation Amount[0]": 90.0,
+		"Rotation Speed[0]": 45.0
+	},
+	"Component[10]": {
+		"Enabled[0]": true,
+		"Name[0]": "RotationInput",
+		"Operator[0]": 0,
+		"ReferenceId[0]": {
+			"Word[0]": 12,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 15,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[110]": {
+		"Enabled[0]": true,
+		"Name[0]": "Canon-RightTrigger",
+		"Position[0]": [
+			2.0,
+			0.5348734855651855,
+			-1.1575226380955428e-05
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.5,
+			0.5,
+			0.5
+		]
+	},
+	"Component[111]": {
+		"Enabled[0]": true,
+		"Name[0]": "Cylinder",
+		"Position[0]": [
+			0.0,
+			0.0,
+			-0.0
+		],
+		"Rotation[0]": [
+			89.99999237060547,
+			-180.0,
+			180.0
+		],
+		"Scale[0]": [
+			0.75,
+			0.75,
+			1.0
+		]
+	},
+	"Component[112]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "Cylinder",
+		"ReferenceId[0]": {
+			"Word[0]": -8347829473749422630,
+			"Word[1]": 2330793742025718585,
+			"Word[2]": 5143884378403799930,
+			"Word[3]": 4210254131585379683
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 5878721109056754504,
+			"Word[1]": -3572221403601257083,
+			"Word[2]": -1638342316288954287,
+			"Word[3]": -3071984667425425041
+		},
+		"Static[0]": false
+	},
+	"Component[113]": {
+		"Alignment[0]": 1,
+		"Enabled[0]": true,
+		"Height[0]": 1.0,
+		"Is Static[0]": false,
+		"Is Trigger[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "PlatformTrigger",
+		"Radius[0]": 0.5,
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[114]": {
+		"ComponentFieldSublist[0]": {
+			"Action Name[0]": "SetEnabled",
+			"Enabled[0]": false,
+			"ReferenceId[0]": {
+				"Word[0]": 106,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"ComponentFieldSublist[1]": {
+			"Action Name[0]": "SetEnabled",
+			"Enabled[0]": true,
+			"ReferenceId[0]": {
+				"Word[0]": 106,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Name[0]": "RotatePlatform",
+		"ReferenceId[0]": {
+			"Word[0]": 114,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 98,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Rotation Amount[0]": -90.0,
+		"Rotation Speed[0]": 45.0
+	},
+	"Component[115]": {
+		"Enabled[0]": true,
+		"Name[0]": "Canon-ThrowTrigger",
+		"Position[0]": [
+			1.923953050209093e-07,
+			0.5348734259605408,
+			-1.1003856658935547
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.5,
+			0.5,
+			0.5
+		]
+	},
+	"Component[116]": {
+		"Enabled[0]": true,
+		"Name[0]": "Cylinder",
+		"Position[0]": [
+			0.0,
+			0.0,
+			-0.0
+		],
+		"Rotation[0]": [
+			89.99999237060547,
+			-180.0,
+			180.0
+		],
+		"Scale[0]": [
+			0.75,
+			0.75,
+			1.0
+		]
+	},
+	"Component[117]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "Cylinder",
+		"ReferenceId[0]": {
+			"Word[0]": -8347829473749422630,
+			"Word[1]": 2330793742025718585,
+			"Word[2]": 5143884378403799930,
+			"Word[3]": 4210254131585379683
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 5878721109056754504,
+			"Word[1]": -3572221403601257083,
+			"Word[2]": -1638342316288954287,
+			"Word[3]": -3071984667425425041
+		},
+		"Static[0]": false
+	},
+	"Component[118]": {
+		"Alignment[0]": 1,
+		"Enabled[0]": true,
+		"Height[0]": 1.0,
+		"Is Static[0]": false,
+		"Is Trigger[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "CanonTrigger",
+		"Radius[0]": 0.7758278250694275,
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[119]": {
+		"Cannon Ball Speed[0]": 32.0,
+		"Enabled[0]": true,
+		"Name[0]": "Cannon",
+		"ReferenceId[0]": {
+			"Word[0]": 119,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 101,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[2]": {
+			"Word[0]": 122,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
 	},
 	"Component[11]": {
 		"Enabled[0]": true,
-		"Name[0]": "JoystickInput",
+		"Name[0]": "MouseInput",
 		"Operator[0]": 2,
 		"ReferenceId[0]": {
 			"Word[0]": 13,
@@ -29,25 +557,1125 @@
 			"Word[3]": 0
 		}
 	},
+	"Component[120]": {
+		"Enabled[0]": true,
+		"Name[0]": "Canonball-Transform",
+		"Position[0]": [
+			-0.8109689950942993,
+			1.1901627779006958,
+			1.0851839780807495
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.25,
+			0.25,
+			0.25
+		]
+	},
+	"Component[121]": {
+		"Angular Velocity[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Enable CCD[0]": true,
+		"Enabled[0]": true,
+		"Kinematic[0]": false,
+		"Lock[0]": 0,
+		"Mass[0]": 1.0,
+		"Name[0]": "Canonball-Rigidbody",
+		"Velocity[0]": [
+			0.0,
+			0.0,
+			0.0
+		]
+	},
+	"Component[122]": {
+		"Enabled[0]": true,
+		"Is Static[0]": false,
+		"Is Trigger[0]": false,
+		"Layer[0]": 5,
+		"Name[0]": "SphereCollider",
+		"Radius[0]": 0.5,
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[123]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -3117669937722425407,
+			"Word[1]": -1787254677233709921,
+			"Word[2]": 6999931498375764614,
+			"Word[3]": -8906723582597140993
+		},
+		"ReferenceId[1]": {
+			"Word[0]": -5544762299122072879,
+			"Word[1]": -395579393725961726,
+			"Word[2]": -3748659858529901406,
+			"Word[3]": 5712365680221368726
+		},
+		"Static[0]": false
+	},
+	"Component[124]": {
+		"Enabled[0]": true,
+		"Name[0]": "BrickWall",
+		"Position[0]": [
+			-9.999999046325684,
+			1.0,
+			-8.742278509998869e-07
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[125]": {
+		"Enabled[0]": true,
+		"Is Static[0]": false,
+		"Is Trigger[0]": false,
+		"Layer[0]": 2,
+		"Name[0]": "BrickWallCollider",
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Size[0]": [
+			0.10000000149011612,
+			2.0,
+			4.0
+		]
+	},
+	"Component[126]": {
+		"Enabled[0]": true,
+		"Name[0]": "BrickWall",
+		"ReferenceId[0]": {
+			"Word[0]": 126,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[127]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			3.814697265625e-06,
+			0.8643971681594849,
+			-1.9189404249191284
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[128]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[129]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			4.76837158203125e-06,
+			0.8643971681594849,
+			-1.396769404411316
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
 	"Component[12]": {
 		"Device[0]": 0,
 		"Enabled[0]": true,
 		"Flags[0]": 4,
-		"Horizontal[0]": 11,
+		"Horizontal[0]": 1,
 		"Max magnitude[0]": null,
-		"Name[0]": "JoystickInput_Raw",
-		"Vertical[0]": 10
+		"Name[0]": "MouseInput_Raw",
+		"Vertical[0]": 2
+	},
+	"Component[130]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[131]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			4.76837158203125e-06,
+			0.8643971681594849,
+			-0.8798684477806091
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[132]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[133]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			5.7220458984375e-06,
+			0.8643971681594849,
+			-0.35769739747047424
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[134]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[135]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			4.76837158203125e-06,
+			0.8643971681594849,
+			0.15920932590961456
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[136]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[137]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			5.7220458984375e-06,
+			0.8643971681594849,
+			0.6813803315162659
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[138]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[139]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			5.7220458984375e-06,
+			0.8643971681594849,
+			1.1982795000076294
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
 	},
 	"Component[13]": {
 		"Enabled[0]": true,
 		"Has Value[0]": true,
-		"Name[0]": "JoystickInputMultiplier",
+		"Name[0]": "MouseInputInputMultiplier",
 		"Value[0]": [
-			-4.0,
-			4.0
+			60.0,
+			60.0
+		]
+	},
+	"Component[140]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[141]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			6.67572021484375e-06,
+			0.8643971681594849,
+			1.720450520515442
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[142]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[143]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			5.7220458984375e-06,
+			0.5953978300094604,
+			-1.7290657758712769
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[144]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[145]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			6.67572021484375e-06,
+			0.5953978300094604,
+			-1.2068947553634644
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[146]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[147]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			6.67572021484375e-06,
+			0.5953978300094604,
+			-0.6899937987327576
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[148]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[149]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			7.62939453125e-06,
+			0.5953978300094604,
+			-0.16782276332378387
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
 		]
 	},
 	"Component[14]": {
+		"Enabled[0]": true,
+		"Name[0]": "JoystickInput",
+		"Operator[0]": 2,
+		"ReferenceId[0]": {
+			"Word[0]": 16,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 17,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[150]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[151]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			6.67572021484375e-06,
+			0.5953978300094604,
+			0.3490839898586273
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[152]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[153]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			7.62939453125e-06,
+			0.5953978300094604,
+			0.8712549805641174
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[154]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[155]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			7.62939453125e-06,
+			0.5953978300094604,
+			1.388154149055481
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[156]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[157]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			8.58306884765625e-06,
+			0.5953978300094604,
+			1.9103251695632935
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[158]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[159]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			4.76837158203125e-06,
+			0.3263981342315674,
+			-1.918944239616394
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[15]": {
+		"Device[0]": 0,
+		"Enabled[0]": true,
+		"Flags[0]": 4,
+		"Horizontal[0]": 10,
+		"Max magnitude[0]": null,
+		"Name[0]": "JoystickInput_Raw",
+		"Vertical[0]": 11
+	},
+	"Component[160]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[161]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			5.7220458984375e-06,
+			0.3263981342315674,
+			-1.3967732191085815
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[162]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[163]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			5.7220458984375e-06,
+			0.3263981342315674,
+			-0.8798722624778748
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[164]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[165]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			7.62939453125e-06,
+			0.05739879608154297,
+			-0.6899976134300232
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[166]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[167]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			6.67572021484375e-06,
+			0.3263981342315674,
+			-0.35770121216773987
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[168]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[169]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			5.7220458984375e-06,
+			0.3263981342315674,
+			0.15920551121234894
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[16]": {
+		"Enabled[0]": true,
+		"Has Value[0]": true,
+		"Name[0]": "JoystickInputMultiplier",
+		"Value[0]": [
+			120.0,
+			-120.0
+		]
+	},
+	"Component[170]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[171]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			6.67572021484375e-06,
+			0.3263981342315674,
+			0.6813765168190002
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[172]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[173]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			6.67572021484375e-06,
+			0.3263981342315674,
+			1.1982756853103638
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[174]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[175]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			7.62939453125e-06,
+			0.3263981342315674,
+			1.7204467058181763
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[176]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[177]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			6.67572021484375e-06,
+			0.05739879608154297,
+			-1.7290695905685425
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[178]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[179]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			7.62939453125e-06,
+			0.05739879608154297,
+			-1.20689857006073
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[17]": {
+		"Enabled[0]": true,
+		"Key Type[0]": 1,
+		"Key[0]": "MainCamera-Transform",
+		"Name[0]": "[RE] MainCamera-Transform",
+		"Registry Type[0]": 3,
+		"Stored Object[0]": 0
+	},
+	"Component[180]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[181]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			8.58306884765625e-06,
+			0.05739879608154297,
+			-0.1678265780210495
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[182]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[183]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			7.62939453125e-06,
+			0.05739879608154297,
+			0.3490801751613617
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[184]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[185]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			8.58306884765625e-06,
+			0.05739879608154297,
+			0.8712511658668518
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[186]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[187]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			8.58306884765625e-06,
+			0.05739879608154297,
+			1.3881503343582153
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[188]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[189]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			9.5367431640625e-06,
+			0.05739879608154297,
+			1.9103213548660278
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[18]": {
 		"Enabled[0]": true,
 		"Name[0]": "Sun_Handle",
 		"Position[0]": [
@@ -66,7 +1694,152 @@
 			1.0
 		]
 	},
-	"Component[15]": {
+	"Component[190]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[191]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			4.76837158203125e-06,
+			-0.2168748378753662,
+			-1.918944239616394
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[192]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[193]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			5.7220458984375e-06,
+			-0.2168748378753662,
+			-1.3967732191085815
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[194]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[195]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			5.7220458984375e-06,
+			-0.2168748378753662,
+			-0.8798722624778748
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[196]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[197]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			7.62939453125e-06,
+			-0.4858741760253906,
+			-0.6899976134300232
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[198]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[199]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			6.67572021484375e-06,
+			-0.2168748378753662,
+			-0.35770121216773987
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[19]": {
 		"Ambient Light Amount[0]": 0.25,
 		"Bleeding Reduction[0]": 0.125,
 		"Color[0]": [
@@ -109,13 +1882,42 @@
 		"Shadow Resolution[0]": 1024,
 		"Shadow Softness[0]": 0.5
 	},
-	"Component[16]": {
+	"Component[1]": {
 		"Enabled[0]": true,
-		"Name[0]": "Ground",
+		"Name[0]": "MainCamera-Transform",
 		"Position[0]": [
-			0.0,
-			0.0,
+			-1.5868759155273438,
+			1.433471918106079,
+			-2.5726335048675537
+		],
+		"Rotation[0]": [
+			20.787036895751953,
+			29.999998092651367,
 			0.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[200]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[201]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			5.7220458984375e-06,
+			-0.2168748378753662,
+			0.15920551121234894
 		],
 		"Rotation[0]": [
 			0.0,
@@ -123,12 +1925,613 @@
 			0.0
 		],
 		"Scale[0]": [
-			20.0,
 			0.10000000149011612,
-			20.0
+			0.25,
+			0.5
 		]
 	},
-	"Component[17]": {
+	"Component[202]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[203]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			6.67572021484375e-06,
+			-0.2168748378753662,
+			0.6813765168190002
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[204]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[205]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			6.67572021484375e-06,
+			-0.2168748378753662,
+			1.1982756853103638
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[206]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[207]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			7.62939453125e-06,
+			-0.2168748378753662,
+			1.7204467058181763
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[208]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[209]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			6.67572021484375e-06,
+			-0.4858741760253906,
+			-1.7290695905685425
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[20]": {
+		"Color[0]": [
+			0.14159291982650757,
+			0.11214660853147507,
+			0.11214660853147507
+		],
+		"Enabled[0]": true,
+		"Intensity[0]": 1.0,
+		"Name[0]": "HDRILight",
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 3,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[210]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[211]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			7.62939453125e-06,
+			-0.4858741760253906,
+			-1.20689857006073
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[212]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[213]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			8.58306884765625e-06,
+			-0.4858741760253906,
+			-0.1678265780210495
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[214]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[215]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			7.62939453125e-06,
+			-0.4858741760253906,
+			0.3490801751613617
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[216]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[217]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			8.58306884765625e-06,
+			-0.4858741760253906,
+			0.8712511658668518
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[218]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[219]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			8.58306884765625e-06,
+			-0.4858741760253906,
+			1.3881503343582153
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[21]": {
+		"Clear If Null[0]": true,
+		"Enabled[0]": true,
+		"Field Name[0]": "Camera",
+		"Key Type[0]": 1,
+		"Key[0]": "MainCamera-Camera",
+		"Name[0]": "[RR] MainCamera-Camera",
+		"Registry Type[0]": 3
+	},
+	"Component[220]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[221]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			9.5367431640625e-06,
+			-0.4858741760253906,
+			1.9103213548660278
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[222]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[223]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			5.7220458984375e-06,
+			-0.7548736929893494,
+			-1.9189480543136597
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[224]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[225]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			6.67572021484375e-06,
+			-0.7548736929893494,
+			-1.3967770338058472
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[226]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[227]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			6.67572021484375e-06,
+			-0.7548736929893494,
+			-0.8798760771751404
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[228]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[229]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			8.58306884765625e-06,
+			-0.7548736929893494,
+			1.7204428911209106
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[22]": {
+		"Enabled[0]": true,
+		"Name[0]": "Character",
+		"Position[0]": [
+			2.256737232208252,
+			-6.703665972312013e-16,
+			26.340539932250977
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[230]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[231]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			7.62939453125e-06,
+			-0.7548736929893494,
+			-0.3577050268650055
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[232]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[233]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			6.67572021484375e-06,
+			-0.7548736929893494,
+			0.1592016965150833
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[234]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[235]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			7.62939453125e-06,
+			-0.7548736929893494,
+			0.6813727021217346
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[236]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[237]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall_Tile",
+		"Position[0]": [
+			7.62939453125e-06,
+			-0.7548736929893494,
+			1.1982718706130981
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			0.25,
+			0.5
+		]
+	},
+	"Component[238]": {
+		"Enabled[0]": true,
+		"Name[0]": "Subscene",
+		"ReferenceId[0]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
+		}
+	},
+	"Component[23]": {
+		"Enabled[0]": true,
+		"Name[0]": "Capsule",
+		"Position[0]": [
+			0.0,
+			0.0,
+			-0.0
+		],
+		"Rotation[0]": [
+			90.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.5,
+			0.5,
+			0.5
+		]
+	},
+	"Component[24]": {
 		"Cast Shadows[0]": true,
 		"ComponentFieldSublist[0]": {
 			"Boundary Offset[0]": [
@@ -156,44 +2559,26 @@
 		"Layer[0]": 0,
 		"Name[0]": "MeshRenderer",
 		"ReferenceId[0]": {
-			"Word[0]": -4083568331302256151,
-			"Word[1]": 2688553068341438110,
-			"Word[2]": 1637995706208979168,
-			"Word[3]": 4199279412343241776
+			"Word[0]": -2043569917026140316,
+			"Word[1]": 5320719763659107763,
+			"Word[2]": -3512487382027702848,
+			"Word[3]": -631816721263777816
 		},
 		"ReferenceId[1]": {
-			"Word[0]": 0,
-			"Word[1]": 0,
-			"Word[2]": 0,
-			"Word[3]": 0
+			"Word[0]": -5544762299122072879,
+			"Word[1]": -395579393725961726,
+			"Word[2]": -3748659858529901406,
+			"Word[3]": 5712365680221368726
 		},
 		"Static[0]": false
 	},
-	"Component[18]": {
+	"Component[25]": {
 		"Enabled[0]": true,
-		"Is Static[0]": false,
-		"Is Trigger[0]": false,
-		"Layer[0]": 0,
-		"Name[0]": "BoxCollider",
-		"ReferenceId[0]": {
-			"Word[0]": 0,
-			"Word[1]": 0,
-			"Word[2]": 0,
-			"Word[3]": 0
-		},
-		"Size[0]": [
-			1.0,
-			1.0,
-			1.0
-		]
-	},
-	"Component[1]": {
-		"Enabled[0]": true,
-		"Name[0]": "Cube",
+		"Name[0]": "Nose",
 		"Position[0]": [
 			0.0,
-			1.8970922231674194,
-			0.0
+			0.761768639087677,
+			0.19851958751678467
 		],
 		"Rotation[0]": [
 			0.0,
@@ -201,12 +2586,12 @@
 			0.0
 		],
 		"Scale[0]": [
-			1.0,
-			1.0,
-			1.0
+			0.15000000596046448,
+			0.15000000596046448,
+			0.4000000059604645
 		]
 	},
-	"Component[2]": {
+	"Component[26]": {
 		"Cast Shadows[0]": true,
 		"ComponentFieldSublist[0]": {
 			"Boundary Offset[0]": [
@@ -247,16 +2632,16 @@
 		},
 		"Static[0]": false
 	},
-	"Component[3]": {
+	"Component[27]": {
 		"Angular Velocity[0]": [
 			0.0,
 			0.0,
 			0.0
 		],
-		"Enable CCD[0]": true,
+		"Enable CCD[0]": false,
 		"Enabled[0]": true,
 		"Kinematic[0]": false,
-		"Lock[0]": 0,
+		"Lock[0]": 40,
 		"Mass[0]": 1.0,
 		"Name[0]": "Rigidbody",
 		"Velocity[0]": [
@@ -265,48 +2650,42 @@
 			0.0
 		]
 	},
-	"Component[4]": {
+	"Component[28]": {
 		"Enabled[0]": true,
-		"Is Static[0]": false,
-		"Is Trigger[0]": false,
-		"Layer[0]": 0,
-		"Name[0]": "BoxCollider",
-		"ReferenceId[0]": {
-			"Word[0]": 0,
-			"Word[1]": 0,
-			"Word[2]": 0,
-			"Word[3]": 0
-		},
-		"Size[0]": [
-			1.0,
-			1.0,
-			1.0
-		]
-	},
-	"Component[5]": {
-		"Enabled[0]": true,
-		"Name[0]": "MovementController"
-	},
-	"Component[6]": {
-		"Enabled[0]": true,
-		"Name[0]": "Camera_Handle",
+		"Name[0]": "ColliderTransform",
 		"Position[0]": [
-			-1.5868759155273438,
-			1.433471918106079,
-			-2.5726335048675537
+			0.0,
+			0.5,
+			0.0
 		],
 		"Rotation[0]": [
-			20.787036895751953,
-			29.999998092651367,
+			0.0,
+			0.0,
 			0.0
 		],
 		"Scale[0]": [
-			1.0,
-			1.0,
-			1.0
+			0.5,
+			0.5,
+			0.5
 		]
 	},
-	"Component[7]": {
+	"Component[29]": {
+		"Alignment[0]": 1,
+		"Enabled[0]": true,
+		"Height[0]": 1.0,
+		"Is Static[0]": false,
+		"Is Trigger[0]": false,
+		"Layer[0]": 4,
+		"Name[0]": "CapsuleCollider",
+		"Radius[0]": 0.5,
+		"ReferenceId[0]": {
+			"Word[0]": 6441663001997112244,
+			"Word[1]": -3207510812407046645,
+			"Word[2]": -2745770139680046934,
+			"Word[3]": 8710832169499819418
+		}
+	},
+	"Component[2]": {
 		"Clear color[0]": [
 			0.0,
 			0.0,
@@ -333,82 +2712,1863 @@
 		},
 		"Render Category[0]": 0,
 		"Render Priority[0]": 0,
-		"Renderer Flags[0]": 7
+		"Renderer Flags[0]": 6
 	},
-	"Component[8]": {
-		"Distance[0]": 4.0,
+	"Component[30]": {
+		"Acceleration[0]": 4.0,
 		"Enabled[0]": true,
-		"Max Pitch[0]": 60.0,
-		"Min Pitch[0]": -30.0,
-		"Name[0]": "ThirdPersonCamera",
+		"Jump Velocity[0]": 4.0,
+		"Max Velocity[0]": 4.0,
+		"Name[0]": "CharacterMovementController",
 		"ReferenceId[0]": {
-			"Word[0]": 2,
+			"Word[0]": 28,
 			"Word[1]": 0,
 			"Word[2]": 0,
 			"Word[3]": 0
 		},
 		"ReferenceId[1]": {
-			"Word[0]": 10,
+			"Word[0]": 37,
 			"Word[1]": 0,
 			"Word[2]": 0,
 			"Word[3]": 0
 		},
-		"Rotation Speed[0]": 60.0
-	},
-	"Component[9]": {
-		"Enabled[0]": true,
-		"Name[0]": "RotationInput",
-		"Operator[0]": 0,
-		"ReferenceId[0]": {
-			"Word[0]": 11,
+		"ReferenceId[2]": {
+			"Word[0]": 39,
 			"Word[1]": 0,
 			"Word[2]": 0,
 			"Word[3]": 0
 		},
-		"ReferenceId[1]": {
-			"Word[0]": 12,
+		"ReferenceId[3]": {
+			"Word[0]": 43,
 			"Word[1]": 0,
 			"Word[2]": 0,
 			"Word[3]": 0
 		}
 	},
+	"Component[31]": {
+		"Enabled[0]": true,
+		"Kill Plane[0]": -10.0,
+		"Name[0]": "ReturnToGroundIfKillPlaneReached",
+		"Offset On Return[0]": 2.5,
+		"ReferenceId[0]": {
+			"Word[0]": 28,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 36,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[32]": {
+		"Enabled[0]": true,
+		"Name[0]": "StableGroundCheck",
+		"Position[0]": [
+			0.0,
+			0.34999996423721313,
+			0.0
+		],
+		"Rotation[0]": [
+			90.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[33]": {
+		"ComponentFieldSublist[0]": {
+			"Word[0]": 18446744073709551615,
+			"Word[1]": 18446744073709551615,
+			"Word[2]": 18446744073709551615,
+			"Word[3]": 18446744073709551615
+		},
+		"Enabled[0]": true,
+		"Name[0]": "StableGroundCheck-Raycast",
+		"Query Flags[0]": 2,
+		"Query Mode[0]": 0,
+		"ReferenceId[0]": {
+			"Word[0]": 35,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[2]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[3]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[4]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[34]": {
+		"Enabled[0]": true,
+		"Has Value[0]": true,
+		"Name[0]": "StableGroundCheck-Range",
+		"Value[0]": 0.5
+	},
+	"Component[35]": {
+		"Enabled[0]": true,
+		"Name[0]": "StableGroundCheck",
+		"ReferenceId[0]": {
+			"Word[0]": 34,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[36]": {
+		"Deadzone[0]": 0.25,
+		"Enabled[0]": true,
+		"Name[0]": "PlayerMovementInput",
+		"ReferenceId[0]": {
+			"Word[0]": 2,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[37]": {
+		"Clear If Null[0]": true,
+		"Enabled[0]": true,
+		"Field Name[0]": "Camera Transform",
+		"Key Type[0]": 1,
+		"Key[0]": "MainCamera-Transform",
+		"Name[0]": "[RR] MainCamera-Transform",
+		"Registry Type[0]": 3
+	},
+	"Component[38]": {
+		"Enabled[0]": true,
+		"Name[0]": "PlayerJumpInput"
+	},
+	"Component[39]": {
+		"Enabled[0]": true,
+		"Name[0]": "GroundCheckHandle",
+		"Position[0]": [
+			0.0,
+			0.3499999940395355,
+			0.0
+		],
+		"Rotation[0]": [
+			90.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[3]": {
+		"Enabled[0]": true,
+		"Key Type[0]": 1,
+		"Key[0]": "MainCamera-Camera",
+		"Name[0]": "[RE] MainCamera-Transform",
+		"Registry Type[0]": 3,
+		"Stored Object[0]": 0
+	},
+	"Component[40]": {
+		"ComponentFieldSublist[0]": {
+			"Word[0]": 18446744073709551615,
+			"Word[1]": 18446744073709551615,
+			"Word[2]": 18446744073709551615,
+			"Word[3]": 18446744073709551615
+		},
+		"Enabled[0]": true,
+		"Name[0]": "GroundCheck-Raycast",
+		"Query Flags[0]": 2,
+		"Query Mode[0]": 1,
+		"ReferenceId[0]": {
+			"Word[0]": 42,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[2]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[3]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[4]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Sphere Radius[0]": 0.25
+	},
+	"Component[41]": {
+		"Enabled[0]": true,
+		"Has Value[0]": true,
+		"Name[0]": "GroundCheck-Range",
+		"Value[0]": 0.25
+	},
+	"Component[42]": {
+		"Enabled[0]": true,
+		"Name[0]": "GroundCheck",
+		"ReferenceId[0]": {
+			"Word[0]": 41,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[43]": {
+		"Enabled[0]": true,
+		"Name[0]": "CameraTarget-Transform",
+		"Position[0]": [
+			0.0,
+			0.800000011920929,
+			0.0
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[44]": {
+		"Enabled[0]": true,
+		"InputMode[0]": 0,
+		"Name[0]": "CameraTarget-Position-Raw",
+		"No Input If Disabled[0]": 1,
+		"ReferenceId[0]": {
+			"Word[0]": 44,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[45]": {
+		"Enabled[0]": true,
+		"Name[0]": "CameraTarget-Position",
+		"ReferenceId[0]": {
+			"Word[0]": 45,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Update Speed[0]": 4.0,
+		"Use Unscaled Time[0]": true
+	},
+	"Component[46]": {
+		"Enabled[0]": true,
+		"Key Type[0]": 1,
+		"Key[0]": "CameraTarget-Position",
+		"Name[0]": "[RR] CameraTarget-Position",
+		"Registry Type[0]": 3,
+		"Stored Object[0]": 0
+	},
+	"Component[47]": {
+		"Enabled[0]": true,
+		"Name[0]": "RoomA",
+		"Position[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Rotation[0]": [
+			-0.0,
+			180.0,
+			0.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[48]": {
+		"Enabled[0]": true,
+		"Name[0]": "Floor",
+		"Position[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			20.0,
+			0.10000000149011612,
+			20.0
+		]
+	},
+	"Component[49]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -4083568331302256151,
+			"Word[1]": 2688553068341438110,
+			"Word[2]": 1637995706208979168,
+			"Word[3]": 4199279412343241776
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[4]": {
+		"ComponentFieldSublist[0]": {
+			"Base[0]": -30.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"ComponentFieldSublist[1]": {
+			"Base[0]": 60.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"ComponentFieldSublist[2]": {
+			"Base[0]": 4.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"ComponentFieldSublist[3]": {
+			"Base[0]": [
+				0.0,
+				0.0
+			],
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"ComponentFieldSublist[4]": {
+			"Base[0]": 0.5,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"ComponentFieldSublist[5]": {
+			"Base[0]": 1.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"ComponentFieldSublist[6]": {
+			"Base[0]": 1.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Flags[0]": 12,
+		"Name[0]": "ThirdPersonCamera",
+		"ReferenceId[0]": {
+			"Word[0]": 3,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 6,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[2]": {
+			"Word[0]": 11,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[3]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[4]": {
+			"Word[0]": 10,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[50]": {
+		"Enabled[0]": true,
+		"Is Static[0]": false,
+		"Is Trigger[0]": false,
+		"Layer[0]": 1,
+		"Name[0]": "BoxCollider",
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Size[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[51]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall",
+		"Position[0]": [
+			-10.0,
+			1.0,
+			8.737429197935853e-07
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			2.0,
+			20.0
+		]
+	},
+	"Component[52]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -4083568331302256151,
+			"Word[1]": 2688553068341438110,
+			"Word[2]": 1637995706208979168,
+			"Word[3]": 4199279412343241776
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[53]": {
+		"Enabled[0]": true,
+		"Is Static[0]": false,
+		"Is Trigger[0]": false,
+		"Layer[0]": 2,
+		"Name[0]": "BoxCollider",
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Size[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[54]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall",
+		"Position[0]": [
+			10.0,
+			0.9999999403953552,
+			8.737429197935853e-07
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			2.0,
+			20.0
+		]
+	},
+	"Component[55]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -4083568331302256151,
+			"Word[1]": 2688553068341438110,
+			"Word[2]": 1637995706208979168,
+			"Word[3]": 4199279412343241776
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[56]": {
+		"Enabled[0]": true,
+		"Is Static[0]": false,
+		"Is Trigger[0]": false,
+		"Layer[0]": 2,
+		"Name[0]": "BoxCollider",
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Size[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[57]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall",
+		"Position[0]": [
+			-1.7881391158880433e-06,
+			0.9999999403953552,
+			-9.999998092651367
+		],
+		"Rotation[0]": [
+			-0.0,
+			-89.99999237060547,
+			-0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			2.0,
+			20.0
+		]
+	},
+	"Component[58]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -4083568331302256151,
+			"Word[1]": 2688553068341438110,
+			"Word[2]": 1637995706208979168,
+			"Word[3]": 4199279412343241776
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[59]": {
+		"Enabled[0]": true,
+		"Is Static[0]": false,
+		"Is Trigger[0]": false,
+		"Layer[0]": 2,
+		"Name[0]": "BoxCollider",
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Size[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[5]": {
+		"Enabled[0]": true,
+		"Key Type[0]": 1,
+		"Key[0]": "CameraTarget-Position",
+		"Name[0]": "[RR] CameraTarget-Position",
+		"Registry Type[0]": 3
+	},
+	"Component[60]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall",
+		"Position[0]": [
+			-6.0,
+			0.9999998211860657,
+			10.0
+		],
+		"Rotation[0]": [
+			-0.0,
+			-89.99999237060547,
+			-0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			2.0,
+			8.0
+		]
+	},
+	"Component[61]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -4083568331302256151,
+			"Word[1]": 2688553068341438110,
+			"Word[2]": 1637995706208979168,
+			"Word[3]": 4199279412343241776
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[62]": {
+		"Enabled[0]": true,
+		"Is Static[0]": false,
+		"Is Trigger[0]": false,
+		"Layer[0]": 2,
+		"Name[0]": "BoxCollider",
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Size[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[63]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall",
+		"Position[0]": [
+			6.000000476837158,
+			0.9999997615814209,
+			10.0
+		],
+		"Rotation[0]": [
+			-0.0,
+			-89.99999237060547,
+			-0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			2.0,
+			8.0
+		]
+	},
+	"Component[64]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -4083568331302256151,
+			"Word[1]": 2688553068341438110,
+			"Word[2]": 1637995706208979168,
+			"Word[3]": 4199279412343241776
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[65]": {
+		"Enabled[0]": true,
+		"Is Static[0]": false,
+		"Is Trigger[0]": false,
+		"Layer[0]": 2,
+		"Name[0]": "BoxCollider",
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Size[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[66]": {
+		"Enabled[0]": true,
+		"Name[0]": "Bridge",
+		"Position[0]": [
+			0.0,
+			0.0,
+			15.0
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			4.0,
+			0.10000000149011612,
+			10.0
+		]
+	},
+	"Component[67]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -4083568331302256151,
+			"Word[1]": 2688553068341438110,
+			"Word[2]": 1637995706208979168,
+			"Word[3]": 4199279412343241776
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[68]": {
+		"Enabled[0]": true,
+		"Is Static[0]": false,
+		"Is Trigger[0]": false,
+		"Layer[0]": 1,
+		"Name[0]": "BoxCollider",
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Size[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[69]": {
+		"Enabled[0]": true,
+		"Name[0]": "Platform_A",
+		"Position[0]": [
+			0.0,
+			1.0,
+			0.0
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[6]": {
+		"Enabled[0]": true,
+		"Name[0]": "Camera-TargetOffsetDir",
+		"ReferenceId[0]": {
+			"Word[0]": 5,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[70]": {
+		"Enabled[0]": true,
+		"Name[0]": "Cylinder",
+		"Position[0]": [
+			0.0,
+			0.0,
+			-0.0
+		],
+		"Rotation[0]": [
+			89.99999237060547,
+			-180.0,
+			180.0
+		],
+		"Scale[0]": [
+			0.75,
+			0.75,
+			1.0
+		]
+	},
+	"Component[71]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "Cylinder",
+		"ReferenceId[0]": {
+			"Word[0]": -8347829473749422630,
+			"Word[1]": 2330793742025718585,
+			"Word[2]": 5143884378403799930,
+			"Word[3]": 4210254131585379683
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 5878721109056754504,
+			"Word[1]": -3572221403601257083,
+			"Word[2]": -1638342316288954287,
+			"Word[3]": -3071984667425425041
+		},
+		"Static[0]": false
+	},
+	"Component[72]": {
+		"Alignment[0]": 1,
+		"Enabled[0]": true,
+		"Height[0]": 1.0,
+		"Is Static[0]": false,
+		"Is Trigger[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "PlatformTrigger",
+		"Radius[0]": 0.5,
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[73]": {
+		"ComponentFieldSublist[0]": {
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"ComponentFieldSublist[1]": {
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Name[0]": "RotatePlatform",
+		"ReferenceId[0]": {
+			"Word[0]": 73,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 48,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Rotation Amount[0]": 90.0,
+		"Rotation Speed[0]": 45.0
+	},
+	"Component[74]": {
+		"Enabled[0]": true,
+		"Name[0]": "RoomB",
+		"Position[0]": [
+			0.0,
+			0.0,
+			30.0
+		],
+		"Rotation[0]": [
+			0.0,
+			180.0,
+			0.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[75]": {
+		"Enabled[0]": true,
+		"Name[0]": "Floor",
+		"Position[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			20.0,
+			0.10000000149011612,
+			20.0
+		]
+	},
+	"Component[76]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -4083568331302256151,
+			"Word[1]": 2688553068341438110,
+			"Word[2]": 1637995706208979168,
+			"Word[3]": 4199279412343241776
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[77]": {
+		"Enabled[0]": true,
+		"Is Static[0]": false,
+		"Is Trigger[0]": false,
+		"Layer[0]": 1,
+		"Name[0]": "BoxCollider",
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Size[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[78]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall",
+		"Position[0]": [
+			-9.99999713897705,
+			0.9999999403953552,
+			-6.0
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			2.0,
+			8.0
+		]
+	},
+	"Component[79]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -4083568331302256151,
+			"Word[1]": 2688553068341438110,
+			"Word[2]": 1637995706208979168,
+			"Word[3]": 4199279412343241776
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[7]": {
+		"Enabled[0]": true,
+		"Name[0]": "Camera-TargetPosition",
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[80]": {
+		"Enabled[0]": true,
+		"Is Static[0]": false,
+		"Is Trigger[0]": false,
+		"Layer[0]": 2,
+		"Name[0]": "BoxCollider",
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Size[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[81]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall",
+		"Position[0]": [
+			10.0,
+			0.9999999403953552,
+			8.737429197935853e-07
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			2.0,
+			20.0
+		]
+	},
+	"Component[82]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -4083568331302256151,
+			"Word[1]": 2688553068341438110,
+			"Word[2]": 1637995706208979168,
+			"Word[3]": 4199279412343241776
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[83]": {
+		"Enabled[0]": true,
+		"Is Static[0]": false,
+		"Is Trigger[0]": false,
+		"Layer[0]": 1,
+		"Name[0]": "BoxCollider",
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Size[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[84]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall",
+		"Position[0]": [
+			-1.7881391158880433e-06,
+			0.9999999403953552,
+			-9.999998092651367
+		],
+		"Rotation[0]": [
+			-0.0,
+			-89.99999237060547,
+			-0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			2.0,
+			20.0
+		]
+	},
+	"Component[85]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -4083568331302256151,
+			"Word[1]": 2688553068341438110,
+			"Word[2]": 1637995706208979168,
+			"Word[3]": 4199279412343241776
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[86]": {
+		"Enabled[0]": true,
+		"Is Static[0]": false,
+		"Is Trigger[0]": false,
+		"Layer[0]": 2,
+		"Name[0]": "BoxCollider",
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Size[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[87]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall",
+		"Position[0]": [
+			-6.0,
+			0.9999998211860657,
+			10.0
+		],
+		"Rotation[0]": [
+			-0.0,
+			-89.99999237060547,
+			-0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			2.0,
+			8.0
+		]
+	},
+	"Component[88]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -4083568331302256151,
+			"Word[1]": 2688553068341438110,
+			"Word[2]": 1637995706208979168,
+			"Word[3]": 4199279412343241776
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[89]": {
+		"Enabled[0]": true,
+		"Is Static[0]": false,
+		"Is Trigger[0]": false,
+		"Layer[0]": 2,
+		"Name[0]": "BoxCollider",
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Size[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[8]": {
+		"Enabled[0]": true,
+		"Has Value[0]": true,
+		"Name[0]": "Clipping-Range",
+		"Value[0]": 8.0
+	},
+	"Component[90]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall",
+		"Position[0]": [
+			6.000000476837158,
+			0.9999997615814209,
+			10.0
+		],
+		"Rotation[0]": [
+			-0.0,
+			-89.99999237060547,
+			-0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			2.0,
+			8.0
+		]
+	},
+	"Component[91]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -4083568331302256151,
+			"Word[1]": 2688553068341438110,
+			"Word[2]": 1637995706208979168,
+			"Word[3]": 4199279412343241776
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[92]": {
+		"Enabled[0]": true,
+		"Is Static[0]": false,
+		"Is Trigger[0]": false,
+		"Layer[0]": 2,
+		"Name[0]": "BoxCollider",
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Size[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[93]": {
+		"Enabled[0]": true,
+		"Name[0]": "Wall",
+		"Position[0]": [
+			-9.999999046325684,
+			0.9999998807907104,
+			6.0
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			2.0,
+			8.0
+		]
+	},
+	"Component[94]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -4083568331302256151,
+			"Word[1]": 2688553068341438110,
+			"Word[2]": 1637995706208979168,
+			"Word[3]": 4199279412343241776
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[95]": {
+		"Enabled[0]": true,
+		"Is Static[0]": false,
+		"Is Trigger[0]": false,
+		"Layer[0]": 2,
+		"Name[0]": "BoxCollider",
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Size[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[96]": {
+		"Enabled[0]": true,
+		"Name[0]": "Canon-System"
+	},
+	"Component[97]": {
+		"Enabled[0]": true,
+		"Name[0]": "Canon",
+		"Position[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[98]": {
+		"Enabled[0]": true,
+		"Name[0]": "Canon-Mesh",
+		"Position[0]": [
+			-1.2738297527903342e-08,
+			0.3076986074447632,
+			0.060825347900390625
+		],
+		"Rotation[0]": [
+			-5.0,
+			-1.0017911336035468e-05,
+			-2.5274011932197027e-06
+		],
+		"Scale[0]": [
+			0.5,
+			0.5,
+			2.0
+		]
+	},
+	"Component[99]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -4083568331302256151,
+			"Word[1]": 2688553068341438110,
+			"Word[2]": 1637995706208979168,
+			"Word[3]": 4199279412343241776
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[9]": {
+		"ComponentFieldSublist[0]": {
+			"Word[0]": 6,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Enabled[0]": true,
+		"Name[0]": "Clip-Hard",
+		"Query Flags[0]": 282,
+		"Query Mode[0]": 1,
+		"ReferenceId[0]": {
+			"Word[0]": 9,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 8,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[2]": {
+			"Word[0]": 7,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[3]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[4]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Sphere Radius[0]": 0.5
+	},
 	"Node[0]": {
-		"Child Count[0]": 4,
+		"Child Count[0]": 6,
 		"Node[0]": {
-			"Child Count[0]": 2,
+			"Child Count[0]": 4,
 			"Node[0]": {
-				"Child Count[0]": 0,
-				"Type[0]": "Jimara::MeshRenderer"
-			},
-			"Node[1]": {
-				"Child Count[0]": 2,
+				"Child Count[0]": 1,
 				"Node[0]": {
 					"Child Count[0]": 0,
-					"Type[0]": "Jimara::BoxCollider"
+					"Type[0]": "Jimara::RegistryEntry"
 				},
-				"Node[1]": {
-					"Child Count[0]": 0,
-					"Type[0]": "Game::MovementController"
-				},
-				"Type[0]": "Jimara::Rigidbody"
-			},
-			"Type[0]": "Jimara::Transform"
-		},
-		"Node[1]": {
-			"Child Count[0]": 3,
-			"Node[0]": {
-				"Child Count[0]": 0,
 				"Type[0]": "Jimara::Camera"
 			},
 			"Node[1]": {
-				"Child Count[0]": 0,
+				"Child Count[0]": 5,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::Vector3InputFromRegistry"
+				},
+				"Node[1]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Game::ThirdPersonCamera::TargetOffsetDirectionInput"
+				},
+				"Node[2]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Game::ThirdPersonCamera::TargetPositionInput"
+				},
+				"Node[3]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::FloatValueInput"
+				},
+				"Node[4]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::RaycastInput"
+				},
 				"Type[0]": "Game::ThirdPersonCamera"
 			},
 			"Node[2]": {
 				"Child Count[0]": 2,
 				"Node[0]": {
-					"Child Count[0]": 0,
-					"Type[0]": "Jimara::OS::DoubleAxisInput"
+					"Child Count[0]": 2,
+					"Node[0]": {
+						"Child Count[0]": 0,
+						"Type[0]": "Jimara::OS::DoubleAxisInput"
+					},
+					"Node[1]": {
+						"Child Count[0]": 0,
+						"Type[0]": "Jimara::Vector2ValueInput"
+					},
+					"Type[0]": "Jimara::Vector2ArithmeticInput"
 				},
 				"Node[1]": {
 					"Child Count[0]": 2,
@@ -424,9 +4584,13 @@
 				},
 				"Type[0]": "Jimara::Vector2ArithmeticInput"
 			},
+			"Node[3]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::RegistryEntry"
+			},
 			"Type[0]": "Jimara::Transform"
 		},
-		"Node[2]": {
+		"Node[1]": {
 			"Child Count[0]": 1,
 			"Node[0]": {
 				"Child Count[0]": 0,
@@ -434,33 +4598,933 @@
 			},
 			"Type[0]": "Jimara::Transform"
 		},
-		"Node[3]": {
-			"Child Count[0]": 2,
+		"Node[2]": {
+			"Child Count[0]": 1,
 			"Node[0]": {
 				"Child Count[0]": 0,
-				"Type[0]": "Jimara::MeshRenderer"
+				"Type[0]": "Jimara::FieldFromRegistry"
+			},
+			"Type[0]": "Jimara::HDRILight"
+		},
+		"Node[3]": {
+			"Child Count[0]": 9,
+			"Node[0]": {
+				"Child Count[0]": 1,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::MeshRenderer"
+				},
+				"Type[0]": "Jimara::Transform"
 			},
 			"Node[1]": {
+				"Child Count[0]": 1,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::MeshRenderer"
+				},
+				"Type[0]": "Jimara::Transform"
+			},
+			"Node[2]": {
+				"Child Count[0]": 1,
+				"Node[0]": {
+					"Child Count[0]": 1,
+					"Node[0]": {
+						"Child Count[0]": 0,
+						"Type[0]": "Jimara::CapsuleCollider"
+					},
+					"Type[0]": "Jimara::Transform"
+				},
+				"Type[0]": "Jimara::Rigidbody"
+			},
+			"Node[3]": {
 				"Child Count[0]": 0,
-				"Type[0]": "Jimara::BoxCollider"
+				"Type[0]": "Game::CharacterMovementController"
+			},
+			"Node[4]": {
+				"Child Count[0]": 1,
+				"Node[0]": {
+					"Child Count[0]": 3,
+					"Node[0]": {
+						"Child Count[0]": 0,
+						"Type[0]": "Jimara::RaycastInput"
+					},
+					"Node[1]": {
+						"Child Count[0]": 0,
+						"Type[0]": "Jimara::FloatValueInput"
+					},
+					"Node[2]": {
+						"Child Count[0]": 0,
+						"Type[0]": "Jimara::FloatInputHasValueInput"
+					},
+					"Type[0]": "Jimara::Transform"
+				},
+				"Type[0]": "Game::ReturnToGroundIfKillPlaneReached"
+			},
+			"Node[5]": {
+				"Child Count[0]": 1,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::FieldFromRegistry"
+				},
+				"Type[0]": "Game::PlayerMovementInput"
+			},
+			"Node[6]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Game::PlayerJumpInput"
+			},
+			"Node[7]": {
+				"Child Count[0]": 3,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::RaycastInput"
+				},
+				"Node[1]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::FloatValueInput"
+				},
+				"Node[2]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::FloatInputHasValueInput"
+				},
+				"Type[0]": "Jimara::Transform"
+			},
+			"Node[8]": {
+				"Child Count[0]": 2,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::TransformFieldInput"
+				},
+				"Node[1]": {
+					"Child Count[0]": 1,
+					"Node[0]": {
+						"Child Count[0]": 0,
+						"Type[0]": "Jimara::RegistryEntry"
+					},
+					"Type[0]": "Jimara::DelayedVector3Input"
+				},
+				"Type[0]": "Jimara::Transform"
+			},
+			"Type[0]": "Jimara::Transform"
+		},
+		"Node[4]": {
+			"Child Count[0]": 8,
+			"Node[0]": {
+				"Child Count[0]": 2,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::MeshRenderer"
+				},
+				"Node[1]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::BoxCollider"
+				},
+				"Type[0]": "Jimara::Transform"
+			},
+			"Node[1]": {
+				"Child Count[0]": 2,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::MeshRenderer"
+				},
+				"Node[1]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::BoxCollider"
+				},
+				"Type[0]": "Jimara::Transform"
+			},
+			"Node[2]": {
+				"Child Count[0]": 2,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::MeshRenderer"
+				},
+				"Node[1]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::BoxCollider"
+				},
+				"Type[0]": "Jimara::Transform"
+			},
+			"Node[3]": {
+				"Child Count[0]": 2,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::MeshRenderer"
+				},
+				"Node[1]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::BoxCollider"
+				},
+				"Type[0]": "Jimara::Transform"
+			},
+			"Node[4]": {
+				"Child Count[0]": 2,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::MeshRenderer"
+				},
+				"Node[1]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::BoxCollider"
+				},
+				"Type[0]": "Jimara::Transform"
+			},
+			"Node[5]": {
+				"Child Count[0]": 2,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::MeshRenderer"
+				},
+				"Node[1]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::BoxCollider"
+				},
+				"Type[0]": "Jimara::Transform"
+			},
+			"Node[6]": {
+				"Child Count[0]": 2,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::MeshRenderer"
+				},
+				"Node[1]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::BoxCollider"
+				},
+				"Type[0]": "Jimara::Transform"
+			},
+			"Node[7]": {
+				"Child Count[0]": 3,
+				"Node[0]": {
+					"Child Count[0]": 1,
+					"Node[0]": {
+						"Child Count[0]": 0,
+						"Type[0]": "Jimara::MeshRenderer"
+					},
+					"Type[0]": "Jimara::Transform"
+				},
+				"Node[1]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::CapsuleCollider"
+				},
+				"Node[2]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Game::RotatePlatform"
+				},
+				"Type[0]": "Jimara::Transform"
+			},
+			"Type[0]": "Jimara::Transform"
+		},
+		"Node[5]": {
+			"Child Count[0]": 9,
+			"Node[0]": {
+				"Child Count[0]": 2,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::MeshRenderer"
+				},
+				"Node[1]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::BoxCollider"
+				},
+				"Type[0]": "Jimara::Transform"
+			},
+			"Node[1]": {
+				"Child Count[0]": 2,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::MeshRenderer"
+				},
+				"Node[1]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::BoxCollider"
+				},
+				"Type[0]": "Jimara::Transform"
+			},
+			"Node[2]": {
+				"Child Count[0]": 2,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::MeshRenderer"
+				},
+				"Node[1]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::BoxCollider"
+				},
+				"Type[0]": "Jimara::Transform"
+			},
+			"Node[3]": {
+				"Child Count[0]": 2,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::MeshRenderer"
+				},
+				"Node[1]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::BoxCollider"
+				},
+				"Type[0]": "Jimara::Transform"
+			},
+			"Node[4]": {
+				"Child Count[0]": 2,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::MeshRenderer"
+				},
+				"Node[1]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::BoxCollider"
+				},
+				"Type[0]": "Jimara::Transform"
+			},
+			"Node[5]": {
+				"Child Count[0]": 2,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::MeshRenderer"
+				},
+				"Node[1]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::BoxCollider"
+				},
+				"Type[0]": "Jimara::Transform"
+			},
+			"Node[6]": {
+				"Child Count[0]": 2,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::MeshRenderer"
+				},
+				"Node[1]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::BoxCollider"
+				},
+				"Type[0]": "Jimara::Transform"
+			},
+			"Node[7]": {
+				"Child Count[0]": 2,
+				"Node[0]": {
+					"Child Count[0]": 5,
+					"Node[0]": {
+						"Child Count[0]": 3,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::MeshRenderer"
+						},
+						"Node[1]": {
+							"Child Count[0]": 1,
+							"Node[0]": {
+								"Child Count[0]": 0,
+								"Type[0]": "Jimara::MeshRenderer"
+							},
+							"Type[0]": "Jimara::Transform"
+						},
+						"Node[2]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::CapsuleCollider"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[1]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::MeshRenderer"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[2]": {
+						"Child Count[0]": 3,
+						"Node[0]": {
+							"Child Count[0]": 1,
+							"Node[0]": {
+								"Child Count[0]": 0,
+								"Type[0]": "Jimara::MeshRenderer"
+							},
+							"Type[0]": "Jimara::Transform"
+						},
+						"Node[1]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::CapsuleCollider"
+						},
+						"Node[2]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Game::RotatePlatform"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[3]": {
+						"Child Count[0]": 3,
+						"Node[0]": {
+							"Child Count[0]": 1,
+							"Node[0]": {
+								"Child Count[0]": 0,
+								"Type[0]": "Jimara::MeshRenderer"
+							},
+							"Type[0]": "Jimara::Transform"
+						},
+						"Node[1]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::CapsuleCollider"
+						},
+						"Node[2]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Game::RotatePlatform"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[4]": {
+						"Child Count[0]": 3,
+						"Node[0]": {
+							"Child Count[0]": 1,
+							"Node[0]": {
+								"Child Count[0]": 0,
+								"Type[0]": "Jimara::MeshRenderer"
+							},
+							"Type[0]": "Jimara::Transform"
+						},
+						"Node[1]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::CapsuleCollider"
+						},
+						"Node[2]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Game::Cannon"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Type[0]": "Jimara::Transform"
+				},
+				"Node[1]": {
+					"Child Count[0]": 2,
+					"Node[0]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::SphereCollider"
+						},
+						"Type[0]": "Jimara::Rigidbody"
+					},
+					"Node[1]": {
+						"Child Count[0]": 0,
+						"Type[0]": "Jimara::MeshRenderer"
+					},
+					"Type[0]": "Jimara::Transform"
+				},
+				"Type[0]": "Jimara::Component"
+			},
+			"Node[8]": {
+				"Child Count[0]": 2,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::BoxCollider"
+				},
+				"Node[1]": {
+					"Child Count[0]": 56,
+					"Node[0]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[10]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[11]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[12]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[13]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[14]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[15]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[16]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[17]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[18]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[19]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[1]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[20]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[21]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[22]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[23]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[24]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[25]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[26]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[27]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[28]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[29]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[2]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[30]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[31]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[32]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[33]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[34]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[35]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[36]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[37]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[38]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[39]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[3]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[40]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[41]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[42]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[43]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[44]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[45]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[46]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[47]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[48]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[49]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[4]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[50]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[51]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[52]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[53]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[54]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[55]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[5]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[6]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[7]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[8]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[9]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::Subscene"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Type[0]": "Game::BrickWall"
+				},
+				"Type[0]": "Jimara::Transform"
 			},
 			"Type[0]": "Jimara::Transform"
 		},
 		"Type[0]": "Jimara::Component"
 	},
 	"Resources[0]": {
-		"Count[0]": 2,
+		"Count[0]": 8,
 		"ResourceId[0]": {
-			"Word[0]": -4083568331302256151,
-			"Word[1]": 2688553068341438110,
-			"Word[2]": 1637995706208979168,
-			"Word[3]": 4199279412343241776
+			"Word[0]": -2043569917026140316,
+			"Word[1]": 5320719763659107763,
+			"Word[2]": -3512487382027702848,
+			"Word[3]": -631816721263777816
 		},
 		"ResourceId[1]": {
 			"Word[0]": -5544762299122072879,
 			"Word[1]": -395579393725961726,
 			"Word[2]": -3748659858529901406,
 			"Word[3]": 5712365680221368726
+		},
+		"ResourceId[2]": {
+			"Word[0]": -4083568331302256151,
+			"Word[1]": 2688553068341438110,
+			"Word[2]": 1637995706208979168,
+			"Word[3]": 4199279412343241776
+		},
+		"ResourceId[3]": {
+			"Word[0]": 6441663001997112244,
+			"Word[1]": -3207510812407046645,
+			"Word[2]": -2745770139680046934,
+			"Word[3]": 8710832169499819418
+		},
+		"ResourceId[4]": {
+			"Word[0]": -8347829473749422630,
+			"Word[1]": 2330793742025718585,
+			"Word[2]": 5143884378403799930,
+			"Word[3]": 4210254131585379683
+		},
+		"ResourceId[5]": {
+			"Word[0]": 5878721109056754504,
+			"Word[1]": -3572221403601257083,
+			"Word[2]": -1638342316288954287,
+			"Word[3]": -3071984667425425041
+		},
+		"ResourceId[6]": {
+			"Word[0]": -3117669937722425407,
+			"Word[1]": -1787254677233709921,
+			"Word[2]": 6999931498375764614,
+			"Word[3]": -8906723582597140993
+		},
+		"ResourceId[7]": {
+			"Word[0]": -4645782571807012556,
+			"Word[1]": -1694335128573157522,
+			"Word[2]": -3015786767809560972,
+			"Word[3]": -5953158722796938670
 		}
 	}
 }
