@@ -227,9 +227,11 @@ python "%JIMARA_REPO%\__Scripts__\jimara_implement_type_registrator.py" %game_sr
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Camera\ThirdPersonCamera.cpp" />
     <ClCompile Include="TypeRegistry.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Camera\ThirdPersonCamera.h" />
     <ClInclude Include="Jimara.h" />
     <ClInclude Include="TypeRegistry.h" />
   </ItemGroup>
