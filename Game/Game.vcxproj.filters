@@ -47,7 +47,10 @@
     <ClInclude Include="Platforms\GenericPlatform.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Platforms\RotePlatform.h">
+    <ClInclude Include="Platforms\RotatePlatform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Platforms\Cannon.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

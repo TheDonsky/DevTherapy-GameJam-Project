@@ -23,26 +23,30 @@ namespace Game {
 
 	protected:
 		virtual void OnPlatformEnter() override {
+			Context()->ExecuteAfterUpdate(Callback<Object*>(&Cannon::Throw, this), this);
+		}
+
+		virtual void OnPlatformExit() override {
+		}
+
+	private:
+		WeakReference<Transform> m_spawnPoint;
+		WeakReference<Rigidbody> m_cannonBall;
+		float m_cannonBallSpeed = 32.0f;
+
+		void Throw(Object*) {
 			Reference<Rigidbody> cannonBall = m_cannonBall;
 			if (cannonBall == nullptr)
 				return;
 			Reference<Transform> spawnPoint = m_spawnPoint;
 			if (spawnPoint == nullptr)
 				return;
-			Transform* transform = cannonBall->GetTranform();
+			Transform* transform = cannonBall->GetTransfrom();
 			if (transform == nullptr)
 				return;
 			transform->SetWorldPosition(spawnPoint->WorldPosition());
-			cannonBall->SetLinearVelocity(spawnPoint->Forward() * m_cannonBallSpeed);
+			cannonBall->SetVelocity(spawnPoint->Forward() * m_cannonBallSpeed);
 		}
-
-		virtual void OnPlatformExit() override {
-
-		}
-
-	private:
-		WeakReference<Transform> m_spawnPoint;
-		WeakReference<Rigidbody> m_cannonBall;
 	};
 }
 

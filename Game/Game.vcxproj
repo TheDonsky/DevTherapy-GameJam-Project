@@ -236,8 +236,9 @@ python "%JIMARA_REPO%\__Scripts__\jimara_implement_type_registrator.py" %game_sr
     <ClInclude Include="CollisionEvents\CollisionListener.h" />
     <ClInclude Include="Jimara.h" />
     <ClInclude Include="Layers.h" />
+    <ClInclude Include="Platforms\Cannon.h" />
     <ClInclude Include="Platforms\GenericPlatform.h" />
-    <ClInclude Include="Platforms\RotePlatform.h" />
+    <ClInclude Include="Platforms\RotatePlatform.h" />
     <ClInclude Include="Player\CharacterMovementController.h" />
     <ClInclude Include="TypeRegistry.h" />
   </ItemGroup>
