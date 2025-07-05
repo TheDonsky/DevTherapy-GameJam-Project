@@ -59,5 +59,8 @@
     <ClInclude Include="Player\ReturnToGroundIfKillPlaneReached.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Platforms\WindEffector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

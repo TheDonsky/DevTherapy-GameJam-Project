@@ -3,6 +3,85 @@
 		"Enabled[0]": true,
 		"Name[0]": "SceneRoot"
 	},
+	"Component[100]": {
+		"Cast Shadows[0]": false,
+		"ComponentFieldSublist[0]": {
+			"ComponentFieldSublist[0]": {
+				"ComponentFieldSublist[0]": {
+					"Radius[0]": 4.0,
+					"Type[0]": "Jimara::ParticleInitialization::PlaceInSphere"
+				},
+				"ComponentFieldSublist[1]": {
+					"Max Lifetime[0]": 4.0,
+					"Min Lifetime[0]": 3.0,
+					"Type[0]": "Jimara::ParticleInitialization::SetRandomLifetime"
+				},
+				"ComponentFieldSublist[2]": {
+					"Max Scale[0]": 0.25,
+					"Min Scale[0]": 0.0,
+					"Type[0]": "Jimara::ParticleInitialization::SetRandomScale"
+				},
+				"ComponentFieldSublist[3]": {
+					"Type[0]": ""
+				}
+			},
+			"Layer Count[0]": 1
+		},
+		"ComponentFieldSublist[1]": {
+			"ComponentFieldSublist[0]": {
+				"ComponentFieldSublist[0]": {
+					"Gravity Scale[0]": 1.0,
+					"Type[0]": "Jimara::ParticleTimestep::ApplyGravity"
+				},
+				"ComponentFieldSublist[1]": {
+					"Type[0]": ""
+				}
+			},
+			"Layer Count[0]": 1
+		},
+		"ComponentFieldSublist[2]": {
+			"Boundary Offset[0]": [
+				0.0,
+				-16.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				4.0,
+				24.0,
+				0.5
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Emission Rate[0]": 10.0,
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "ParticleRenderer",
+		"Particle Budget[0]": 1000,
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Simulate In LocalSpace[0]": true,
+		"Simulate Only If Visible[0]": false,
+		"Static[0]": false
+	},
 	"Component[10]": {
 		"Enabled[0]": true,
 		"Name[0]": "RotationInput",
@@ -1120,6 +1199,84 @@
 	},
 	"Component[55]": {
 		"Enabled[0]": true,
+		"Name[0]": "Bridge",
+		"Position[0]": [
+			0.0,
+			0.0,
+			15.0
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			4.0,
+			0.10000000149011612,
+			10.0
+		]
+	},
+	"Component[56]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -4083568331302256151,
+			"Word[1]": 2688553068341438110,
+			"Word[2]": 1637995706208979168,
+			"Word[3]": 4199279412343241776
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[57]": {
+		"Enabled[0]": true,
+		"Is Static[0]": false,
+		"Is Trigger[0]": false,
+		"Layer[0]": 1,
+		"Name[0]": "BoxCollider",
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Size[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[58]": {
+		"Enabled[0]": true,
 		"Name[0]": "RoomB",
 		"Position[0]": [
 			0.0,
@@ -1137,7 +1294,7 @@
 			1.0
 		]
 	},
-	"Component[56]": {
+	"Component[59]": {
 		"Enabled[0]": true,
 		"Name[0]": "Floor",
 		"Position[0]": [
@@ -1156,7 +1313,14 @@
 			20.0
 		]
 	},
-	"Component[57]": {
+	"Component[5]": {
+		"Enabled[0]": true,
+		"Key Type[0]": 1,
+		"Key[0]": "CameraTarget-Position",
+		"Name[0]": "[RR] CameraTarget-Position",
+		"Registry Type[0]": 3
+	},
+	"Component[60]": {
 		"Cast Shadows[0]": true,
 		"ComponentFieldSublist[0]": {
 			"Boundary Offset[0]": [
@@ -1197,7 +1361,7 @@
 		},
 		"Static[0]": false
 	},
-	"Component[58]": {
+	"Component[61]": {
 		"Enabled[0]": true,
 		"Is Static[0]": false,
 		"Is Trigger[0]": false,
@@ -1215,7 +1379,7 @@
 			1.0
 		]
 	},
-	"Component[59]": {
+	"Component[62]": {
 		"Enabled[0]": true,
 		"Is Static[0]": false,
 		"Is Trigger[0]": true,
@@ -1233,14 +1397,7 @@
 			16.0
 		]
 	},
-	"Component[5]": {
-		"Enabled[0]": true,
-		"Key Type[0]": 1,
-		"Key[0]": "CameraTarget-Position",
-		"Name[0]": "[RR] CameraTarget-Position",
-		"Registry Type[0]": 3
-	},
-	"Component[60]": {
+	"Component[63]": {
 		"Enabled[0]": true,
 		"Name[0]": "Wall",
 		"Position[0]": [
@@ -1257,84 +1414,6 @@
 			0.10000000149011612,
 			2.0,
 			8.0
-		]
-	},
-	"Component[61]": {
-		"Cast Shadows[0]": true,
-		"ComponentFieldSublist[0]": {
-			"Boundary Offset[0]": [
-				0.0,
-				0.0,
-				0.0
-			],
-			"Boundary Thickness[0]": [
-				0.0,
-				0.0,
-				0.0
-			],
-			"Has Max On-Screen Size[0]": false,
-			"Min On-Screen Size[0]": 0.0,
-			"ReferenceId[0]": {
-				"Word[0]": 0,
-				"Word[1]": 0,
-				"Word[2]": 0,
-				"Word[3]": 0
-			}
-		},
-		"Enabled[0]": true,
-		"Geometry Type[0]": 0,
-		"Instanced[0]": true,
-		"Layer[0]": 0,
-		"Name[0]": "MeshRenderer",
-		"ReferenceId[0]": {
-			"Word[0]": -4083568331302256151,
-			"Word[1]": 2688553068341438110,
-			"Word[2]": 1637995706208979168,
-			"Word[3]": 4199279412343241776
-		},
-		"ReferenceId[1]": {
-			"Word[0]": 0,
-			"Word[1]": 0,
-			"Word[2]": 0,
-			"Word[3]": 0
-		},
-		"Static[0]": false
-	},
-	"Component[62]": {
-		"Enabled[0]": true,
-		"Is Static[0]": false,
-		"Is Trigger[0]": false,
-		"Layer[0]": 2,
-		"Name[0]": "BoxCollider",
-		"ReferenceId[0]": {
-			"Word[0]": 0,
-			"Word[1]": 0,
-			"Word[2]": 0,
-			"Word[3]": 0
-		},
-		"Size[0]": [
-			1.0,
-			1.0,
-			1.0
-		]
-	},
-	"Component[63]": {
-		"Enabled[0]": true,
-		"Name[0]": "Wall",
-		"Position[0]": [
-			10.0,
-			0.9999999403953552,
-			8.737429197935853e-07
-		],
-		"Rotation[0]": [
-			0.0,
-			0.0,
-			0.0
-		],
-		"Scale[0]": [
-			0.10000000149011612,
-			2.0,
-			20.0
 		]
 	},
 	"Component[64]": {
@@ -1382,7 +1461,7 @@
 		"Enabled[0]": true,
 		"Is Static[0]": false,
 		"Is Trigger[0]": false,
-		"Layer[0]": 1,
+		"Layer[0]": 2,
 		"Name[0]": "BoxCollider",
 		"ReferenceId[0]": {
 			"Word[0]": 0,
@@ -1400,14 +1479,14 @@
 		"Enabled[0]": true,
 		"Name[0]": "Wall",
 		"Position[0]": [
-			-1.7881391158880433e-06,
+			10.0,
 			0.9999999403953552,
-			-9.999998092651367
+			8.737429197935853e-07
 		],
 		"Rotation[0]": [
-			-0.0,
-			-89.99999237060547,
-			-0.0
+			0.0,
+			0.0,
+			0.0
 		],
 		"Scale[0]": [
 			0.10000000149011612,
@@ -1460,7 +1539,7 @@
 		"Enabled[0]": true,
 		"Is Static[0]": false,
 		"Is Trigger[0]": false,
-		"Layer[0]": 2,
+		"Layer[0]": 1,
 		"Name[0]": "BoxCollider",
 		"ReferenceId[0]": {
 			"Word[0]": 0,
@@ -1478,9 +1557,9 @@
 		"Enabled[0]": true,
 		"Name[0]": "Wall",
 		"Position[0]": [
-			-6.0,
-			0.9999998211860657,
-			10.0
+			-1.7881391158880433e-06,
+			0.9999999403953552,
+			-9.999998092651367
 		],
 		"Rotation[0]": [
 			-0.0,
@@ -1490,7 +1569,7 @@
 		"Scale[0]": [
 			0.10000000149011612,
 			2.0,
-			8.0
+			20.0
 		]
 	},
 	"Component[6]": {
@@ -1566,8 +1645,8 @@
 		"Enabled[0]": true,
 		"Name[0]": "Wall",
 		"Position[0]": [
-			6.000000476837158,
-			0.9999997615814209,
+			-6.0,
+			0.9999998211860657,
 			10.0
 		],
 		"Rotation[0]": [
@@ -1644,14 +1723,14 @@
 		"Enabled[0]": true,
 		"Name[0]": "Wall",
 		"Position[0]": [
-			-9.999999046325684,
-			0.9999998807907104,
-			6.0
+			6.000000476837158,
+			0.9999997615814209,
+			10.0
 		],
 		"Rotation[0]": [
-			0.0,
-			0.0,
-			0.0
+			-0.0,
+			-89.99999237060547,
+			-0.0
 		],
 		"Scale[0]": [
 			0.10000000149011612,
@@ -1720,6 +1799,94 @@
 	},
 	"Component[78]": {
 		"Enabled[0]": true,
+		"Name[0]": "Wall",
+		"Position[0]": [
+			-9.999999046325684,
+			0.9999998807907104,
+			6.0
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			0.10000000149011612,
+			2.0,
+			8.0
+		]
+	},
+	"Component[79]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -4083568331302256151,
+			"Word[1]": 2688553068341438110,
+			"Word[2]": 1637995706208979168,
+			"Word[3]": 4199279412343241776
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[7]": {
+		"Enabled[0]": true,
+		"Name[0]": "Camera-TargetPosition",
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[80]": {
+		"Enabled[0]": true,
+		"Is Static[0]": false,
+		"Is Trigger[0]": false,
+		"Layer[0]": 2,
+		"Name[0]": "BoxCollider",
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Size[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[81]": {
+		"Enabled[0]": true,
 		"Name[0]": "Cannon",
 		"Position[0]": [
 			0.0,
@@ -1737,7 +1904,7 @@
 			1.0
 		]
 	},
-	"Component[79]": {
+	"Component[82]": {
 		"Enabled[0]": true,
 		"Name[0]": "Subscene",
 		"ReferenceId[0]": {
@@ -1747,17 +1914,7 @@
 			"Word[3]": -4076439046434183552
 		}
 	},
-	"Component[7]": {
-		"Enabled[0]": true,
-		"Name[0]": "Camera-TargetPosition",
-		"ReferenceId[0]": {
-			"Word[0]": 0,
-			"Word[1]": 0,
-			"Word[2]": 0,
-			"Word[3]": 0
-		}
-	},
-	"Component[80]": {
+	"Component[83]": {
 		"Enabled[0]": true,
 		"Name[0]": "BrickWall",
 		"Position[0]": [
@@ -1776,7 +1933,7 @@
 			1.0
 		]
 	},
-	"Component[81]": {
+	"Component[84]": {
 		"Enabled[0]": true,
 		"Name[0]": "Subscene",
 		"ReferenceId[0]": {
@@ -1786,11 +1943,462 @@
 			"Word[3]": 6795430603338964058
 		}
 	},
+	"Component[85]": {
+		"Enabled[0]": true,
+		"Name[0]": "BridgeBC",
+		"Position[0]": [
+			20.0,
+			0.0,
+			30.0
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[86]": {
+		"Enabled[0]": true,
+		"Name[0]": "Mesh",
+		"Position[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Rotation[0]": [
+			0.0,
+			90.0,
+			0.0
+		],
+		"Scale[0]": [
+			4.0,
+			0.10000000149011612,
+			20.0
+		]
+	},
+	"Component[87]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -4083568331302256151,
+			"Word[1]": 2688553068341438110,
+			"Word[2]": 1637995706208979168,
+			"Word[3]": 4199279412343241776
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[88]": {
+		"Enabled[0]": true,
+		"Is Static[0]": false,
+		"Is Trigger[0]": false,
+		"Layer[0]": 1,
+		"Name[0]": "BoxCollider",
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Size[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[89]": {
+		"Enabled[0]": true,
+		"Name[0]": "WindArea"
+	},
 	"Component[8]": {
 		"Enabled[0]": true,
 		"Has Value[0]": true,
 		"Name[0]": "Clipping-Range",
 		"Value[0]": 8.0
+	},
+	"Component[90]": {
+		"Enabled[0]": true,
+		"Is Static[0]": false,
+		"Is Trigger[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "WindTrigger",
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Size[0]": [
+			19.0,
+			8.0,
+			8.0
+		]
+	},
+	"Component[91]": {
+		"Enabled[0]": true,
+		"Name[0]": "WindEffector",
+		"ReferenceId[0]": {
+			"Word[0]": 91,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Wind Force[0]": [
+			0.0,
+			0.0,
+			16.0
+		]
+	},
+	"Component[92]": {
+		"Enabled[0]": true,
+		"Name[0]": "Particles_OnBridge"
+	},
+	"Component[93]": {
+		"Enabled[0]": true,
+		"Name[0]": "Particle",
+		"Position[0]": [
+			-5.929330825805664,
+			0.7637004852294922,
+			-15.606983184814453
+		],
+		"Rotation[0]": [
+			-90.0,
+			-180.0,
+			-180.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[94]": {
+		"Cast Shadows[0]": false,
+		"ComponentFieldSublist[0]": {
+			"ComponentFieldSublist[0]": {
+				"ComponentFieldSublist[0]": {
+					"Radius[0]": 4.0,
+					"Type[0]": "Jimara::ParticleInitialization::PlaceInSphere"
+				},
+				"ComponentFieldSublist[1]": {
+					"Max Lifetime[0]": 4.0,
+					"Min Lifetime[0]": 3.0,
+					"Type[0]": "Jimara::ParticleInitialization::SetRandomLifetime"
+				},
+				"ComponentFieldSublist[2]": {
+					"Max Scale[0]": 0.25,
+					"Min Scale[0]": 0.0,
+					"Type[0]": "Jimara::ParticleInitialization::SetRandomScale"
+				},
+				"ComponentFieldSublist[3]": {
+					"Type[0]": ""
+				}
+			},
+			"Layer Count[0]": 1
+		},
+		"ComponentFieldSublist[1]": {
+			"ComponentFieldSublist[0]": {
+				"ComponentFieldSublist[0]": {
+					"Gravity Scale[0]": 1.0,
+					"Type[0]": "Jimara::ParticleTimestep::ApplyGravity"
+				},
+				"ComponentFieldSublist[1]": {
+					"Type[0]": ""
+				}
+			},
+			"Layer Count[0]": 1
+		},
+		"ComponentFieldSublist[2]": {
+			"Boundary Offset[0]": [
+				0.0,
+				-16.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				4.0,
+				24.0,
+				0.5
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Emission Rate[0]": 10.0,
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "ParticleRenderer",
+		"Particle Budget[0]": 1000,
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Simulate In LocalSpace[0]": true,
+		"Simulate Only If Visible[0]": false,
+		"Static[0]": false
+	},
+	"Component[95]": {
+		"Enabled[0]": true,
+		"Name[0]": "Particle",
+		"Position[0]": [
+			-1.2380180358886719,
+			0.763700008392334,
+			-15.606983184814453
+		],
+		"Rotation[0]": [
+			-90.0,
+			-180.0,
+			-180.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[96]": {
+		"Cast Shadows[0]": false,
+		"ComponentFieldSublist[0]": {
+			"ComponentFieldSublist[0]": {
+				"ComponentFieldSublist[0]": {
+					"Radius[0]": 4.0,
+					"Type[0]": "Jimara::ParticleInitialization::PlaceInSphere"
+				},
+				"ComponentFieldSublist[1]": {
+					"Max Lifetime[0]": 4.0,
+					"Min Lifetime[0]": 3.0,
+					"Type[0]": "Jimara::ParticleInitialization::SetRandomLifetime"
+				},
+				"ComponentFieldSublist[2]": {
+					"Max Scale[0]": 0.25,
+					"Min Scale[0]": 0.0,
+					"Type[0]": "Jimara::ParticleInitialization::SetRandomScale"
+				},
+				"ComponentFieldSublist[3]": {
+					"Type[0]": ""
+				}
+			},
+			"Layer Count[0]": 1
+		},
+		"ComponentFieldSublist[1]": {
+			"ComponentFieldSublist[0]": {
+				"ComponentFieldSublist[0]": {
+					"Gravity Scale[0]": 1.0,
+					"Type[0]": "Jimara::ParticleTimestep::ApplyGravity"
+				},
+				"ComponentFieldSublist[1]": {
+					"Type[0]": ""
+				}
+			},
+			"Layer Count[0]": 1
+		},
+		"ComponentFieldSublist[2]": {
+			"Boundary Offset[0]": [
+				0.0,
+				-16.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				4.0,
+				24.0,
+				0.5
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Emission Rate[0]": 10.0,
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "ParticleRenderer",
+		"Particle Budget[0]": 1000,
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Simulate In LocalSpace[0]": true,
+		"Simulate Only If Visible[0]": false,
+		"Static[0]": false
+	},
+	"Component[97]": {
+		"Enabled[0]": true,
+		"Name[0]": "Particle",
+		"Position[0]": [
+			1.4537181854248047,
+			0.7636997699737549,
+			-15.606979370117188
+		],
+		"Rotation[0]": [
+			-90.0,
+			-180.0,
+			-180.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[98]": {
+		"Cast Shadows[0]": false,
+		"ComponentFieldSublist[0]": {
+			"ComponentFieldSublist[0]": {
+				"ComponentFieldSublist[0]": {
+					"Radius[0]": 4.0,
+					"Type[0]": "Jimara::ParticleInitialization::PlaceInSphere"
+				},
+				"ComponentFieldSublist[1]": {
+					"Max Lifetime[0]": 4.0,
+					"Min Lifetime[0]": 3.0,
+					"Type[0]": "Jimara::ParticleInitialization::SetRandomLifetime"
+				},
+				"ComponentFieldSublist[2]": {
+					"Max Scale[0]": 0.25,
+					"Min Scale[0]": 0.0,
+					"Type[0]": "Jimara::ParticleInitialization::SetRandomScale"
+				},
+				"ComponentFieldSublist[3]": {
+					"Type[0]": ""
+				}
+			},
+			"Layer Count[0]": 1
+		},
+		"ComponentFieldSublist[1]": {
+			"ComponentFieldSublist[0]": {
+				"ComponentFieldSublist[0]": {
+					"Gravity Scale[0]": 1.0,
+					"Type[0]": "Jimara::ParticleTimestep::ApplyGravity"
+				},
+				"ComponentFieldSublist[1]": {
+					"Type[0]": ""
+				}
+			},
+			"Layer Count[0]": 1
+		},
+		"ComponentFieldSublist[2]": {
+			"Boundary Offset[0]": [
+				0.0,
+				-16.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				4.0,
+				24.0,
+				0.5
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Emission Rate[0]": 10.0,
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "ParticleRenderer",
+		"Particle Budget[0]": 1000,
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Simulate In LocalSpace[0]": true,
+		"Simulate Only If Visible[0]": false,
+		"Static[0]": false
+	},
+	"Component[99]": {
+		"Enabled[0]": true,
+		"Name[0]": "Particle",
+		"Position[0]": [
+			6.145030975341797,
+			0.7636992931365967,
+			-15.606979370117188
+		],
+		"Rotation[0]": [
+			-90.0,
+			-180.0,
+			-180.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
 	},
 	"Component[9]": {
 		"ComponentFieldSublist[0]": {
@@ -1836,7 +2444,7 @@
 		"Sphere Radius[0]": 0.5
 	},
 	"Node[0]": {
-		"Child Count[0]": 7,
+		"Child Count[0]": 8,
 		"Node[0]": {
 			"Child Count[0]": 4,
 			"Node[0]": {
@@ -1942,7 +2550,7 @@
 			"Type[0]": "Jimara::Transform"
 		},
 		"Node[5]": {
-			"Child Count[0]": 9,
+			"Child Count[0]": 10,
 			"Node[0]": {
 				"Child Count[0]": 2,
 				"Node[0]": {
@@ -2048,6 +2656,18 @@
 				"Node[2]": {
 					"Child Count[0]": 0,
 					"Type[0]": "Game::RotatePlatform"
+				},
+				"Type[0]": "Jimara::Transform"
+			},
+			"Node[9]": {
+				"Child Count[0]": 2,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::MeshRenderer"
+				},
+				"Node[1]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::BoxCollider"
 				},
 				"Type[0]": "Jimara::Transform"
 			},
@@ -2158,6 +2778,70 @@
 					"Type[0]": "Jimara::Subscene"
 				},
 				"Type[0]": "Jimara::Transform"
+			},
+			"Type[0]": "Jimara::Transform"
+		},
+		"Node[7]": {
+			"Child Count[0]": 2,
+			"Node[0]": {
+				"Child Count[0]": 2,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::MeshRenderer"
+				},
+				"Node[1]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::BoxCollider"
+				},
+				"Type[0]": "Jimara::Transform"
+			},
+			"Node[1]": {
+				"Child Count[0]": 3,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::BoxCollider"
+				},
+				"Node[1]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Game::WindEffector"
+				},
+				"Node[2]": {
+					"Child Count[0]": 4,
+					"Node[0]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::ParticleRenderer"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[1]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::ParticleRenderer"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[2]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::ParticleRenderer"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Node[3]": {
+						"Child Count[0]": 1,
+						"Node[0]": {
+							"Child Count[0]": 0,
+							"Type[0]": "Jimara::ParticleRenderer"
+						},
+						"Type[0]": "Jimara::Transform"
+					},
+					"Type[0]": "Jimara::Component"
+				},
+				"Type[0]": "Jimara::Component"
 			},
 			"Type[0]": "Jimara::Transform"
 		},

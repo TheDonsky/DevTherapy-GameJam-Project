@@ -416,7 +416,7 @@
 		"Enabled[0]": true,
 		"Kinematic[0]": false,
 		"Lock[0]": 0,
-		"Mass[0]": 1.0,
+		"Mass[0]": 5.0,
 		"Name[0]": "Rigidbody",
 		"Velocity[0]": [
 			0.0,
