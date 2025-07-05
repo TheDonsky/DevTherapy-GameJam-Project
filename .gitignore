@@ -1,0 +1,17 @@
+# We do not upload builds:
+__BUILD__/*
+__Source__/**/*.spv
+
+# Visual studio/code fluff is not needed:
+**/.vscode/*
+**/.vs/*
+Project/Windows/packages/*
+
+# Python fluff is not needed either
+**/__pycache__/*
+
+# Additional build garbage is to be removed as well:
+Project/Linux/-MF
+
+#dynamically generated source files are not meant for upload:
+**/__Generated__/*

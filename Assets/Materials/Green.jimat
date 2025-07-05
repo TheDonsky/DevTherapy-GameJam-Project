@@ -1,0 +1,10 @@
+{
+	"Shader[0]": "Jimara/Data/Materials/PBR/Jimara_PBR_ColorShader",
+	"albedo[0]": [
+		0.11504411697387695,
+		1.0,
+		0.0
+	],
+	"metalness[0]": 0.08500000089406967,
+	"roughness[0]": 0.5
+}

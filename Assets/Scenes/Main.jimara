@@ -1,0 +1,466 @@
+{
+	"Component[0]": {
+		"Enabled[0]": true,
+		"Name[0]": "SceneRoot"
+	},
+	"Component[10]": {
+		"Device[0]": 0,
+		"Enabled[0]": true,
+		"Flags[0]": 4,
+		"Horizontal[0]": 2,
+		"Max magnitude[0]": null,
+		"Name[0]": "MouseInput",
+		"Vertical[0]": 1
+	},
+	"Component[11]": {
+		"Enabled[0]": true,
+		"Name[0]": "JoystickInput",
+		"Operator[0]": 2,
+		"ReferenceId[0]": {
+			"Word[0]": 13,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 14,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[12]": {
+		"Device[0]": 0,
+		"Enabled[0]": true,
+		"Flags[0]": 4,
+		"Horizontal[0]": 11,
+		"Max magnitude[0]": null,
+		"Name[0]": "JoystickInput_Raw",
+		"Vertical[0]": 10
+	},
+	"Component[13]": {
+		"Enabled[0]": true,
+		"Has Value[0]": true,
+		"Name[0]": "JoystickInputMultiplier",
+		"Value[0]": [
+			-4.0,
+			4.0
+		]
+	},
+	"Component[14]": {
+		"Enabled[0]": true,
+		"Name[0]": "Sun_Handle",
+		"Position[0]": [
+			1.5577079182094167e-07,
+			3.5636205673217773,
+			0.0
+		],
+		"Rotation[0]": [
+			20.39801788330078,
+			62.465633392333984,
+			33.76506805419922
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[15]": {
+		"Ambient Light Amount[0]": 0.25,
+		"Bleeding Reduction[0]": 0.125,
+		"Color[0]": [
+			1.0,
+			1.0,
+			1.0
+		],
+		"ComponentFieldSublist[0]": {
+			"ComponentFieldSublist[0]": {
+				"Blend Size[0]": 1.0,
+				"Size[0]": 16.0
+			},
+			"ComponentFieldSublist[1]": {
+				"Blend Size[0]": 2.0,
+				"Size[0]": 32.0
+			},
+			"ComponentFieldSublist[2]": {
+				"Blend Size[0]": 32.0,
+				"Size[0]": 64.0
+			},
+			"Count[0]": 3
+		},
+		"Enabled[0]": true,
+		"Filter Size[0]": 7,
+		"Intensity[0]": 1.0,
+		"Name[0]": "DirectionalLight",
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Shadow Range[0]": 100.0,
+		"Shadow Resolution[0]": 1024,
+		"Shadow Softness[0]": 0.5
+	},
+	"Component[16]": {
+		"Enabled[0]": true,
+		"Name[0]": "Ground",
+		"Position[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			20.0,
+			0.10000000149011612,
+			20.0
+		]
+	},
+	"Component[17]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -4083568331302256151,
+			"Word[1]": 2688553068341438110,
+			"Word[2]": 1637995706208979168,
+			"Word[3]": 4199279412343241776
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Static[0]": false
+	},
+	"Component[18]": {
+		"Enabled[0]": true,
+		"Is Static[0]": false,
+		"Is Trigger[0]": false,
+		"Layer[0]": 0,
+		"Name[0]": "BoxCollider",
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Size[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[1]": {
+		"Enabled[0]": true,
+		"Name[0]": "Cube",
+		"Position[0]": [
+			0.0,
+			1.8970922231674194,
+			0.0
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[2]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "MeshRenderer",
+		"ReferenceId[0]": {
+			"Word[0]": -4083568331302256151,
+			"Word[1]": 2688553068341438110,
+			"Word[2]": 1637995706208979168,
+			"Word[3]": 4199279412343241776
+		},
+		"ReferenceId[1]": {
+			"Word[0]": -5544762299122072879,
+			"Word[1]": -395579393725961726,
+			"Word[2]": -3748659858529901406,
+			"Word[3]": 5712365680221368726
+		},
+		"Static[0]": false
+	},
+	"Component[3]": {
+		"Angular Velocity[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Enable CCD[0]": true,
+		"Enabled[0]": true,
+		"Kinematic[0]": false,
+		"Lock[0]": 0,
+		"Mass[0]": 1.0,
+		"Name[0]": "Rigidbody",
+		"Velocity[0]": [
+			0.0,
+			0.0,
+			0.0
+		]
+	},
+	"Component[4]": {
+		"Enabled[0]": true,
+		"Is Static[0]": false,
+		"Is Trigger[0]": false,
+		"Layer[0]": 0,
+		"Name[0]": "BoxCollider",
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Size[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[5]": {
+		"Enabled[0]": true,
+		"Name[0]": "MovementController"
+	},
+	"Component[6]": {
+		"Enabled[0]": true,
+		"Name[0]": "Camera_Handle",
+		"Position[0]": [
+			-1.5868759155273438,
+			1.433471918106079,
+			-2.5726335048675537
+		],
+		"Rotation[0]": [
+			20.787036895751953,
+			29.999998092651367,
+			0.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[7]": {
+		"Clear color[0]": [
+			0.0,
+			0.0,
+			0.0,
+			1.0
+		],
+		"Close Plane[0]": 0.009999999776482582,
+		"ComponentFieldSublist[0]": {
+			"Word[0]": 18446744073709551615,
+			"Word[1]": 18446744073709551615,
+			"Word[2]": 18446744073709551615,
+			"Word[3]": 18446744073709551615
+		},
+		"Enabled[0]": true,
+		"Far Plane[0]": 1000.0,
+		"Field of view[0]": 64.0,
+		"Name[0]": "Camera",
+		"Projection Mode[0]": 0,
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Render Category[0]": 0,
+		"Render Priority[0]": 0,
+		"Renderer Flags[0]": 7
+	},
+	"Component[8]": {
+		"Distance[0]": 4.0,
+		"Enabled[0]": true,
+		"Max Pitch[0]": 60.0,
+		"Min Pitch[0]": -30.0,
+		"Name[0]": "ThirdPersonCamera",
+		"ReferenceId[0]": {
+			"Word[0]": 2,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 10,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Rotation Speed[0]": 60.0
+	},
+	"Component[9]": {
+		"Enabled[0]": true,
+		"Name[0]": "RotationInput",
+		"Operator[0]": 0,
+		"ReferenceId[0]": {
+			"Word[0]": 11,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 12,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Node[0]": {
+		"Child Count[0]": 4,
+		"Node[0]": {
+			"Child Count[0]": 2,
+			"Node[0]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::MeshRenderer"
+			},
+			"Node[1]": {
+				"Child Count[0]": 2,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::BoxCollider"
+				},
+				"Node[1]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Game::MovementController"
+				},
+				"Type[0]": "Jimara::Rigidbody"
+			},
+			"Type[0]": "Jimara::Transform"
+		},
+		"Node[1]": {
+			"Child Count[0]": 3,
+			"Node[0]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::Camera"
+			},
+			"Node[1]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Game::ThirdPersonCamera"
+			},
+			"Node[2]": {
+				"Child Count[0]": 2,
+				"Node[0]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::OS::DoubleAxisInput"
+				},
+				"Node[1]": {
+					"Child Count[0]": 2,
+					"Node[0]": {
+						"Child Count[0]": 0,
+						"Type[0]": "Jimara::OS::DoubleAxisInput"
+					},
+					"Node[1]": {
+						"Child Count[0]": 0,
+						"Type[0]": "Jimara::Vector2ValueInput"
+					},
+					"Type[0]": "Jimara::Vector2ArithmeticInput"
+				},
+				"Type[0]": "Jimara::Vector2ArithmeticInput"
+			},
+			"Type[0]": "Jimara::Transform"
+		},
+		"Node[2]": {
+			"Child Count[0]": 1,
+			"Node[0]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::DirectionalLight"
+			},
+			"Type[0]": "Jimara::Transform"
+		},
+		"Node[3]": {
+			"Child Count[0]": 2,
+			"Node[0]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::MeshRenderer"
+			},
+			"Node[1]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::BoxCollider"
+			},
+			"Type[0]": "Jimara::Transform"
+		},
+		"Type[0]": "Jimara::Component"
+	},
+	"Resources[0]": {
+		"Count[0]": 2,
+		"ResourceId[0]": {
+			"Word[0]": -4083568331302256151,
+			"Word[1]": 2688553068341438110,
+			"Word[2]": 1637995706208979168,
+			"Word[3]": 4199279412343241776
+		},
+		"ResourceId[1]": {
+			"Word[0]": -5544762299122072879,
+			"Word[1]": -395579393725961726,
+			"Word[2]": -3748659858529901406,
+			"Word[3]": 5712365680221368726
+		}
+	}
+}
