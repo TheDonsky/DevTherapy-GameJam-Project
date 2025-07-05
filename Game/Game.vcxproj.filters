@@ -62,5 +62,8 @@
     <ClInclude Include="Platforms\WindEffector.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Platforms\MovingPlatform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
