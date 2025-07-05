@@ -1,6 +1,7 @@
 #include "__Generated__/TypeRegistry.impl.h"
 #include <Jimara-StateMachines/Types.h>
 #include <Jimara-GenericInputs/Types.h>
+#include "Layers.h"
 
 namespace Game {
 	static Jimara::Reference<Game_TypeRegistry> registryInstance = nullptr;
@@ -11,6 +12,7 @@ namespace Game {
 		registryInstance = Game_TypeRegistry::Instance();
 		stateMachineTypes = Jimara::StateMachines_TypeRegistry::Instance();
 		genericInputTypes = Jimara::GenericInputs_TypeRegistry::Instance();
+		Game_SetLayerNames();
 	}
 
 	inline static void Game_OnLibraryUnload() {

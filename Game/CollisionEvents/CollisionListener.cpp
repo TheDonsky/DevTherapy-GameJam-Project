@@ -18,7 +18,8 @@ namespace Game {
 
 		struct Events {
 			static void ClearCollider(CollisionListener* self) {
-				assert(self->m_collider != nullptr);
+				if (self->m_collider == nullptr)
+					return;
 				self->m_collider->OnDestroyed() -= Callback<Component*>(Events::OnColliderDestroyed, self);
 				self->m_collider->OnContact() -= Callback<const Collider::ContactInfo&>(Events::OnCollisionEvent, self);
 				self->OnDestroyed() -= Callback<Component*>(Events::OnSelfDestroyed);
@@ -69,11 +70,13 @@ namespace Game {
 	void ActionsOnCollision::GetFields(ReportFiedlFn report) {
 		CollisionListener::GetFields(report);
 		JIMARA_SERIALIZE_FIELDS(this, report) {
+			JIMARA_SERIALIZE_FIELD(m_contactFilter, "Contact Filter", "");
 			JIMARA_SERIALIZE_FIELD(m_callback, "Action", "Serialized action that will get invoked when OnContact gets fired");
 		};
 	}
 
 	void ActionsOnCollision::OnContact(const Collider::ContactInfo& info) {
-		m_callback.Invoke();
+		if (InputProvider<bool, const Collider::ContactInfo&>::GetInput(m_contactFilter, info, true))
+			m_callback.Invoke();
 	}
 }

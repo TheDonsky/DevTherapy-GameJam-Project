@@ -38,6 +38,7 @@ namespace Game {
 		virtual void OnContact(const Collider::ContactInfo& info) override;
 
 	private:
+		WeakReference<InputProvider<bool, const Collider::ContactInfo&>> m_contactFilter;
 		SerializedCallback::ProvidedInstance m_callback;
 	};
 }

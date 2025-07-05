@@ -41,5 +41,14 @@
     <ClInclude Include="Player\CharacterMovementController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Layers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Platforms\GenericPlatform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Platforms\RotePlatform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
