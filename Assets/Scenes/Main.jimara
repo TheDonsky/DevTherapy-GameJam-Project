@@ -1225,8 +1225,8 @@
 		"Enabled[0]": true,
 		"Name[0]": "WindTrigger",
 		"Position[0]": [
-			5.445301055908203,
-			-0.11217209696769714,
+			4.526927947998047,
+			-0.11217200756072998,
 			4.139537811279297
 		],
 		"Rotation[0]": [
@@ -1286,10 +1286,10 @@
 		"Enabled[0]": true,
 		"Height[0]": 2.0,
 		"Is Static[0]": false,
-		"Is Trigger[0]": true,
+		"Is Trigger[0]": false,
 		"Layer[0]": 0,
 		"Name[0]": "WindTrigger-Collider",
-		"Radius[0]": 1.0,
+		"Radius[0]": 0.550000011920929,
 		"ReferenceId[0]": {
 			"Word[0]": 0,
 			"Word[1]": 0,
@@ -1340,7 +1340,7 @@
 			"Word[3]": 0
 		},
 		"Enabled[0]": true,
-		"Events[0]": 8,
+		"Events[0]": 9,
 		"Name[0]": "ContactFilter"
 	},
 	"Component[13]": {
@@ -1464,7 +1464,7 @@
 	},
 	"Component[22]": {
 		"Ambient Light Amount[0]": 0.25,
-		"Bleeding Reduction[0]": 0.125,
+		"Bleeding Reduction[0]": 0.5,
 		"Color[0]": [
 			1.0,
 			1.0,
@@ -1473,15 +1473,15 @@
 		"ComponentFieldSublist[0]": {
 			"ComponentFieldSublist[0]": {
 				"Blend Size[0]": 1.0,
-				"Size[0]": 16.0
+				"Size[0]": 8.0
 			},
 			"ComponentFieldSublist[1]": {
 				"Blend Size[0]": 2.0,
-				"Size[0]": 32.0
+				"Size[0]": 16.0
 			},
 			"ComponentFieldSublist[2]": {
 				"Blend Size[0]": 32.0,
-				"Size[0]": 64.0
+				"Size[0]": 32.0
 			},
 			"Count[0]": 3
 		},
@@ -1502,7 +1502,7 @@
 			"Word[3]": 0
 		},
 		"Shadow Range[0]": 100.0,
-		"Shadow Resolution[0]": 1024,
+		"Shadow Resolution[0]": 2048,
 		"Shadow Softness[0]": 0.5
 	},
 	"Component[23]": {
@@ -3409,7 +3409,7 @@
 		"Rotation[0]": [
 			0.0,
 			90.0,
-			90.0
+			91.0
 		],
 		"Scale[0]": [
 			4.0,
@@ -3487,7 +3487,7 @@
 		"Rotation[0]": [
 			0.0,
 			90.0,
-			90.0
+			91.0
 		],
 		"Scale[0]": [
 			1.0,
@@ -3506,7 +3506,7 @@
 		"Rotation[0]": [
 			0.0,
 			90.0,
-			90.0
+			-90.0
 		],
 		"Scale[0]": [
 			1.0,
