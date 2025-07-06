@@ -226,6 +226,21 @@
 			"Word[3]": -5953158722796938670
 		}
 	},
+	"Component[115]": {
+		"Enabled[0]": true,
+		"Looping[0]": false,
+		"Name[0]": "AudioSource3D",
+		"Pitch[0]": 40.0,
+		"Playing[0]": false,
+		"Priority[0]": 0,
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Volume[0]": 1.0
+	},
 	"Component[11]": {
 		"Enabled[0]": true,
 		"Name[0]": "Wall_Tile",
@@ -525,6 +540,21 @@
 		]
 	},
 	"Component[2]": {
+		"ComponentFieldSublist[0]": {
+			"Action Name[0]": "PlayOneShot",
+			"ReferenceId[0]": {
+				"Word[0]": 116,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			},
+			"ReferenceId[1]": {
+				"Word[0]": -7848094408601275084,
+				"Word[1]": 3186129159268284822,
+				"Word[2]": -4879209211325237878,
+				"Word[3]": 6412483524860497013
+			}
+		},
 		"Enabled[0]": true,
 		"Name[0]": "BrickWall",
 		"ReferenceId[0]": {
@@ -1656,7 +1686,7 @@
 		]
 	},
 	"Node[0]": {
-		"Child Count[0]": 2,
+		"Child Count[0]": 3,
 		"Node[0]": {
 			"Child Count[0]": 0,
 			"Type[0]": "Jimara::BoxCollider"
@@ -2113,11 +2143,21 @@
 			},
 			"Type[0]": "Game::BrickWall"
 		},
+		"Node[2]": {
+			"Child Count[0]": 0,
+			"Type[0]": "Jimara::AudioSource3D"
+		},
 		"Type[0]": "Jimara::Component"
 	},
 	"Resources[0]": {
-		"Count[0]": 1,
+		"Count[0]": 2,
 		"ResourceId[0]": {
+			"Word[0]": -7848094408601275084,
+			"Word[1]": 3186129159268284822,
+			"Word[2]": -4879209211325237878,
+			"Word[3]": 6412483524860497013
+		},
+		"ResourceId[1]": {
 			"Word[0]": -4645782571807012556,
 			"Word[1]": -1694335128573157522,
 			"Word[2]": -3015786767809560972,

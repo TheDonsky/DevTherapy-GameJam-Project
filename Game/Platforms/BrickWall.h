@@ -14,6 +14,9 @@ namespace Game {
 
 		virtual void GetFields(ReportFiedlFn report)override {
 			CollisionListener::GetFields(report);
+			JIMARA_SERIALIZE_FIELDS(this, report) {
+				JIMARA_SERIALIZE_FIELD(m_onSmash, "OnSmash", "Hulk Smash");
+			};
 		}
 
 	protected:
@@ -27,7 +30,11 @@ namespace Game {
             for (auto& c : component) {
                 c->SetEnabled(true);
             }
+			m_onSmash.Invoke();
         }
+
+	private:
+		Jimara::Serialization::SerializedCallback::ProvidedInstance m_onSmash;
 	};
 }
 

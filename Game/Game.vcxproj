@@ -247,6 +247,7 @@ python "%JIMARA_REPO%\__Scripts__\jimara_implement_type_registrator.py" %game_sr
     <ClInclude Include="Player\ReturnToGroundIfKillPlaneReached.h" />
     <ClInclude Include="TypeRegistry.h" />
     <ClInclude Include="Utilities\AudioVolumeFade.h" />
+    <ClInclude Include="Utilities\ActionList.h" />
     <ClInclude Include="Utilities\ParticleSystemGroup.h" />
     <ClInclude Include="Utilities\SoundSequencePlayer.h" />
   </ItemGroup>

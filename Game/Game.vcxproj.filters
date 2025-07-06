@@ -77,5 +77,8 @@
     <ClInclude Include="Utilities\AudioVolumeFade.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Utilities\ActionList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

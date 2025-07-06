@@ -18,6 +18,7 @@ namespace Game {
 				JIMARA_SERIALIZE_FIELD(m_poses, "Poses", "Pose transforms");
 				JIMARA_SERIALIZE_FIELD(m_interpolationTime, "Time", "Move time");
 				JIMARA_SERIALIZE_FIELD_GET_SET(Target, SetTarget, "Target", "");
+				JIMARA_SERIALIZE_FIELD(m_onTargetReached, "OnTargetReached", "");
 			};
 		}
 
@@ -97,8 +98,10 @@ namespace Game {
 				Math::LerpAngles(m_initialRotation.value().y, targetEulerAngles.y, m_phase),
 				Math::LerpAngles(m_initialRotation.value().z, targetEulerAngles.z, m_phase)));
 
-			if (std::abs(m_phase - 1.0f) < std::numeric_limits<float>::epsilon())
+			if (std::abs(m_phase - 1.0f) < std::numeric_limits<float>::epsilon()) {
 				m_phase = -1.0f;
+				m_onTargetReached.Invoke();
+			}
 		}
 
 	private:
@@ -110,6 +113,8 @@ namespace Game {
 		size_t m_currentTarget = ~size_t(0u);
 		std::optional<Vector3> m_initialPos = Vector3(0.0f);
 		std::optional<Vector3> m_initialRotation = Vector3(0.0f);
+
+		Jimara::Serialization::SerializedCallback::ProvidedInstance m_onTargetReached;
 	};
 }
 

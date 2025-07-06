@@ -5,6 +5,7 @@
 
 namespace Game {
 	JIMARA_REGISTER_TYPE(Game::Cannon);
+	JIMARA_REGISTER_TYPE(Game::CannonThrowOnBallHit);
 
 	class Cannon : public virtual GenericPlatform {
 	public:
@@ -22,9 +23,15 @@ namespace Game {
 			};
 		}
 
+		inline Rigidbody* CannonBall()const { return m_cannonBall.operator Jimara::Reference<Jimara::Rigidbody, Jimara::JimaraReferenceCounter>(); }
+
+		inline void Throw() {
+			Context()->ExecuteAfterUpdate(Callback<Object*>(&Cannon::Throw_callback, this), this);
+		}
+
 	protected:
 		virtual void OnPlatformEnter() override {
-			Context()->ExecuteAfterUpdate(Callback<Object*>(&Cannon::Throw, this), this);
+			Throw();
 		}
 
 		virtual void OnPlatformExit() override {
@@ -36,7 +43,7 @@ namespace Game {
 		float m_cannonBallSpeed = 32.0f;
 		Jimara::Serialization::SerializedCallback::ProvidedInstance m_onThrow;
 
-		void Throw(Object*) {
+		void Throw_callback(Object*) {
 			Reference<Rigidbody> cannonBall = m_cannonBall;
 			if (cannonBall == nullptr)
 				return;
@@ -51,6 +58,36 @@ namespace Game {
 			m_onThrow.Invoke();
 		}
 	};
+
+	class CannonThrowOnBallHit : public virtual CollisionListener {
+	public:
+		inline CannonThrowOnBallHit(Component* parent, const std::string_view& name = "CannonThrowOnBallHit") : Component(parent, name) {}
+
+		inline virtual ~CannonThrowOnBallHit() {}
+		
+		virtual void GetFields(ReportFiedlFn report)override {
+			CollisionListener::GetFields(report);
+			JIMARA_SERIALIZE_FIELDS(this, report) {
+				JIMARA_SERIALIZE_FIELD(m_cannon, "Cannon", "Not the camera...");
+			};
+		}
+
+	protected:
+		virtual void OnContact(const Collider::ContactInfo& info) override {
+			if (info.OtherCollider()->GetLayer() != (Jimara::Layer)Layer::CANONBALL)
+				return;
+			Reference<Cannon> cannon = m_cannon;
+			if (cannon == nullptr)
+				return;
+			if (info.OtherCollider()->GetComponentInParents<Rigidbody>() == cannon->CannonBall())
+				return;
+			cannon->Throw();
+		}
+
+	private:
+		WeakReference<Cannon> m_cannon;
+	};
 }
 
 DT_EXPOSE_COMPONENT_DETAILS(Game::Cannon, "Game/Interactable/Cannon", "", Game::GenericPlatform);
+DT_EXPOSE_COMPONENT_DETAILS(Game::CannonThrowOnBallHit, "Game/Interactable/CannonThrowOnBallHit", "", Game::GenericPlatform);
