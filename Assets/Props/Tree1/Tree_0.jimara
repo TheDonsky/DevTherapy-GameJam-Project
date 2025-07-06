@@ -1,0 +1,216 @@
+{
+	"Component[0]": {
+		"Enabled[0]": true,
+		"Name[0]": "SceneRoot"
+	},
+	"Component[1]": {
+		"Enabled[0]": true,
+		"Name[0]": "Collision",
+		"Position[0]": [
+			0.0,
+			6.454572677612305,
+			0.0
+		],
+		"Rotation[0]": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[2]": {
+		"Alignment[0]": 1,
+		"Enabled[0]": true,
+		"Height[0]": 11.367538452148438,
+		"Is Static[0]": false,
+		"Is Trigger[0]": false,
+		"Layer[0]": 0,
+		"Name[0]": "CapsuleCollider",
+		"Radius[0]": 1.0798877477645874,
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[3]": {
+		"Enabled[0]": true,
+		"Name[0]": "Leaves_0",
+		"Position[0]": [
+			-0.3344652056694031,
+			9.612939834594727,
+			5.2013702392578125
+		],
+		"Rotation[0]": [
+			3.283156394958496,
+			-68.52403259277344,
+			2.296828508377075
+		],
+		"Scale[0]": [
+			2.000000476837158,
+			1.999999761581421,
+			2.0
+		]
+	},
+	"Component[4]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "Leaves_0",
+		"ReferenceId[0]": {
+			"Word[0]": 5597069382839949145,
+			"Word[1]": 701225853696567796,
+			"Word[2]": -1433369532376741357,
+			"Word[3]": -7459518157076221388
+		},
+		"ReferenceId[1]": {
+			"Word[0]": -5295686952438805390,
+			"Word[1]": 7385076705513497810,
+			"Word[2]": -7643054605088483415,
+			"Word[3]": 5243408266237739066
+		},
+		"Static[0]": false
+	},
+	"Component[5]": {
+		"Enabled[0]": true,
+		"Name[0]": "Tree_0",
+		"Position[0]": [
+			0.0054683685302734375,
+			-0.0495457649230957,
+			0.0019288063049316406
+		],
+		"Rotation[0]": [
+			89.99999237060547,
+			-180.0,
+			180.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[6]": {
+		"Cast Shadows[0]": true,
+		"ComponentFieldSublist[0]": {
+			"Boundary Offset[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Boundary Thickness[0]": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"Has Max On-Screen Size[0]": false,
+			"Min On-Screen Size[0]": 0.0,
+			"ReferenceId[0]": {
+				"Word[0]": 0,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			}
+		},
+		"Enabled[0]": true,
+		"Geometry Type[0]": 0,
+		"Instanced[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "Tree_0",
+		"ReferenceId[0]": {
+			"Word[0]": 3466390910071017460,
+			"Word[1]": 4907301097651586939,
+			"Word[2]": -1671654780758121429,
+			"Word[3]": -6589274922977660844
+		},
+		"ReferenceId[1]": {
+			"Word[0]": -7517954121989145834,
+			"Word[1]": 7719703121688379078,
+			"Word[2]": 915740622537217740,
+			"Word[3]": -8239535967351567216
+		},
+		"Static[0]": false
+	},
+	"Node[0]": {
+		"Child Count[0]": 3,
+		"Node[0]": {
+			"Child Count[0]": 1,
+			"Node[0]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::CapsuleCollider"
+			},
+			"Type[0]": "Jimara::Transform"
+		},
+		"Node[1]": {
+			"Child Count[0]": 1,
+			"Node[0]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::MeshRenderer"
+			},
+			"Type[0]": "Jimara::Transform"
+		},
+		"Node[2]": {
+			"Child Count[0]": 1,
+			"Node[0]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::MeshRenderer"
+			},
+			"Type[0]": "Jimara::Transform"
+		},
+		"Type[0]": "Jimara::Component"
+	},
+	"Resources[0]": {
+		"Count[0]": 4,
+		"ResourceId[0]": {
+			"Word[0]": 5597069382839949145,
+			"Word[1]": 701225853696567796,
+			"Word[2]": -1433369532376741357,
+			"Word[3]": -7459518157076221388
+		},
+		"ResourceId[1]": {
+			"Word[0]": -5295686952438805390,
+			"Word[1]": 7385076705513497810,
+			"Word[2]": -7643054605088483415,
+			"Word[3]": 5243408266237739066
+		},
+		"ResourceId[2]": {
+			"Word[0]": 3466390910071017460,
+			"Word[1]": 4907301097651586939,
+			"Word[2]": -1671654780758121429,
+			"Word[3]": -6589274922977660844
+		},
+		"ResourceId[3]": {
+			"Word[0]": -7517954121989145834,
+			"Word[1]": 7719703121688379078,
+			"Word[2]": 915740622537217740,
+			"Word[3]": -8239535967351567216
+		}
+	}
+}
