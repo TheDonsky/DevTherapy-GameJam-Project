@@ -42,7 +42,7 @@
 					"Word[3]": 0
 				},
 				"ReferenceId[1]": {
-					"Word[0]": 128,
+					"Word[0]": 130,
 					"Word[1]": 0,
 					"Word[2]": 0,
 					"Word[3]": 0
@@ -113,7 +113,7 @@
 					"Word[3]": 0
 				},
 				"ReferenceId[1]": {
-					"Word[0]": 128,
+					"Word[0]": 130,
 					"Word[1]": 0,
 					"Word[2]": 0,
 					"Word[3]": 0
@@ -122,7 +122,27 @@
 			"Size[0]": 2
 		},
 		"ComponentFieldSublist[1]": {
-			"Size[0]": 0
+			"ComponentFieldSublist[0]": {
+				"Action Name[0]": "Play",
+				"Phase[0]": 0.25,
+				"ReferenceId[0]": {
+					"Word[0]": 127,
+					"Word[1]": 0,
+					"Word[2]": 0,
+					"Word[3]": 0
+				}
+			},
+			"ComponentFieldSublist[1]": {
+				"Action Name[0]": "Play",
+				"Phase[0]": 0.75,
+				"ReferenceId[0]": {
+					"Word[0]": 127,
+					"Word[1]": 0,
+					"Word[2]": 0,
+					"Word[3]": 0
+				}
+			},
+			"Size[0]": 2
 		},
 		"Enabled[0]": true,
 		"Loop[0]": true,
@@ -183,7 +203,7 @@
 			"Word[3]": 0
 		},
 		"ReferenceId[1]": {
-			"Word[0]": 127,
+			"Word[0]": 129,
 			"Word[1]": 0,
 			"Word[2]": 0,
 			"Word[3]": 0
@@ -297,7 +317,7 @@
 			"Word[3]": 0
 		},
 		"ReferenceId[1]": {
-			"Word[0]": 127,
+			"Word[0]": 129,
 			"Word[1]": 0,
 			"Word[2]": 0,
 			"Word[3]": 0
@@ -366,7 +386,7 @@
 					"Word[3]": 0
 				},
 				"ReferenceId[1]": {
-					"Word[0]": 140,
+					"Word[0]": 142,
 					"Word[1]": 0,
 					"Word[2]": 0,
 					"Word[3]": 0
@@ -436,7 +456,7 @@
 			"Word[3]": 0
 		},
 		"ReferenceId[1]": {
-			"Word[0]": 127,
+			"Word[0]": 129,
 			"Word[1]": 0,
 			"Word[2]": 0,
 			"Word[3]": 0
@@ -566,7 +586,7 @@
 			"Word[3]": 0
 		},
 		"ReferenceId[1]": {
-			"Word[0]": 127,
+			"Word[0]": 129,
 			"Word[1]": 0,
 			"Word[2]": 0,
 			"Word[3]": 0
@@ -978,7 +998,7 @@
 		"Name[0]": "-> ShoouldMove",
 		"Operator[0]": 3,
 		"ReferenceId[0]": {
-			"Word[0]": 127,
+			"Word[0]": 129,
 			"Word[1]": 0,
 			"Word[2]": 0,
 			"Word[3]": 0
@@ -996,7 +1016,7 @@
 		"Name[0]": "-> ShoouldNotMove",
 		"Operator[0]": 3,
 		"ReferenceId[0]": {
-			"Word[0]": 127,
+			"Word[0]": 129,
 			"Word[1]": 0,
 			"Word[2]": 0,
 			"Word[3]": 0
@@ -1062,6 +1082,95 @@
 		}
 	},
 	"Component[125]": {
+		"Enabled[0]": true,
+		"Looping[0]": false,
+		"Name[0]": "AudioSource3D",
+		"Pitch[0]": 1.0,
+		"Playing[0]": false,
+		"Priority[0]": 0,
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Volume[0]": 1.0
+	},
+	"Component[126]": {
+		"ComponentFieldSublist[0]": {
+			"ReferenceId[0]": {
+				"Word[0]": -8313653535530060625,
+				"Word[1]": 2183391821267646879,
+				"Word[2]": 8466853874645284699,
+				"Word[3]": -4530744958844811931
+			},
+			"ReferenceId[1]": {
+				"Word[0]": 7985723290825765985,
+				"Word[1]": -8120397905736796446,
+				"Word[2]": 190582051745118806,
+				"Word[3]": -4163414481850724452
+			},
+			"ReferenceId[2]": {
+				"Word[0]": 271588450588325700,
+				"Word[1]": -7912740133462845510,
+				"Word[2]": -7606831928774322094,
+				"Word[3]": 9097123195427455023
+			},
+			"ReferenceId[3]": {
+				"Word[0]": -3393000559183738090,
+				"Word[1]": -5509908275891272532,
+				"Word[2]": 5782401431808306360,
+				"Word[3]": -4411928079430174041
+			},
+			"ReferenceId[4]": {
+				"Word[0]": -7498049750740772015,
+				"Word[1]": -4139431526358923255,
+				"Word[2]": -8236489372989882380,
+				"Word[3]": 2707544819749036682
+			},
+			"ReferenceId[5]": {
+				"Word[0]": -6759415930327472873,
+				"Word[1]": 203883730023419087,
+				"Word[2]": -1753219259116805590,
+				"Word[3]": -2285852865626559502
+			},
+			"ReferenceId[6]": {
+				"Word[0]": -692226419037968024,
+				"Word[1]": 5729442089241725627,
+				"Word[2]": 8485431566502111650,
+				"Word[3]": 411126304682333056
+			},
+			"ReferenceId[7]": {
+				"Word[0]": 4301711641318904267,
+				"Word[1]": 6323776108003091710,
+				"Word[2]": -228237783440356489,
+				"Word[3]": -3213571366325397989
+			},
+			"ReferenceId[8]": {
+				"Word[0]": 712005715277901971,
+				"Word[1]": 4220906894960406994,
+				"Word[2]": -7282939316667462238,
+				"Word[3]": 6079987582914239793
+			},
+			"ReferenceId[9]": {
+				"Word[0]": -6287759898778517468,
+				"Word[1]": -1823535675869686847,
+				"Word[2]": -6384680169129166832,
+				"Word[3]": 378632700959737901
+			},
+			"Size[0]": 10
+		},
+		"Current Clip[0]": 0,
+		"Enabled[0]": true,
+		"Name[0]": "StepSequence",
+		"ReferenceId[0]": {
+			"Word[0]": 126,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[127]": {
 		"Acceleration[0]": 4.0,
 		"Enabled[0]": true,
 		"Jump Delay[0]": 0.10000000149011612,
@@ -1075,35 +1184,35 @@
 			"Word[3]": 0
 		},
 		"ReferenceId[1]": {
-			"Word[0]": 134,
-			"Word[1]": 0,
-			"Word[2]": 0,
-			"Word[3]": 0
-		},
-		"ReferenceId[2]": {
 			"Word[0]": 136,
 			"Word[1]": 0,
 			"Word[2]": 0,
 			"Word[3]": 0
 		},
+		"ReferenceId[2]": {
+			"Word[0]": 138,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
 		"ReferenceId[3]": {
-			"Word[0]": 140,
+			"Word[0]": 142,
 			"Word[1]": 0,
 			"Word[2]": 0,
 			"Word[3]": 0
 		}
 	},
-	"Component[126]": {
+	"Component[128]": {
 		"Enabled[0]": true,
 		"Name[0]": "Character-Speed",
 		"ReferenceId[0]": {
-			"Word[0]": 126,
+			"Word[0]": 128,
 			"Word[1]": 0,
 			"Word[2]": 0,
 			"Word[3]": 0
 		}
 	},
-	"Component[127]": {
+	"Component[129]": {
 		"Enabled[0]": true,
 		"Name[0]": "Character-Jumped",
 		"ReferenceId[0]": {
@@ -1112,43 +1221,6 @@
 			"Word[2]": 0,
 			"Word[3]": 0
 		}
-	},
-	"Component[128]": {
-		"Enabled[0]": true,
-		"Kill Plane[0]": -10.0,
-		"Name[0]": "ReturnToGroundIfKillPlaneReached",
-		"Offset On Return[0]": 2.5,
-		"ReferenceId[0]": {
-			"Word[0]": 123,
-			"Word[1]": 0,
-			"Word[2]": 0,
-			"Word[3]": 0
-		},
-		"ReferenceId[1]": {
-			"Word[0]": 133,
-			"Word[1]": 0,
-			"Word[2]": 0,
-			"Word[3]": 0
-		}
-	},
-	"Component[129]": {
-		"Enabled[0]": true,
-		"Name[0]": "StableGroundCheck",
-		"Position[0]": [
-			0.0,
-			0.34999996423721313,
-			0.0
-		],
-		"Rotation[0]": [
-			90.0,
-			0.0,
-			0.0
-		],
-		"Scale[0]": [
-			1.0,
-			1.0,
-			1.0
-		]
 	},
 	"Component[12]": {
 		"Enabled[0]": true,
@@ -1170,6 +1242,43 @@
 		]
 	},
 	"Component[130]": {
+		"Enabled[0]": true,
+		"Kill Plane[0]": -10.0,
+		"Name[0]": "ReturnToGroundIfKillPlaneReached",
+		"Offset On Return[0]": 2.5,
+		"ReferenceId[0]": {
+			"Word[0]": 123,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 135,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[131]": {
+		"Enabled[0]": true,
+		"Name[0]": "StableGroundCheck",
+		"Position[0]": [
+			0.0,
+			0.34999996423721313,
+			0.0
+		],
+		"Rotation[0]": [
+			90.0,
+			0.0,
+			0.0
+		],
+		"Scale[0]": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"Component[132]": {
 		"ComponentFieldSublist[0]": {
 			"Word[0]": 64,
 			"Word[1]": 0,
@@ -1181,7 +1290,7 @@
 		"Query Flags[0]": 2,
 		"Query Mode[0]": 0,
 		"ReferenceId[0]": {
-			"Word[0]": 132,
+			"Word[0]": 134,
 			"Word[1]": 0,
 			"Word[2]": 0,
 			"Word[3]": 0
@@ -1211,23 +1320,23 @@
 			"Word[3]": 0
 		}
 	},
-	"Component[131]": {
+	"Component[133]": {
 		"Enabled[0]": true,
 		"Has Value[0]": true,
 		"Name[0]": "StableGroundCheck-Range",
 		"Value[0]": 0.5
 	},
-	"Component[132]": {
+	"Component[134]": {
 		"Enabled[0]": true,
 		"Name[0]": "StableGroundCheck",
 		"ReferenceId[0]": {
-			"Word[0]": 131,
+			"Word[0]": 133,
 			"Word[1]": 0,
 			"Word[2]": 0,
 			"Word[3]": 0
 		}
 	},
-	"Component[133]": {
+	"Component[135]": {
 		"Deadzone[0]": 0.25,
 		"Enabled[0]": true,
 		"Name[0]": "PlayerMovementInput",
@@ -1238,7 +1347,7 @@
 			"Word[3]": 0
 		}
 	},
-	"Component[134]": {
+	"Component[136]": {
 		"Clear If Null[0]": true,
 		"Enabled[0]": true,
 		"Field Name[0]": "Camera Transform",
@@ -1247,11 +1356,11 @@
 		"Name[0]": "[RR] MainCamera-Transform",
 		"Registry Type[0]": 3
 	},
-	"Component[135]": {
+	"Component[137]": {
 		"Enabled[0]": true,
 		"Name[0]": "PlayerJumpInput"
 	},
-	"Component[136]": {
+	"Component[138]": {
 		"Enabled[0]": true,
 		"Name[0]": "GroundCheckHandle",
 		"Position[0]": [
@@ -1270,7 +1379,7 @@
 			1.0
 		]
 	},
-	"Component[137]": {
+	"Component[139]": {
 		"ComponentFieldSublist[0]": {
 			"Word[0]": 2,
 			"Word[1]": 0,
@@ -1282,7 +1391,7 @@
 		"Query Flags[0]": 2,
 		"Query Mode[0]": 1,
 		"ReferenceId[0]": {
-			"Word[0]": 139,
+			"Word[0]": 141,
 			"Word[1]": 0,
 			"Word[2]": 0,
 			"Word[3]": 0
@@ -1312,22 +1421,6 @@
 			"Word[3]": 0
 		},
 		"Sphere Radius[0]": 0.25
-	},
-	"Component[138]": {
-		"Enabled[0]": true,
-		"Has Value[0]": true,
-		"Name[0]": "GroundCheck-Range",
-		"Value[0]": 0.25
-	},
-	"Component[139]": {
-		"Enabled[0]": true,
-		"Name[0]": "GroundCheck",
-		"ReferenceId[0]": {
-			"Word[0]": 138,
-			"Word[1]": 0,
-			"Word[2]": 0,
-			"Word[3]": 0
-		}
 	},
 	"Component[13]": {
 		"Cast Shadows[0]": true,
@@ -1693,6 +1786,22 @@
 	},
 	"Component[140]": {
 		"Enabled[0]": true,
+		"Has Value[0]": true,
+		"Name[0]": "GroundCheck-Range",
+		"Value[0]": 0.25
+	},
+	"Component[141]": {
+		"Enabled[0]": true,
+		"Name[0]": "GroundCheck",
+		"ReferenceId[0]": {
+			"Word[0]": 140,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[142]": {
+		"Enabled[0]": true,
 		"Name[0]": "CameraTarget-Transform",
 		"Position[0]": [
 			0.0,
@@ -1710,7 +1819,7 @@
 			1.0
 		]
 	},
-	"Component[141]": {
+	"Component[143]": {
 		"Enabled[0]": true,
 		"InputMode[0]": 0,
 		"Name[0]": "CameraTarget-Position-Raw",
@@ -1722,11 +1831,11 @@
 			"Word[3]": 0
 		}
 	},
-	"Component[142]": {
+	"Component[144]": {
 		"Enabled[0]": true,
 		"Name[0]": "CameraTarget-Position",
 		"ReferenceId[0]": {
-			"Word[0]": 142,
+			"Word[0]": 144,
 			"Word[1]": 0,
 			"Word[2]": 0,
 			"Word[3]": 0
@@ -1734,7 +1843,7 @@
 		"Update Speed[0]": 4.0,
 		"Use Unscaled Time[0]": true
 	},
-	"Component[143]": {
+	"Component[145]": {
 		"Enabled[0]": true,
 		"Key Type[0]": 1,
 		"Key[0]": "CameraTarget-Position",
@@ -4455,7 +4564,7 @@
 		"Static[0]": false
 	},
 	"Node[0]": {
-		"Child Count[0]": 11,
+		"Child Count[0]": 12,
 		"Node[0]": {
 			"Child Count[0]": 1,
 			"Node[0]": {
@@ -4465,6 +4574,22 @@
 			"Type[0]": "Jimara::Transform"
 		},
 		"Node[10]": {
+			"Child Count[0]": 3,
+			"Node[0]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::RaycastInput"
+			},
+			"Node[1]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::FloatValueInput"
+			},
+			"Node[2]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::FloatInputHasValueInput"
+			},
+			"Type[0]": "Jimara::Transform"
+		},
+		"Node[11]": {
 			"Child Count[0]": 2,
 			"Node[0]": {
 				"Child Count[0]": 0,
@@ -4969,6 +5094,14 @@
 			"Type[0]": "Jimara::Rigidbody"
 		},
 		"Node[5]": {
+			"Child Count[0]": 1,
+			"Node[0]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Game::SoundSequencePlayer"
+			},
+			"Type[0]": "Jimara::AudioSource3D"
+		},
+		"Node[6]": {
 			"Child Count[0]": 2,
 			"Node[0]": {
 				"Child Count[0]": 0,
@@ -4980,7 +5113,7 @@
 			},
 			"Type[0]": "Game::CharacterMovementController"
 		},
-		"Node[6]": {
+		"Node[7]": {
 			"Child Count[0]": 1,
 			"Node[0]": {
 				"Child Count[0]": 3,
@@ -5000,7 +5133,7 @@
 			},
 			"Type[0]": "Game::ReturnToGroundIfKillPlaneReached"
 		},
-		"Node[7]": {
+		"Node[8]": {
 			"Child Count[0]": 1,
 			"Node[0]": {
 				"Child Count[0]": 0,
@@ -5008,30 +5141,14 @@
 			},
 			"Type[0]": "Game::PlayerMovementInput"
 		},
-		"Node[8]": {
+		"Node[9]": {
 			"Child Count[0]": 0,
 			"Type[0]": "Game::PlayerJumpInput"
-		},
-		"Node[9]": {
-			"Child Count[0]": 3,
-			"Node[0]": {
-				"Child Count[0]": 0,
-				"Type[0]": "Jimara::RaycastInput"
-			},
-			"Node[1]": {
-				"Child Count[0]": 0,
-				"Type[0]": "Jimara::FloatValueInput"
-			},
-			"Node[2]": {
-				"Child Count[0]": 0,
-				"Type[0]": "Jimara::FloatInputHasValueInput"
-			},
-			"Type[0]": "Jimara::Transform"
 		},
 		"Type[0]": "Jimara::Component"
 	},
 	"Resources[0]": {
-		"Count[0]": 26,
+		"Count[0]": 36,
 		"ResourceId[0]": {
 			"Word[0]": -2043569917026140316,
 			"Word[1]": 5320719763659107763,
@@ -5140,11 +5257,71 @@
 			"Word[2]": -2745770139680046934,
 			"Word[3]": 8710832169499819418
 		},
+		"ResourceId[26]": {
+			"Word[0]": -8313653535530060625,
+			"Word[1]": 2183391821267646879,
+			"Word[2]": 8466853874645284699,
+			"Word[3]": -4530744958844811931
+		},
+		"ResourceId[27]": {
+			"Word[0]": 7985723290825765985,
+			"Word[1]": -8120397905736796446,
+			"Word[2]": 190582051745118806,
+			"Word[3]": -4163414481850724452
+		},
+		"ResourceId[28]": {
+			"Word[0]": 271588450588325700,
+			"Word[1]": -7912740133462845510,
+			"Word[2]": -7606831928774322094,
+			"Word[3]": 9097123195427455023
+		},
+		"ResourceId[29]": {
+			"Word[0]": -3393000559183738090,
+			"Word[1]": -5509908275891272532,
+			"Word[2]": 5782401431808306360,
+			"Word[3]": -4411928079430174041
+		},
 		"ResourceId[2]": {
 			"Word[0]": -4083568331302256151,
 			"Word[1]": 2688553068341438110,
 			"Word[2]": 1637995706208979168,
 			"Word[3]": 4199279412343241776
+		},
+		"ResourceId[30]": {
+			"Word[0]": -7498049750740772015,
+			"Word[1]": -4139431526358923255,
+			"Word[2]": -8236489372989882380,
+			"Word[3]": 2707544819749036682
+		},
+		"ResourceId[31]": {
+			"Word[0]": -6759415930327472873,
+			"Word[1]": 203883730023419087,
+			"Word[2]": -1753219259116805590,
+			"Word[3]": -2285852865626559502
+		},
+		"ResourceId[32]": {
+			"Word[0]": -692226419037968024,
+			"Word[1]": 5729442089241725627,
+			"Word[2]": 8485431566502111650,
+			"Word[3]": 411126304682333056
+		},
+		"ResourceId[33]": {
+			"Word[0]": 4301711641318904267,
+			"Word[1]": 6323776108003091710,
+			"Word[2]": -228237783440356489,
+			"Word[3]": -3213571366325397989
+		},
+		"ResourceId[34]": {
+			"Word[0]": 712005715277901971,
+			"Word[1]": 4220906894960406994,
+			"Word[2]": -7282939316667462238,
+			"Word[3]": 6079987582914239793
+		},
+		"ResourceId[35]": {
+			"Word[0]": -6287759898778517468,
+			"Word[1]": -1823535675869686847,
+			"Word[2]": -6384680169129166832,
+			"Word[3]": 378632700959737901
 		},
 		"ResourceId[3]": {
 			"Word[0]": 3736743781386529603,
