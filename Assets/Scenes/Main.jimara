@@ -1480,7 +1480,7 @@
 				"Size[0]": 16.0
 			},
 			"ComponentFieldSublist[2]": {
-				"Blend Size[0]": 32.0,
+				"Blend Size[0]": 4.0,
 				"Size[0]": 32.0
 			},
 			"Count[0]": 3
@@ -1501,9 +1501,9 @@
 			"Word[2]": 0,
 			"Word[3]": 0
 		},
-		"Shadow Range[0]": 100.0,
+		"Shadow Range[0]": 10.0,
 		"Shadow Resolution[0]": 2048,
-		"Shadow Softness[0]": 0.5
+		"Shadow Softness[0]": 0.75
 	},
 	"Component[23]": {
 		"Color[0]": [

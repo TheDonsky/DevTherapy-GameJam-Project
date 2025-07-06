@@ -1,0 +1,1854 @@
+{
+	"Animations[0]": {
+		"Count[0]": 134,
+		"Mapping[0]": {
+			"FBXId[0]": "<_Skeleton_|Attack_Equipped_0>[0]",
+			"FBXUid[0]": 149192595,
+			"GUID[0]": {
+				"Word[0]": 6045554253095791253,
+				"Word[1]": 926650831811765198,
+				"Word[2]": 7235365040585750083,
+				"Word[3]": 7076489547755779620
+			},
+			"Name[0]": "_Skeleton_|Attack_Equipped_0"
+		},
+		"Mapping[100]": {
+			"FBXId[0]": "<_Skeleton_|Jump_Lift>[0]",
+			"FBXUid[0]": 500939812,
+			"GUID[0]": {
+				"Word[0]": 2183027512411015773,
+				"Word[1]": 9160925553629548442,
+				"Word[2]": 4184847253778954354,
+				"Word[3]": -7755307952659151078
+			},
+			"Name[0]": "_Skeleton_|Jump_Lift"
+		},
+		"Mapping[101]": {
+			"FBXId[0]": "<_Skeleton_|Jump_Lift_Move>[0]",
+			"FBXUid[0]": 89737560,
+			"GUID[0]": {
+				"Word[0]": -746501183198690209,
+				"Word[1]": -164636681915108013,
+				"Word[2]": -8300496510842156832,
+				"Word[3]": 3064153996991174893
+			},
+			"Name[0]": "_Skeleton_|Jump_Lift_Move"
+		},
+		"Mapping[102]": {
+			"FBXId[0]": "<_Skeleton_|Move_Combat_Fast_Back>[0]",
+			"FBXUid[0]": 774885439,
+			"GUID[0]": {
+				"Word[0]": -2584415368338023974,
+				"Word[1]": -2016429291575178583,
+				"Word[2]": -1747877735134778838,
+				"Word[3]": -5816690503819270603
+			},
+			"Name[0]": "_Skeleton_|Move_Combat_Fast_Back"
+		},
+		"Mapping[103]": {
+			"FBXId[0]": "<_Skeleton_|Move_Combat_Fast_Back_Broken>[0]",
+			"FBXUid[0]": 822388937,
+			"GUID[0]": {
+				"Word[0]": -8466103069071125656,
+				"Word[1]": -2746782962163991853,
+				"Word[2]": -8380662700931795519,
+				"Word[3]": 986898472542336854
+			},
+			"Name[0]": "_Skeleton_|Move_Combat_Fast_Back_Broken"
+		},
+		"Mapping[104]": {
+			"FBXId[0]": "<_Skeleton_|Move_Combat_Fast_Front>[0]",
+			"FBXUid[0]": 958874097,
+			"GUID[0]": {
+				"Word[0]": -6001871280538504898,
+				"Word[1]": 6351117423060977784,
+				"Word[2]": 7671086738501313079,
+				"Word[3]": -8964146559667760507
+			},
+			"Name[0]": "_Skeleton_|Move_Combat_Fast_Front"
+		},
+		"Mapping[105]": {
+			"FBXId[0]": "<_Skeleton_|Move_Combat_Fast_Front_Broken>[0]",
+			"FBXUid[0]": 279032996,
+			"GUID[0]": {
+				"Word[0]": 5368176043442973218,
+				"Word[1]": 6802463821090318166,
+				"Word[2]": 6891469626406221933,
+				"Word[3]": -2829089114080777651
+			},
+			"Name[0]": "_Skeleton_|Move_Combat_Fast_Front_Broken"
+		},
+		"Mapping[106]": {
+			"FBXId[0]": "<_Skeleton_|Move_Combat_Fast_Left>[0]",
+			"FBXUid[0]": 910458641,
+			"GUID[0]": {
+				"Word[0]": 2093081540502875575,
+				"Word[1]": 4266836959890183013,
+				"Word[2]": -1010546214865733012,
+				"Word[3]": -8044625858299676961
+			},
+			"Name[0]": "_Skeleton_|Move_Combat_Fast_Left"
+		},
+		"Mapping[107]": {
+			"FBXId[0]": "<_Skeleton_|Move_Combat_Fast_Left_Broken>[0]",
+			"FBXUid[0]": 402309703,
+			"GUID[0]": {
+				"Word[0]": 5570192842330634781,
+				"Word[1]": 731261995065724047,
+				"Word[2]": -4648296842217626042,
+				"Word[3]": -7169508515505241318
+			},
+			"Name[0]": "_Skeleton_|Move_Combat_Fast_Left_Broken"
+		},
+		"Mapping[108]": {
+			"FBXId[0]": "<_Skeleton_|Move_Combat_Fast_Right>[0]",
+			"FBXUid[0]": 328580379,
+			"GUID[0]": {
+				"Word[0]": 662819974419675034,
+				"Word[1]": 6473169916342355603,
+				"Word[2]": 1478116325645051714,
+				"Word[3]": 4380915837679144843
+			},
+			"Name[0]": "_Skeleton_|Move_Combat_Fast_Right"
+		},
+		"Mapping[109]": {
+			"FBXId[0]": "<_Skeleton_|Move_Combat_Fast_Right_Broken>[0]",
+			"FBXUid[0]": 160883907,
+			"GUID[0]": {
+				"Word[0]": 7753126208448036834,
+				"Word[1]": -1438450160064099167,
+				"Word[2]": -777894565566992052,
+				"Word[3]": 778449754320782817
+			},
+			"Name[0]": "_Skeleton_|Move_Combat_Fast_Right_Broken"
+		},
+		"Mapping[10]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[H]_Recovery>[0]",
+			"FBXUid[0]": 990554612,
+			"GUID[0]": {
+				"Word[0]": 2676331218139431941,
+				"Word[1]": 5092703757002846264,
+				"Word[2]": -4431089313299943616,
+				"Word[3]": 6538026848954104919
+			},
+			"Name[0]": "_Skeleton_|Attack_[H]_Recovery"
+		},
+		"Mapping[110]": {
+			"FBXId[0]": "<_Skeleton_|Move_Combat_Slow_Back>[0]",
+			"FBXUid[0]": 174501657,
+			"GUID[0]": {
+				"Word[0]": -6357371458549183539,
+				"Word[1]": 6344156188224714185,
+				"Word[2]": 6934692848299181011,
+				"Word[3]": 9083187949200509551
+			},
+			"Name[0]": "_Skeleton_|Move_Combat_Slow_Back"
+		},
+		"Mapping[111]": {
+			"FBXId[0]": "<_Skeleton_|Move_Combat_Slow_Back_Broken>[0]",
+			"FBXUid[0]": 887125816,
+			"GUID[0]": {
+				"Word[0]": -808105866468005809,
+				"Word[1]": -1616719340114395808,
+				"Word[2]": -1800083732009374940,
+				"Word[3]": 5471263653963260928
+			},
+			"Name[0]": "_Skeleton_|Move_Combat_Slow_Back_Broken"
+		},
+		"Mapping[112]": {
+			"FBXId[0]": "<_Skeleton_|Move_Combat_Slow_Front>[0]",
+			"FBXUid[0]": 946886649,
+			"GUID[0]": {
+				"Word[0]": 8686001976903244430,
+				"Word[1]": -345303498645788837,
+				"Word[2]": 939681905334143484,
+				"Word[3]": 7724559144978773720
+			},
+			"Name[0]": "_Skeleton_|Move_Combat_Slow_Front"
+		},
+		"Mapping[113]": {
+			"FBXId[0]": "<_Skeleton_|Move_Combat_Slow_Front_Broken>[0]",
+			"FBXUid[0]": 965149424,
+			"GUID[0]": {
+				"Word[0]": 3086479895005009570,
+				"Word[1]": -5898778449811084262,
+				"Word[2]": -7632597562506423385,
+				"Word[3]": -2005647474115767611
+			},
+			"Name[0]": "_Skeleton_|Move_Combat_Slow_Front_Broken"
+		},
+		"Mapping[114]": {
+			"FBXId[0]": "<_Skeleton_|Move_Combat_Slow_Left>[0]",
+			"FBXUid[0]": 740744074,
+			"GUID[0]": {
+				"Word[0]": -4596598020977120596,
+				"Word[1]": 518030932148489748,
+				"Word[2]": -3162525215608697403,
+				"Word[3]": 2819040409895741514
+			},
+			"Name[0]": "_Skeleton_|Move_Combat_Slow_Left"
+		},
+		"Mapping[115]": {
+			"FBXId[0]": "<_Skeleton_|Move_Combat_Slow_Left_Broken>[0]",
+			"FBXUid[0]": 982415515,
+			"GUID[0]": {
+				"Word[0]": 7156280096082004273,
+				"Word[1]": 5795526096843281265,
+				"Word[2]": -4807139348072332412,
+				"Word[3]": -5102418772306766529
+			},
+			"Name[0]": "_Skeleton_|Move_Combat_Slow_Left_Broken"
+		},
+		"Mapping[116]": {
+			"FBXId[0]": "<_Skeleton_|Move_Combat_Slow_Right>[0]",
+			"FBXUid[0]": 370055203,
+			"GUID[0]": {
+				"Word[0]": -1554187216791174575,
+				"Word[1]": 1103539893721723698,
+				"Word[2]": -3837893727108629181,
+				"Word[3]": 3626536156731124169
+			},
+			"Name[0]": "_Skeleton_|Move_Combat_Slow_Right"
+		},
+		"Mapping[117]": {
+			"FBXId[0]": "<_Skeleton_|Move_Combat_Slow_Right_Broken>[0]",
+			"FBXUid[0]": 838219871,
+			"GUID[0]": {
+				"Word[0]": 8988367112391921301,
+				"Word[1]": -2301685909317872996,
+				"Word[2]": -8281756149635399407,
+				"Word[3]": 3996308882192463895
+			},
+			"Name[0]": "_Skeleton_|Move_Combat_Slow_Right_Broken"
+		},
+		"Mapping[118]": {
+			"FBXId[0]": "<_Skeleton_|Move_Crouched_Fast>[0]",
+			"FBXUid[0]": 18957102,
+			"GUID[0]": {
+				"Word[0]": 6012657498001877800,
+				"Word[1]": -1784923068417462426,
+				"Word[2]": -2001556466756512286,
+				"Word[3]": 6472989998022034791
+			},
+			"Name[0]": "_Skeleton_|Move_Crouched_Fast"
+		},
+		"Mapping[119]": {
+			"FBXId[0]": "<_Skeleton_|Move_Crouched_Fast_Broken>[0]",
+			"FBXUid[0]": 164215584,
+			"GUID[0]": {
+				"Word[0]": 131724700004018405,
+				"Word[1]": 2053962521922192339,
+				"Word[2]": 7947876394925410126,
+				"Word[3]": -6211317294717684113
+			},
+			"Name[0]": "_Skeleton_|Move_Crouched_Fast_Broken"
+		},
+		"Mapping[11]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[H]_Swing>[0]",
+			"FBXUid[0]": 647942324,
+			"GUID[0]": {
+				"Word[0]": 5447331361049893695,
+				"Word[1]": -3024756629968065363,
+				"Word[2]": 3682222431643658548,
+				"Word[3]": -8807974655239681342
+			},
+			"Name[0]": "_Skeleton_|Attack_[H]_Swing"
+		},
+		"Mapping[120]": {
+			"FBXId[0]": "<_Skeleton_|Move_Crouched_Slow>[0]",
+			"FBXUid[0]": 954907102,
+			"GUID[0]": {
+				"Word[0]": 5574702028980280769,
+				"Word[1]": 4144667089683514121,
+				"Word[2]": 6473764209472628421,
+				"Word[3]": 1625981553978046292
+			},
+			"Name[0]": "_Skeleton_|Move_Crouched_Slow"
+		},
+		"Mapping[121]": {
+			"FBXId[0]": "<_Skeleton_|Move_Crouched_Slow_Broken>[0]",
+			"FBXUid[0]": 802418177,
+			"GUID[0]": {
+				"Word[0]": 4841208950827179714,
+				"Word[1]": 7551343894160852220,
+				"Word[2]": -2725623559174932791,
+				"Word[3]": 2163855343996290153
+			},
+			"Name[0]": "_Skeleton_|Move_Crouched_Slow_Broken"
+		},
+		"Mapping[122]": {
+			"FBXId[0]": "<_Skeleton_|Move_Fast>[0]",
+			"FBXUid[0]": 707271979,
+			"GUID[0]": {
+				"Word[0]": -3032376162034259275,
+				"Word[1]": -8355714006811580436,
+				"Word[2]": -3103019992650111636,
+				"Word[3]": 5191664520135284856
+			},
+			"Name[0]": "_Skeleton_|Move_Fast"
+		},
+		"Mapping[123]": {
+			"FBXId[0]": "<_Skeleton_|Move_Fast_Broken>[0]",
+			"FBXUid[0]": 736034047,
+			"GUID[0]": {
+				"Word[0]": 6304082776119506373,
+				"Word[1]": -273661159986515863,
+				"Word[2]": -3064453960890710512,
+				"Word[3]": 7435452538051859189
+			},
+			"Name[0]": "_Skeleton_|Move_Fast_Broken"
+		},
+		"Mapping[124]": {
+			"FBXId[0]": "<_Skeleton_|Move_Fast_Left>[0]",
+			"FBXUid[0]": 94869102,
+			"GUID[0]": {
+				"Word[0]": -6790475303325152498,
+				"Word[1]": -6662634240764568603,
+				"Word[2]": 8177835413274895190,
+				"Word[3]": -1510373462591720398
+			},
+			"Name[0]": "_Skeleton_|Move_Fast_Left"
+		},
+		"Mapping[125]": {
+			"FBXId[0]": "<_Skeleton_|Move_Fast_Right>[0]",
+			"FBXUid[0]": 468030382,
+			"GUID[0]": {
+				"Word[0]": -9025119863878725923,
+				"Word[1]": 1721536042282637288,
+				"Word[2]": -6241128505719109473,
+				"Word[3]": -4008094984081705881
+			},
+			"Name[0]": "_Skeleton_|Move_Fast_Right"
+		},
+		"Mapping[126]": {
+			"FBXId[0]": "<_Skeleton_|Move_Slow>[0]",
+			"FBXUid[0]": 971556867,
+			"GUID[0]": {
+				"Word[0]": -7853158098600163689,
+				"Word[1]": 2350179949711056746,
+				"Word[2]": 4103967736573974408,
+				"Word[3]": -3575437696334300662
+			},
+			"Name[0]": "_Skeleton_|Move_Slow"
+		},
+		"Mapping[127]": {
+			"FBXId[0]": "<_Skeleton_|Move_Slow_Broken>[0]",
+			"FBXUid[0]": 392497043,
+			"GUID[0]": {
+				"Word[0]": 6818248524881192960,
+				"Word[1]": 5849468139878204761,
+				"Word[2]": 5288329557748893194,
+				"Word[3]": 2142256079282250441
+			},
+			"Name[0]": "_Skeleton_|Move_Slow_Broken"
+		},
+		"Mapping[128]": {
+			"FBXId[0]": "<_Skeleton_|Move_Slow_Left>[0]",
+			"FBXUid[0]": 327687137,
+			"GUID[0]": {
+				"Word[0]": -8299563869309411957,
+				"Word[1]": -1539957167321149594,
+				"Word[2]": 5698487958772412821,
+				"Word[3]": 2343304789544067141
+			},
+			"Name[0]": "_Skeleton_|Move_Slow_Left"
+		},
+		"Mapping[129]": {
+			"FBXId[0]": "<_Skeleton_|Move_Slow_Right>[0]",
+			"FBXUid[0]": 608945589,
+			"GUID[0]": {
+				"Word[0]": 7077512608845458306,
+				"Word[1]": 7544793646600042609,
+				"Word[2]": -4402796979593655151,
+				"Word[3]": 1396255251057560537
+			},
+			"Name[0]": "_Skeleton_|Move_Slow_Right"
+		},
+		"Mapping[12]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[H_Move]>[0]",
+			"FBXUid[0]": 411802522,
+			"GUID[0]": {
+				"Word[0]": 2215408010231158878,
+				"Word[1]": 6237571627720554732,
+				"Word[2]": -1142104599010542716,
+				"Word[3]": 8011533833422822566
+			},
+			"Name[0]": "_Skeleton_|Attack_[H_Move]"
+		},
+		"Mapping[130]": {
+			"FBXId[0]": "<_Skeleton_|__DEFAULT_POSE__>[0]",
+			"FBXUid[0]": 710353862,
+			"GUID[0]": {
+				"Word[0]": 6699029519329873528,
+				"Word[1]": -1229274684915708874,
+				"Word[2]": -5008583132324621921,
+				"Word[3]": 5196818142375938308
+			},
+			"Name[0]": "_Skeleton_|__DEFAULT_POSE__"
+		},
+		"Mapping[131]": {
+			"FBXId[0]": "<_Skeleton_|__STARTER_POSE_COMBAT__>[0]",
+			"FBXUid[0]": 880035525,
+			"GUID[0]": {
+				"Word[0]": 376810383009219475,
+				"Word[1]": -6395905738115983933,
+				"Word[2]": 2864915863031068106,
+				"Word[3]": 5113952722853746948
+			},
+			"Name[0]": "_Skeleton_|__STARTER_POSE_COMBAT__"
+		},
+		"Mapping[132]": {
+			"FBXId[0]": "<_Skeleton_|__STARTER_POSE_CROUCHED__>[0]",
+			"FBXUid[0]": 732587693,
+			"GUID[0]": {
+				"Word[0]": 7780096187615371671,
+				"Word[1]": -1733933619639815874,
+				"Word[2]": 803220100151266404,
+				"Word[3]": 3652271639550770984
+			},
+			"Name[0]": "_Skeleton_|__STARTER_POSE_CROUCHED__"
+		},
+		"Mapping[133]": {
+			"FBXId[0]": "<_Skeleton_|__STARTER_POSE__>[0]",
+			"FBXUid[0]": 714250079,
+			"GUID[0]": {
+				"Word[0]": -2798777815005302295,
+				"Word[1]": -25501784749336097,
+				"Word[2]": -4705001054615699941,
+				"Word[3]": -7068591148743446216
+			},
+			"Name[0]": "_Skeleton_|__STARTER_POSE__"
+		},
+		"Mapping[13]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[H_Move]_Buildup>[0]",
+			"FBXUid[0]": 977885653,
+			"GUID[0]": {
+				"Word[0]": -8711141239879627335,
+				"Word[1]": -5443008001746617751,
+				"Word[2]": 6201308515900798339,
+				"Word[3]": -2470018349270143565
+			},
+			"Name[0]": "_Skeleton_|Attack_[H_Move]_Buildup"
+		},
+		"Mapping[14]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[H_Move]_Recovery>[0]",
+			"FBXUid[0]": 824170036,
+			"GUID[0]": {
+				"Word[0]": -7473190241338182846,
+				"Word[1]": -1653047600400264885,
+				"Word[2]": 942257093318016051,
+				"Word[3]": 3354682479462119498
+			},
+			"Name[0]": "_Skeleton_|Attack_[H_Move]_Recovery"
+		},
+		"Mapping[15]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[H_Move]_Swing>[0]",
+			"FBXUid[0]": 368604076,
+			"GUID[0]": {
+				"Word[0]": -6329578045941610460,
+				"Word[1]": -7563633909549328146,
+				"Word[2]": 232601071288063937,
+				"Word[3]": 4719031731347596532
+			},
+			"Name[0]": "_Skeleton_|Attack_[H_Move]_Swing"
+		},
+		"Mapping[16]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[L]>[0]",
+			"FBXUid[0]": 309438239,
+			"GUID[0]": {
+				"Word[0]": 216274735621697866,
+				"Word[1]": 7645913997848348437,
+				"Word[2]": 3090478767645428358,
+				"Word[3]": 6504835840957281854
+			},
+			"Name[0]": "_Skeleton_|Attack_[L]"
+		},
+		"Mapping[17]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[L]_Old>[0]",
+			"FBXUid[0]": 898030611,
+			"GUID[0]": {
+				"Word[0]": 5310689587315730236,
+				"Word[1]": -8071198229048272529,
+				"Word[2]": 6717378556846033522,
+				"Word[3]": 6913895720043834655
+			},
+			"Name[0]": "_Skeleton_|Attack_[L]_Old"
+		},
+		"Mapping[18]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[L]_Recovery>[0]",
+			"FBXUid[0]": 502231822,
+			"GUID[0]": {
+				"Word[0]": 5789973297325099976,
+				"Word[1]": -8245250121515885178,
+				"Word[2]": -7157657195074563908,
+				"Word[3]": 7946696908025507940
+			},
+			"Name[0]": "_Skeleton_|Attack_[L]_Recovery"
+		},
+		"Mapping[19]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[L]_Swing>[0]",
+			"FBXUid[0]": 745701573,
+			"GUID[0]": {
+				"Word[0]": 2491603457525778839,
+				"Word[1]": -5238829966122347055,
+				"Word[2]": 1546246866487735706,
+				"Word[3]": 967072466486432082
+			},
+			"Name[0]": "_Skeleton_|Attack_[L]_Swing"
+		},
+		"Mapping[1]": {
+			"FBXId[0]": "<_Skeleton_|Attack_Equipped_0_Broken>[0]",
+			"FBXUid[0]": 789416304,
+			"GUID[0]": {
+				"Word[0]": 5643888836315915037,
+				"Word[1]": 7188639849698837151,
+				"Word[2]": 824088936114330764,
+				"Word[3]": -7931815055017177540
+			},
+			"Name[0]": "_Skeleton_|Attack_Equipped_0_Broken"
+		},
+		"Mapping[20]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[L_Move]>[0]",
+			"FBXUid[0]": 264579799,
+			"GUID[0]": {
+				"Word[0]": -2993471821327807084,
+				"Word[1]": 4424291908373272168,
+				"Word[2]": 2161028586133131603,
+				"Word[3]": -844359268777119928
+			},
+			"Name[0]": "_Skeleton_|Attack_[L_Move]"
+		},
+		"Mapping[21]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[L_Move]_Recovery>[0]",
+			"FBXUid[0]": 211010725,
+			"GUID[0]": {
+				"Word[0]": -1266538760117058091,
+				"Word[1]": 3627937403264077398,
+				"Word[2]": -6036192149596867351,
+				"Word[3]": 6058823502328440625
+			},
+			"Name[0]": "_Skeleton_|Attack_[L_Move]_Recovery"
+		},
+		"Mapping[22]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[L_Move]_Swing>[0]",
+			"FBXUid[0]": 814731700,
+			"GUID[0]": {
+				"Word[0]": -8249541951161057889,
+				"Word[1]": -586647088203418036,
+				"Word[2]": 4086510308233679972,
+				"Word[3]": -9192793974820925424
+			},
+			"Name[0]": "_Skeleton_|Attack_[L_Move]_Swing"
+		},
+		"Mapping[23]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XH]>[0]",
+			"FBXUid[0]": 67993953,
+			"GUID[0]": {
+				"Word[0]": -6008110228794203012,
+				"Word[1]": 8170536692834326696,
+				"Word[2]": 6880432942837606975,
+				"Word[3]": -6881047421040404321
+			},
+			"Name[0]": "_Skeleton_|Attack_[XH]"
+		},
+		"Mapping[24]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XH]_Buildup>[0]",
+			"FBXUid[0]": 991494384,
+			"GUID[0]": {
+				"Word[0]": 5428500402063695056,
+				"Word[1]": -8504450012991302890,
+				"Word[2]": -2242877767208039382,
+				"Word[3]": -6566844513762332021
+			},
+			"Name[0]": "_Skeleton_|Attack_[XH]_Buildup"
+		},
+		"Mapping[25]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XH]_Recovery>[0]",
+			"FBXUid[0]": 550501931,
+			"GUID[0]": {
+				"Word[0]": -3419049258080232665,
+				"Word[1]": 4351905870495876781,
+				"Word[2]": -9061169920679337098,
+				"Word[3]": 1692258271695250611
+			},
+			"Name[0]": "_Skeleton_|Attack_[XH]_Recovery"
+		},
+		"Mapping[26]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XH]_Swing>[0]",
+			"FBXUid[0]": 837564929,
+			"GUID[0]": {
+				"Word[0]": 1762441728588339065,
+				"Word[1]": -4693208207982760326,
+				"Word[2]": 5933654360396847573,
+				"Word[3]": 9097850427571092654
+			},
+			"Name[0]": "_Skeleton_|Attack_[XH]_Swing"
+		},
+		"Mapping[27]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XH_Move]>[0]",
+			"FBXUid[0]": 814124205,
+			"GUID[0]": {
+				"Word[0]": -6578098477235492548,
+				"Word[1]": 5278581731022722943,
+				"Word[2]": 4479838778012640169,
+				"Word[3]": -2084330515023750656
+			},
+			"Name[0]": "_Skeleton_|Attack_[XH_Move]"
+		},
+		"Mapping[28]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XH_Move]_Buildup>[0]",
+			"FBXUid[0]": 12202181,
+			"GUID[0]": {
+				"Word[0]": -3925871188829600336,
+				"Word[1]": 5360779794653056021,
+				"Word[2]": -2663736054745925863,
+				"Word[3]": 9045669907787603747
+			},
+			"Name[0]": "_Skeleton_|Attack_[XH_Move]_Buildup"
+		},
+		"Mapping[29]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XH_Move]_Recovery>[0]",
+			"FBXUid[0]": 330025733,
+			"GUID[0]": {
+				"Word[0]": -4877198506557306181,
+				"Word[1]": 6209682024436447576,
+				"Word[2]": 7100778381838745158,
+				"Word[3]": 1273325148928677370
+			},
+			"Name[0]": "_Skeleton_|Attack_[XH_Move]_Recovery"
+		},
+		"Mapping[2]": {
+			"FBXId[0]": "<_Skeleton_|Attack_Equipped_1>[0]",
+			"FBXUid[0]": 539954702,
+			"GUID[0]": {
+				"Word[0]": 9077146936965799031,
+				"Word[1]": -9175626458165490870,
+				"Word[2]": -7511461063499968939,
+				"Word[3]": -2653212973288260128
+			},
+			"Name[0]": "_Skeleton_|Attack_Equipped_1"
+		},
+		"Mapping[30]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XH_Move]_Swing>[0]",
+			"FBXUid[0]": 49430151,
+			"GUID[0]": {
+				"Word[0]": 4013366512276922193,
+				"Word[1]": -6933185197027608760,
+				"Word[2]": 2129954048476324518,
+				"Word[3]": -7566327647648274632
+			},
+			"Name[0]": "_Skeleton_|Attack_[XH_Move]_Swing"
+		},
+		"Mapping[31]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XL] >[0]",
+			"FBXUid[0]": 682252524,
+			"GUID[0]": {
+				"Word[0]": -5806134513087214309,
+				"Word[1]": -2528651295823068287,
+				"Word[2]": -7017858633445723306,
+				"Word[3]": 5716822175689549389
+			},
+			"Name[0]": "_Skeleton_|Attack_[XL] "
+		},
+		"Mapping[32]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XL]_Recovery>[0]",
+			"FBXUid[0]": 398107549,
+			"GUID[0]": {
+				"Word[0]": -8011696128080730904,
+				"Word[1]": 4011369823356427001,
+				"Word[2]": -1945486579281875932,
+				"Word[3]": -601077630089688932
+			},
+			"Name[0]": "_Skeleton_|Attack_[XL]_Recovery"
+		},
+		"Mapping[33]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XL]_Swing>[0]",
+			"FBXUid[0]": 975316117,
+			"GUID[0]": {
+				"Word[0]": -3510141236672093403,
+				"Word[1]": -1095027579346559003,
+				"Word[2]": 1475496784785180275,
+				"Word[3]": 3453162561600945545
+			},
+			"Name[0]": "_Skeleton_|Attack_[XL]_Swing"
+		},
+		"Mapping[34]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XL]_old>[0]",
+			"FBXUid[0]": 146745361,
+			"GUID[0]": {
+				"Word[0]": -7264316159971918218,
+				"Word[1]": -5693101977442212229,
+				"Word[2]": 7117166452008546947,
+				"Word[3]": -2858038237281522248
+			},
+			"Name[0]": "_Skeleton_|Attack_[XL]_old"
+		},
+		"Mapping[35]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XL_Move]>[0]",
+			"FBXUid[0]": 868822914,
+			"GUID[0]": {
+				"Word[0]": 2400685475008870845,
+				"Word[1]": -9133750934063282314,
+				"Word[2]": -2127566981330314657,
+				"Word[3]": 219432678456122686
+			},
+			"Name[0]": "_Skeleton_|Attack_[XL_Move]"
+		},
+		"Mapping[36]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XL_Move]_Recovery>[0]",
+			"FBXUid[0]": 977090685,
+			"GUID[0]": {
+				"Word[0]": -182481161617298289,
+				"Word[1]": -3719596430144810373,
+				"Word[2]": -1124302790245291492,
+				"Word[3]": 5957741302404390493
+			},
+			"Name[0]": "_Skeleton_|Attack_[XL_Move]_Recovery"
+		},
+		"Mapping[37]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XL_Move]_Swing>[0]",
+			"FBXUid[0]": 379698543,
+			"GUID[0]": {
+				"Word[0]": 1643821372699496073,
+				"Word[1]": -9078843442352398246,
+				"Word[2]": -3842462430510377909,
+				"Word[3]": -8223589228190292070
+			},
+			"Name[0]": "_Skeleton_|Attack_[XL_Move]_Swing"
+		},
+		"Mapping[38]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XXH]>[0]",
+			"FBXUid[0]": 46596656,
+			"GUID[0]": {
+				"Word[0]": 9064626207222635208,
+				"Word[1]": 7425943824264198836,
+				"Word[2]": 2251567703604964271,
+				"Word[3]": 5936551153728380616
+			},
+			"Name[0]": "_Skeleton_|Attack_[XXH]"
+		},
+		"Mapping[39]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XXH]_Buildup>[0]",
+			"FBXUid[0]": 286380907,
+			"GUID[0]": {
+				"Word[0]": -666341087992872038,
+				"Word[1]": -1260336829961360493,
+				"Word[2]": 4450239448266978235,
+				"Word[3]": -4503132627546054609
+			},
+			"Name[0]": "_Skeleton_|Attack_[XXH]_Buildup"
+		},
+		"Mapping[3]": {
+			"FBXId[0]": "<_Skeleton_|Attack_Equipped_1_Broken>[0]",
+			"FBXUid[0]": 76668678,
+			"GUID[0]": {
+				"Word[0]": -2156241578074442783,
+				"Word[1]": 1933051864662729276,
+				"Word[2]": -2860176253056697859,
+				"Word[3]": 2833723467402170993
+			},
+			"Name[0]": "_Skeleton_|Attack_Equipped_1_Broken"
+		},
+		"Mapping[40]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XXH]_Recovery>[0]",
+			"FBXUid[0]": 79115606,
+			"GUID[0]": {
+				"Word[0]": 2336481078412003632,
+				"Word[1]": -1971929501732188548,
+				"Word[2]": 1846486969813180763,
+				"Word[3]": 9056331925836317197
+			},
+			"Name[0]": "_Skeleton_|Attack_[XXH]_Recovery"
+		},
+		"Mapping[41]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XXH]_Swing>[0]",
+			"FBXUid[0]": 978850005,
+			"GUID[0]": {
+				"Word[0]": -5451361535578607481,
+				"Word[1]": 3275402095857089359,
+				"Word[2]": -1149305096672236896,
+				"Word[3]": -4522487255856963009
+			},
+			"Name[0]": "_Skeleton_|Attack_[XXH]_Swing"
+		},
+		"Mapping[42]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XXH_Move]>[0]",
+			"FBXUid[0]": 339697524,
+			"GUID[0]": {
+				"Word[0]": 3706594620080558439,
+				"Word[1]": 3668444926518451565,
+				"Word[2]": -3688300821955835540,
+				"Word[3]": 4683313019770403989
+			},
+			"Name[0]": "_Skeleton_|Attack_[XXH_Move]"
+		},
+		"Mapping[43]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XXH_Move]_Buildup>[0]",
+			"FBXUid[0]": 979845178,
+			"GUID[0]": {
+				"Word[0]": -2861928338616365450,
+				"Word[1]": 2148082844164764903,
+				"Word[2]": 8807066249710782735,
+				"Word[3]": 6241576772675044782
+			},
+			"Name[0]": "_Skeleton_|Attack_[XXH_Move]_Buildup"
+		},
+		"Mapping[44]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XXH_Move]_Recovery>[0]",
+			"FBXUid[0]": 802987168,
+			"GUID[0]": {
+				"Word[0]": -3207235982678606840,
+				"Word[1]": -3353900496794963826,
+				"Word[2]": -1255612083957359181,
+				"Word[3]": 8280632698080375599
+			},
+			"Name[0]": "_Skeleton_|Attack_[XXH_Move]_Recovery"
+		},
+		"Mapping[45]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XXH_Move]_Swing>[0]",
+			"FBXUid[0]": 804533742,
+			"GUID[0]": {
+				"Word[0]": 1850947660018615232,
+				"Word[1]": -1220336365467697641,
+				"Word[2]": -1720665546087209878,
+				"Word[3]": -7907842549962131313
+			},
+			"Name[0]": "_Skeleton_|Attack_[XXH_Move]_Swing"
+		},
+		"Mapping[46]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XXL]>[0]",
+			"FBXUid[0]": 255779723,
+			"GUID[0]": {
+				"Word[0]": 3572736344406686689,
+				"Word[1]": -4670784852877157648,
+				"Word[2]": -6590834169718069422,
+				"Word[3]": -1730213387061001928
+			},
+			"Name[0]": "_Skeleton_|Attack_[XXL]"
+		},
+		"Mapping[47]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XXL]_Old>[0]",
+			"FBXUid[0]": 988437115,
+			"GUID[0]": {
+				"Word[0]": 8050024375760761598,
+				"Word[1]": -3587100021229898784,
+				"Word[2]": 8517804454871794452,
+				"Word[3]": 1253394414696974155
+			},
+			"Name[0]": "_Skeleton_|Attack_[XXL]_Old"
+		},
+		"Mapping[48]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XXL]_Recovery>[0]",
+			"FBXUid[0]": 432200446,
+			"GUID[0]": {
+				"Word[0]": 1126300903188753428,
+				"Word[1]": -104566560049941589,
+				"Word[2]": 5359066061828774229,
+				"Word[3]": 5520381524864272396
+			},
+			"Name[0]": "_Skeleton_|Attack_[XXL]_Recovery"
+		},
+		"Mapping[49]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XXL]_Swing>[0]",
+			"FBXUid[0]": 885139647,
+			"GUID[0]": {
+				"Word[0]": -1636007410155091310,
+				"Word[1]": -8262323815692428368,
+				"Word[2]": -1852472946926333896,
+				"Word[3]": 667372556664280036
+			},
+			"Name[0]": "_Skeleton_|Attack_[XXL]_Swing"
+		},
+		"Mapping[4]": {
+			"FBXId[0]": "<_Skeleton_|Attack_Equipped_2>[0]",
+			"FBXUid[0]": 253727802,
+			"GUID[0]": {
+				"Word[0]": -2573033849707678981,
+				"Word[1]": 2817145953511318289,
+				"Word[2]": -2348462420748006188,
+				"Word[3]": -7753875973710308291
+			},
+			"Name[0]": "_Skeleton_|Attack_Equipped_2"
+		},
+		"Mapping[50]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XXL_Move]>[0]",
+			"FBXUid[0]": 303008233,
+			"GUID[0]": {
+				"Word[0]": 2774031886040608484,
+				"Word[1]": -8792252640155783926,
+				"Word[2]": 8124009253860526046,
+				"Word[3]": 8756026520450082478
+			},
+			"Name[0]": "_Skeleton_|Attack_[XXL_Move]"
+		},
+		"Mapping[51]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XXL_Move]_Recovery>[0]",
+			"FBXUid[0]": 597564456,
+			"GUID[0]": {
+				"Word[0]": -6382544144656010979,
+				"Word[1]": -6913230446897936957,
+				"Word[2]": -2141863513680471755,
+				"Word[3]": 9113508300069143965
+			},
+			"Name[0]": "_Skeleton_|Attack_[XXL_Move]_Recovery"
+		},
+		"Mapping[52]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XXL_Move]_Swing>[0]",
+			"FBXUid[0]": 440169037,
+			"GUID[0]": {
+				"Word[0]": 4580919030837561126,
+				"Word[1]": -8869461350332590609,
+				"Word[2]": -5091610713468397721,
+				"Word[3]": -3967369805548741508
+			},
+			"Name[0]": "_Skeleton_|Attack_[XXL_Move]_Swing"
+		},
+		"Mapping[53]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XXXH]>[0]",
+			"FBXUid[0]": 947463580,
+			"GUID[0]": {
+				"Word[0]": -1895294449359784675,
+				"Word[1]": -7364982096905593740,
+				"Word[2]": -2282983018320279610,
+				"Word[3]": -5482212650151665545
+			},
+			"Name[0]": "_Skeleton_|Attack_[XXXH]"
+		},
+		"Mapping[54]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XXXH]_Buildup>[0]",
+			"FBXUid[0]": 94183502,
+			"GUID[0]": {
+				"Word[0]": 5894412088176662523,
+				"Word[1]": 7988971448551358082,
+				"Word[2]": -6571337703905736320,
+				"Word[3]": 8082799227904189243
+			},
+			"Name[0]": "_Skeleton_|Attack_[XXXH]_Buildup"
+		},
+		"Mapping[55]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XXXH]_Recovery>[0]",
+			"FBXUid[0]": 358539682,
+			"GUID[0]": {
+				"Word[0]": -3902390876999758529,
+				"Word[1]": -2135667635327208900,
+				"Word[2]": -7418073360205810094,
+				"Word[3]": -5617330257214192649
+			},
+			"Name[0]": "_Skeleton_|Attack_[XXXH]_Recovery"
+		},
+		"Mapping[56]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XXXH]_Swing>[0]",
+			"FBXUid[0]": 423360779,
+			"GUID[0]": {
+				"Word[0]": 2836873637961985465,
+				"Word[1]": 142368498295874467,
+				"Word[2]": 8804902629035110120,
+				"Word[3]": -1528746030533016347
+			},
+			"Name[0]": "_Skeleton_|Attack_[XXXH]_Swing"
+		},
+		"Mapping[57]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XXXH_Move]>[0]",
+			"FBXUid[0]": 946509154,
+			"GUID[0]": {
+				"Word[0]": 5303482203795249349,
+				"Word[1]": -1149161090128867372,
+				"Word[2]": -1764074532964956655,
+				"Word[3]": 2988830493361884991
+			},
+			"Name[0]": "_Skeleton_|Attack_[XXXH_Move]"
+		},
+		"Mapping[58]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XXXH_Move]_Buildup>[0]",
+			"FBXUid[0]": 655925498,
+			"GUID[0]": {
+				"Word[0]": -7874085659732626441,
+				"Word[1]": 7678984312155771453,
+				"Word[2]": -1231587834166168397,
+				"Word[3]": 343839675806868377
+			},
+			"Name[0]": "_Skeleton_|Attack_[XXXH_Move]_Buildup"
+		},
+		"Mapping[59]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XXXH_Move]_Recovery>[0]",
+			"FBXUid[0]": 694055524,
+			"GUID[0]": {
+				"Word[0]": 6678775261438693682,
+				"Word[1]": -2146689211139934428,
+				"Word[2]": -7506733654766435570,
+				"Word[3]": -7534530133294415371
+			},
+			"Name[0]": "_Skeleton_|Attack_[XXXH_Move]_Recovery"
+		},
+		"Mapping[5]": {
+			"FBXId[0]": "<_Skeleton_|Attack_Equipped_3>[0]",
+			"FBXUid[0]": 519948469,
+			"GUID[0]": {
+				"Word[0]": 5977191449538072796,
+				"Word[1]": -4466404869232023092,
+				"Word[2]": 4580740046619388314,
+				"Word[3]": -3981025385948225840
+			},
+			"Name[0]": "_Skeleton_|Attack_Equipped_3"
+		},
+		"Mapping[60]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XXXH_Move]_Swing>[0]",
+			"FBXUid[0]": 378250128,
+			"GUID[0]": {
+				"Word[0]": 5079662405255041788,
+				"Word[1]": 8931834153520162313,
+				"Word[2]": -3499264604346675515,
+				"Word[3]": 2497237775558329462
+			},
+			"Name[0]": "_Skeleton_|Attack_[XXXH_Move]_Swing"
+		},
+		"Mapping[61]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XXXL]>[0]",
+			"FBXUid[0]": 157944980,
+			"GUID[0]": {
+				"Word[0]": -9130898912372485991,
+				"Word[1]": 2453885636105735344,
+				"Word[2]": 5855943320076612085,
+				"Word[3]": -7919793266959097897
+			},
+			"Name[0]": "_Skeleton_|Attack_[XXXL]"
+		},
+		"Mapping[62]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XXXL]_Old>[0]",
+			"FBXUid[0]": 925493581,
+			"GUID[0]": {
+				"Word[0]": -126461947205151033,
+				"Word[1]": -5677411437807159894,
+				"Word[2]": -3811726891830428940,
+				"Word[3]": 1928689396568562940
+			},
+			"Name[0]": "_Skeleton_|Attack_[XXXL]_Old"
+		},
+		"Mapping[63]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XXXL]_Recovery>[0]",
+			"FBXUid[0]": 542895755,
+			"GUID[0]": {
+				"Word[0]": -7332475356239267742,
+				"Word[1]": 8465801638359732572,
+				"Word[2]": 8800363880316245040,
+				"Word[3]": -964194773824083355
+			},
+			"Name[0]": "_Skeleton_|Attack_[XXXL]_Recovery"
+		},
+		"Mapping[64]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XXXL]_Swing>[0]",
+			"FBXUid[0]": 120364007,
+			"GUID[0]": {
+				"Word[0]": 8944295703677875390,
+				"Word[1]": 1399671744002976143,
+				"Word[2]": -6890702773561190428,
+				"Word[3]": 7361184608249211536
+			},
+			"Name[0]": "_Skeleton_|Attack_[XXXL]_Swing"
+		},
+		"Mapping[65]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XXXL_Move]>[0]",
+			"FBXUid[0]": 386392478,
+			"GUID[0]": {
+				"Word[0]": -280430309060870331,
+				"Word[1]": 5267712060873018326,
+				"Word[2]": 7805741934610638559,
+				"Word[3]": 4249576729128854197
+			},
+			"Name[0]": "_Skeleton_|Attack_[XXXL_Move]"
+		},
+		"Mapping[66]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XXXL_Move]_Recovery>[0]",
+			"FBXUid[0]": 321849283,
+			"GUID[0]": {
+				"Word[0]": -5050998646402241887,
+				"Word[1]": -5300124498997557074,
+				"Word[2]": -4383398491440637949,
+				"Word[3]": -4639699698616967919
+			},
+			"Name[0]": "_Skeleton_|Attack_[XXXL_Move]_Recovery"
+		},
+		"Mapping[67]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[XXXL_Move]_Swing>[0]",
+			"FBXUid[0]": 668120422,
+			"GUID[0]": {
+				"Word[0]": -6483463572221222629,
+				"Word[1]": -3551442264828663114,
+				"Word[2]": 7053366592275927592,
+				"Word[3]": 6700933429158317067
+			},
+			"Name[0]": "_Skeleton_|Attack_[XXXL_Move]_Swing"
+		},
+		"Mapping[68]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[__HHHH_Move__]_FullCycle>[0]",
+			"FBXUid[0]": 870649017,
+			"GUID[0]": {
+				"Word[0]": -734092710753763760,
+				"Word[1]": -3861332819537659459,
+				"Word[2]": -67920392276125293,
+				"Word[3]": 1738712038042845502
+			},
+			"Name[0]": "_Skeleton_|Attack_[__HHHH_Move__]_FullCycle"
+		},
+		"Mapping[69]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[__HHHH__]_FullCycle>[0]",
+			"FBXUid[0]": 987477890,
+			"GUID[0]": {
+				"Word[0]": 4298368473122108292,
+				"Word[1]": -5812476098238223163,
+				"Word[2]": 5971664943465458318,
+				"Word[3]": 6049561538735068814
+			},
+			"Name[0]": "_Skeleton_|Attack_[__HHHH__]_FullCycle"
+		},
+		"Mapping[6]": {
+			"FBXId[0]": "<_Skeleton_|Attack_Equipped_Chain_Broken_Fix_Later>[0]",
+			"FBXUid[0]": 396401253,
+			"GUID[0]": {
+				"Word[0]": 6367587163541264043,
+				"Word[1]": -960860120370017059,
+				"Word[2]": -1386671249095952882,
+				"Word[3]": -2097746964516824070
+			},
+			"Name[0]": "_Skeleton_|Attack_Equipped_Chain_Broken_Fix_Later"
+		},
+		"Mapping[70]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[__LLLL_Move__]_FullCycle>[0]",
+			"FBXUid[0]": 391201323,
+			"GUID[0]": {
+				"Word[0]": -100230829193501862,
+				"Word[1]": -882734245686873113,
+				"Word[2]": 8150958063467019519,
+				"Word[3]": 7886839558835923163
+			},
+			"Name[0]": "_Skeleton_|Attack_[__LLLL_Move__]_FullCycle"
+		},
+		"Mapping[71]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[__LLLL__]_FullCycle>[0]",
+			"FBXUid[0]": 165617921,
+			"GUID[0]": {
+				"Word[0]": -4038972310734769090,
+				"Word[1]": -3672602179726184574,
+				"Word[2]": -736428352567988697,
+				"Word[3]": 373546790723381590
+			},
+			"Name[0]": "_Skeleton_|Attack_[__LLLL__]_FullCycle"
+		},
+		"Mapping[72]": {
+			"FBXId[0]": "<_Skeleton_|Evade_Back>[0]",
+			"FBXUid[0]": 529898484,
+			"GUID[0]": {
+				"Word[0]": 4148949223814878586,
+				"Word[1]": 7171613866989335249,
+				"Word[2]": -4635238781303004694,
+				"Word[3]": 5429005675058894366
+			},
+			"Name[0]": "_Skeleton_|Evade_Back"
+		},
+		"Mapping[73]": {
+			"FBXId[0]": "<_Skeleton_|Evade_Front>[0]",
+			"FBXUid[0]": 283675618,
+			"GUID[0]": {
+				"Word[0]": 7535207152725415777,
+				"Word[1]": -6265578697347663100,
+				"Word[2]": 2867505989693206253,
+				"Word[3]": 1164034734376330475
+			},
+			"Name[0]": "_Skeleton_|Evade_Front"
+		},
+		"Mapping[74]": {
+			"FBXId[0]": "<_Skeleton_|Evade_Left>[0]",
+			"FBXUid[0]": 590111895,
+			"GUID[0]": {
+				"Word[0]": -5426147654435900972,
+				"Word[1]": 1097024779394045299,
+				"Word[2]": 8781714908938613734,
+				"Word[3]": -8360185944104136853
+			},
+			"Name[0]": "_Skeleton_|Evade_Left"
+		},
+		"Mapping[75]": {
+			"FBXId[0]": "<_Skeleton_|Evade_Right>[0]",
+			"FBXUid[0]": 737806147,
+			"GUID[0]": {
+				"Word[0]": 1443232552183122514,
+				"Word[1]": -3093508481852992835,
+				"Word[2]": 5918946489880317205,
+				"Word[3]": 8992884797043582222
+			},
+			"Name[0]": "_Skeleton_|Evade_Right"
+		},
+		"Mapping[76]": {
+			"FBXId[0]": "<_Skeleton_|Guard_Equipped>[0]",
+			"FBXUid[0]": 888951268,
+			"GUID[0]": {
+				"Word[0]": -4613695063947676306,
+				"Word[1]": 1392056937559238414,
+				"Word[2]": 2579363395230430036,
+				"Word[3]": 1679369688694652161
+			},
+			"Name[0]": "_Skeleton_|Guard_Equipped"
+		},
+		"Mapping[77]": {
+			"FBXId[0]": "<_Skeleton_|Guard_Equipped_Broken>[0]",
+			"FBXUid[0]": 183305199,
+			"GUID[0]": {
+				"Word[0]": 1814086938388467599,
+				"Word[1]": 4871296345000819160,
+				"Word[2]": 842398874821764589,
+				"Word[3]": -1108332664532153218
+			},
+			"Name[0]": "_Skeleton_|Guard_Equipped_Broken"
+		},
+		"Mapping[78]": {
+			"FBXId[0]": "<_Skeleton_|Hit_Combat_Back>[0]",
+			"FBXUid[0]": 520409411,
+			"GUID[0]": {
+				"Word[0]": -7401607831701361916,
+				"Word[1]": -7146539099063017767,
+				"Word[2]": -1054186152184621181,
+				"Word[3]": -7914373434224654159
+			},
+			"Name[0]": "_Skeleton_|Hit_Combat_Back"
+		},
+		"Mapping[79]": {
+			"FBXId[0]": "<_Skeleton_|Hit_Combat_Front>[0]",
+			"FBXUid[0]": 723303849,
+			"GUID[0]": {
+				"Word[0]": 2309102490957231025,
+				"Word[1]": -7353596809268968196,
+				"Word[2]": -3623679340066024938,
+				"Word[3]": 1116636218153251241
+			},
+			"Name[0]": "_Skeleton_|Hit_Combat_Front"
+		},
+		"Mapping[7]": {
+			"FBXId[0]": "<_Skeleton_|Attack_Equipped_Chain_Fix_Later>[0]",
+			"FBXUid[0]": 225238040,
+			"GUID[0]": {
+				"Word[0]": -1500238673378055316,
+				"Word[1]": 3690852405797961238,
+				"Word[2]": 7261364630598082591,
+				"Word[3]": 2251719724691085189
+			},
+			"Name[0]": "_Skeleton_|Attack_Equipped_Chain_Fix_Later"
+		},
+		"Mapping[80]": {
+			"FBXId[0]": "<_Skeleton_|Hit_Combat_Left>[0]",
+			"FBXUid[0]": 402433609,
+			"GUID[0]": {
+				"Word[0]": -8831303022630172635,
+				"Word[1]": 6426560494562917451,
+				"Word[2]": -2584896989527440993,
+				"Word[3]": -7513309203996943685
+			},
+			"Name[0]": "_Skeleton_|Hit_Combat_Left"
+		},
+		"Mapping[81]": {
+			"FBXId[0]": "<_Skeleton_|Hit_Combat_Right>[0]",
+			"FBXUid[0]": 441090133,
+			"GUID[0]": {
+				"Word[0]": 4272663002547969577,
+				"Word[1]": -5927178714905152795,
+				"Word[2]": 4051748267488170189,
+				"Word[3]": -1056636412115979288
+			},
+			"Name[0]": "_Skeleton_|Hit_Combat_Right"
+		},
+		"Mapping[82]": {
+			"FBXId[0]": "<_Skeleton_|Hit_Crouched>[0]",
+			"FBXUid[0]": 590713138,
+			"GUID[0]": {
+				"Word[0]": -7401573042121244275,
+				"Word[1]": 8553419267060902541,
+				"Word[2]": 9101320335264481040,
+				"Word[3]": -8634524153750987343
+			},
+			"Name[0]": "_Skeleton_|Hit_Crouched"
+		},
+		"Mapping[83]": {
+			"FBXId[0]": "<_Skeleton_|Hit_Guard>[0]",
+			"FBXUid[0]": 399421347,
+			"GUID[0]": {
+				"Word[0]": -7691786411329907072,
+				"Word[1]": -419703280097609528,
+				"Word[2]": 7863856801723160852,
+				"Word[3]": -1246842827854712747
+			},
+			"Name[0]": "_Skeleton_|Hit_Guard"
+		},
+		"Mapping[84]": {
+			"FBXId[0]": "<_Skeleton_|Hit_Guard_Break>[0]",
+			"FBXUid[0]": 815817310,
+			"GUID[0]": {
+				"Word[0]": -4781224353709168410,
+				"Word[1]": -1228511503483917312,
+				"Word[2]": 4422705278904085535,
+				"Word[3]": -4291538006028033716
+			},
+			"Name[0]": "_Skeleton_|Hit_Guard_Break"
+		},
+		"Mapping[85]": {
+			"FBXId[0]": "<_Skeleton_|Hit_Standing_Back>[0]",
+			"FBXUid[0]": 220250048,
+			"GUID[0]": {
+				"Word[0]": -7637983211969701226,
+				"Word[1]": 7714336539904074280,
+				"Word[2]": -1503748913533768058,
+				"Word[3]": -7754753127354527523
+			},
+			"Name[0]": "_Skeleton_|Hit_Standing_Back"
+		},
+		"Mapping[86]": {
+			"FBXId[0]": "<_Skeleton_|Hit_Standing_Front>[0]",
+			"FBXUid[0]": 277586229,
+			"GUID[0]": {
+				"Word[0]": -3122387225016712810,
+				"Word[1]": -5447035117221610067,
+				"Word[2]": -2004841560860881677,
+				"Word[3]": 4269646123159213214
+			},
+			"Name[0]": "_Skeleton_|Hit_Standing_Front"
+		},
+		"Mapping[87]": {
+			"FBXId[0]": "<_Skeleton_|Hit_Standing_Left>[0]",
+			"FBXUid[0]": 219196360,
+			"GUID[0]": {
+				"Word[0]": 4125895397746757810,
+				"Word[1]": -1883211857919160952,
+				"Word[2]": -5405112963712839494,
+				"Word[3]": 6704696476652490935
+			},
+			"Name[0]": "_Skeleton_|Hit_Standing_Left"
+		},
+		"Mapping[88]": {
+			"FBXId[0]": "<_Skeleton_|Hit_Standing_Right>[0]",
+			"FBXUid[0]": 967591011,
+			"GUID[0]": {
+				"Word[0]": -52574949548866546,
+				"Word[1]": 7393460780888026600,
+				"Word[2]": 6809258071954927843,
+				"Word[3]": -3669327515364885282
+			},
+			"Name[0]": "_Skeleton_|Hit_Standing_Right"
+		},
+		"Mapping[89]": {
+			"FBXId[0]": "<_Skeleton_|Idle_0>[0]",
+			"FBXUid[0]": 898640863,
+			"GUID[0]": {
+				"Word[0]": -2976613737031193334,
+				"Word[1]": -4974777657309008401,
+				"Word[2]": -4886707972097669871,
+				"Word[3]": -4567441201959522165
+			},
+			"Name[0]": "_Skeleton_|Idle_0"
+		},
+		"Mapping[8]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[H]>[0]",
+			"FBXUid[0]": 562614299,
+			"GUID[0]": {
+				"Word[0]": 2484930650500458629,
+				"Word[1]": -6199776915372576091,
+				"Word[2]": 5372613749392877568,
+				"Word[3]": -8398544788368795049
+			},
+			"Name[0]": "_Skeleton_|Attack_[H]"
+		},
+		"Mapping[90]": {
+			"FBXId[0]": "<_Skeleton_|Idle_1>[0]",
+			"FBXUid[0]": 481845490,
+			"GUID[0]": {
+				"Word[0]": -1276332721398920292,
+				"Word[1]": 3362766232912983251,
+				"Word[2]": 7879799477877570577,
+				"Word[3]": -8673075931639883096
+			},
+			"Name[0]": "_Skeleton_|Idle_1"
+		},
+		"Mapping[91]": {
+			"FBXId[0]": "<_Skeleton_|Idle_Broken>[0]",
+			"FBXUid[0]": 740932746,
+			"GUID[0]": {
+				"Word[0]": 2741025801932090975,
+				"Word[1]": 2873483410266218434,
+				"Word[2]": 6857584184472010918,
+				"Word[3]": -9026850427225806939
+			},
+			"Name[0]": "_Skeleton_|Idle_Broken"
+		},
+		"Mapping[92]": {
+			"FBXId[0]": "<_Skeleton_|Idle_Combat>[0]",
+			"FBXUid[0]": 554160732,
+			"GUID[0]": {
+				"Word[0]": -5304531572176740806,
+				"Word[1]": -2492525127024241491,
+				"Word[2]": 9111147905995198521,
+				"Word[3]": -2647719227272542340
+			},
+			"Name[0]": "_Skeleton_|Idle_Combat"
+		},
+		"Mapping[93]": {
+			"FBXId[0]": "<_Skeleton_|Idle_Combat_Broken>[0]",
+			"FBXUid[0]": 93178924,
+			"GUID[0]": {
+				"Word[0]": -2734035935392510492,
+				"Word[1]": -158233095374840991,
+				"Word[2]": -6108076027270802935,
+				"Word[3]": 6857593968480649827
+			},
+			"Name[0]": "_Skeleton_|Idle_Combat_Broken"
+		},
+		"Mapping[94]": {
+			"FBXId[0]": "<_Skeleton_|Idle_Crouched>[0]",
+			"FBXUid[0]": 255055274,
+			"GUID[0]": {
+				"Word[0]": -287673549326030302,
+				"Word[1]": 5932979999340050658,
+				"Word[2]": -2626309294886652768,
+				"Word[3]": -5022122290080503244
+			},
+			"Name[0]": "_Skeleton_|Idle_Crouched"
+		},
+		"Mapping[95]": {
+			"FBXId[0]": "<_Skeleton_|Idle_Crouched_Broken>[0]",
+			"FBXUid[0]": 1876571,
+			"GUID[0]": {
+				"Word[0]": 3014314318086995567,
+				"Word[1]": -4676289842108797620,
+				"Word[2]": 631618992491773095,
+				"Word[3]": -7464709967386548469
+			},
+			"Name[0]": "_Skeleton_|Idle_Crouched_Broken"
+		},
+		"Mapping[96]": {
+			"FBXId[0]": "<_Skeleton_|Jump_Airborne>[0]",
+			"FBXUid[0]": 9120958,
+			"GUID[0]": {
+				"Word[0]": 405820028647147201,
+				"Word[1]": 4065181234608305294,
+				"Word[2]": -4305501017321847087,
+				"Word[3]": 2579270471680143832
+			},
+			"Name[0]": "_Skeleton_|Jump_Airborne"
+		},
+		"Mapping[97]": {
+			"FBXId[0]": "<_Skeleton_|Jump_Airborne_Move>[0]",
+			"FBXUid[0]": 616062602,
+			"GUID[0]": {
+				"Word[0]": -3187221428364491115,
+				"Word[1]": -8906988150749747977,
+				"Word[2]": -2698659303144784149,
+				"Word[3]": -6105710849943592674
+			},
+			"Name[0]": "_Skeleton_|Jump_Airborne_Move"
+		},
+		"Mapping[98]": {
+			"FBXId[0]": "<_Skeleton_|Jump_Land>[0]",
+			"FBXUid[0]": 708476222,
+			"GUID[0]": {
+				"Word[0]": 5504632736515157527,
+				"Word[1]": 1325357973983890677,
+				"Word[2]": 3010527337316798930,
+				"Word[3]": 3941851066776145277
+			},
+			"Name[0]": "_Skeleton_|Jump_Land"
+		},
+		"Mapping[99]": {
+			"FBXId[0]": "<_Skeleton_|Jump_Land_Move>[0]",
+			"FBXUid[0]": 757957621,
+			"GUID[0]": {
+				"Word[0]": -2663357068691692395,
+				"Word[1]": -4970472818512874280,
+				"Word[2]": 507212962406066231,
+				"Word[3]": -8408048747120137178
+			},
+			"Name[0]": "_Skeleton_|Jump_Land_Move"
+		},
+		"Mapping[9]": {
+			"FBXId[0]": "<_Skeleton_|Attack_[H]_Buildup>[0]",
+			"FBXUid[0]": 4533946,
+			"GUID[0]": {
+				"Word[0]": 600061622251456006,
+				"Word[1]": -7730448160623904380,
+				"Word[2]": -5398614724675944109,
+				"Word[3]": -2802733952011365381
+			},
+			"Name[0]": "_Skeleton_|Attack_[H]_Buildup"
+		}
+	},
+	"Collision meshes[0]": {
+		"Count[0]": 12,
+		"Mapping[0]": {
+			"FBXId[0]": "<DefaultGuy_Batteries_Hand_L>[0]",
+			"GUID[0]": {
+				"Word[0]": 5486769817184445134,
+				"Word[1]": -5182758676106149259,
+				"Word[2]": 7169438928206458301,
+				"Word[3]": -7611480268096444787
+			}
+		},
+		"Mapping[10]": {
+			"FBXId[0]": "<DefaultGuy_Legs>[0]",
+			"GUID[0]": {
+				"Word[0]": -519074859115532878,
+				"Word[1]": 7489196129517877557,
+				"Word[2]": -2612644254464561280,
+				"Word[3]": -4101177785897446028
+			}
+		},
+		"Mapping[11]": {
+			"FBXId[0]": "<DefaultGuy_Torso>[0]",
+			"GUID[0]": {
+				"Word[0]": 4881327995262983562,
+				"Word[1]": 72991329617149315,
+				"Word[2]": 1285059336832094934,
+				"Word[3]": -5440529086613475281
+			}
+		},
+		"Mapping[1]": {
+			"FBXId[0]": "<DefaultGuy_Batteries_Hand_R>[0]",
+			"GUID[0]": {
+				"Word[0]": -2697337451538441025,
+				"Word[1]": 8351122818174916504,
+				"Word[2]": 2686622671246873124,
+				"Word[3]": 5124044449801169577
+			}
+		},
+		"Mapping[2]": {
+			"FBXId[0]": "<DefaultGuy_Batteries_Leg_L>[0]",
+			"GUID[0]": {
+				"Word[0]": 3599188198806354459,
+				"Word[1]": -2738710713700999978,
+				"Word[2]": 1154712869897274369,
+				"Word[3]": 1140543363531701006
+			}
+		},
+		"Mapping[3]": {
+			"FBXId[0]": "<DefaultGuy_Batteries_Leg_R>[0]",
+			"GUID[0]": {
+				"Word[0]": 8969072374437619561,
+				"Word[1]": 4411474640240849335,
+				"Word[2]": 5679657862730846527,
+				"Word[3]": 8222554210094844807
+			}
+		},
+		"Mapping[4]": {
+			"FBXId[0]": "<DefaultGuy_Batteries_Torso_Belt>[0]",
+			"GUID[0]": {
+				"Word[0]": 2999202559969929643,
+				"Word[1]": -5628697896485726369,
+				"Word[2]": -6696143414253477072,
+				"Word[3]": 7406329361942756387
+			}
+		},
+		"Mapping[5]": {
+			"FBXId[0]": "<DefaultGuy_Batteries_Torso_Chest>[0]",
+			"GUID[0]": {
+				"Word[0]": 33338523284482988,
+				"Word[1]": 5973596252362749031,
+				"Word[2]": -3571807456135584519,
+				"Word[3]": 3392470560473517314
+			}
+		},
+		"Mapping[6]": {
+			"FBXId[0]": "<DefaultGuy_Hands>[0]",
+			"GUID[0]": {
+				"Word[0]": -8784406703349615558,
+				"Word[1]": -5668669370149723955,
+				"Word[2]": -3787895105475006422,
+				"Word[3]": -2271646563319005304
+			}
+		},
+		"Mapping[7]": {
+			"FBXId[0]": "<DefaultGuy_Head>[0]",
+			"GUID[0]": {
+				"Word[0]": -8001351118281976568,
+				"Word[1]": 8713843130547636754,
+				"Word[2]": -6855289166708073711,
+				"Word[3]": 2797934949037282872
+			}
+		},
+		"Mapping[8]": {
+			"FBXId[0]": "<DefaultGuy_Hook_L>[0]",
+			"GUID[0]": {
+				"Word[0]": -4672547707391413536,
+				"Word[1]": 1291436318010482976,
+				"Word[2]": 4264058894190680883,
+				"Word[3]": 7184601114664208058
+			}
+		},
+		"Mapping[9]": {
+			"FBXId[0]": "<DefaultGuy_Hook_R>[0]",
+			"GUID[0]": {
+				"Word[0]": -5535210798979097677,
+				"Word[1]": 3666492579916507111,
+				"Word[2]": 1921593541363500375,
+				"Word[3]": -8927562777647832122
+			}
+		}
+	},
+	"Hierarchy[0]": {
+		"Word[0]": -1530285303230441494,
+		"Word[1]": -5759540577317012513,
+		"Word[2]": 8988260237150054605,
+		"Word[3]": 6745521580195079859
+	},
+	"Polygonal meshes[0]": {
+		"Count[0]": 12,
+		"Mapping[0]": {
+			"FBXId[0]": "<DefaultGuy_Batteries_Hand_L>[0]",
+			"FBXUid[0]": 787978130,
+			"GUID[0]": {
+				"Word[0]": -9008116538272316585,
+				"Word[1]": 3120254020088751992,
+				"Word[2]": 8045284220793941637,
+				"Word[3]": -5008311130958040465
+			},
+			"IsSkinned[0]": false,
+			"Name[0]": "DefaultGuy_Batteries_Hand_L"
+		},
+		"Mapping[10]": {
+			"FBXId[0]": "<DefaultGuy_Legs>[0]",
+			"FBXUid[0]": 572190351,
+			"GUID[0]": {
+				"Word[0]": 5130864216398643632,
+				"Word[1]": 3683944848717602953,
+				"Word[2]": 4017049143956644756,
+				"Word[3]": 706924037629150957
+			},
+			"IsSkinned[0]": true,
+			"Name[0]": "DefaultGuy_Legs"
+		},
+		"Mapping[11]": {
+			"FBXId[0]": "<DefaultGuy_Torso>[0]",
+			"FBXUid[0]": 514928136,
+			"GUID[0]": {
+				"Word[0]": -5939062593239760089,
+				"Word[1]": -2948196268679653439,
+				"Word[2]": 8128339794171007487,
+				"Word[3]": 4195845015182959537
+			},
+			"IsSkinned[0]": true,
+			"Name[0]": "DefaultGuy_Torso"
+		},
+		"Mapping[1]": {
+			"FBXId[0]": "<DefaultGuy_Batteries_Hand_R>[0]",
+			"FBXUid[0]": 343346735,
+			"GUID[0]": {
+				"Word[0]": 3858392731100192094,
+				"Word[1]": -4033236508885270602,
+				"Word[2]": -1316351752181793438,
+				"Word[3]": 6649260723220957253
+			},
+			"IsSkinned[0]": false,
+			"Name[0]": "DefaultGuy_Batteries_Hand_R"
+		},
+		"Mapping[2]": {
+			"FBXId[0]": "<DefaultGuy_Batteries_Leg_L>[0]",
+			"FBXUid[0]": 719804019,
+			"GUID[0]": {
+				"Word[0]": 5913128421969056500,
+				"Word[1]": 1612397228109565038,
+				"Word[2]": 7615560985770325686,
+				"Word[3]": -8359405729963686632
+			},
+			"IsSkinned[0]": false,
+			"Name[0]": "DefaultGuy_Batteries_Leg_L"
+		},
+		"Mapping[3]": {
+			"FBXId[0]": "<DefaultGuy_Batteries_Leg_R>[0]",
+			"FBXUid[0]": 483027945,
+			"GUID[0]": {
+				"Word[0]": 3118494319419663934,
+				"Word[1]": -5443195866996203665,
+				"Word[2]": 1308569824566693383,
+				"Word[3]": -6458058741630650877
+			},
+			"IsSkinned[0]": false,
+			"Name[0]": "DefaultGuy_Batteries_Leg_R"
+		},
+		"Mapping[4]": {
+			"FBXId[0]": "<DefaultGuy_Batteries_Torso_Belt>[0]",
+			"FBXUid[0]": 976699716,
+			"GUID[0]": {
+				"Word[0]": 1834264482025356153,
+				"Word[1]": 9167119834399810331,
+				"Word[2]": -9126045678228192716,
+				"Word[3]": 2412432419406350453
+			},
+			"IsSkinned[0]": true,
+			"Name[0]": "DefaultGuy_Batteries_Torso_Belt"
+		},
+		"Mapping[5]": {
+			"FBXId[0]": "<DefaultGuy_Batteries_Torso_Chest>[0]",
+			"FBXUid[0]": 904823477,
+			"GUID[0]": {
+				"Word[0]": -157320007033591290,
+				"Word[1]": 2942281008675317631,
+				"Word[2]": -622961236740296608,
+				"Word[3]": -1883198151320281190
+			},
+			"IsSkinned[0]": false,
+			"Name[0]": "DefaultGuy_Batteries_Torso_Chest"
+		},
+		"Mapping[6]": {
+			"FBXId[0]": "<DefaultGuy_Hands>[0]",
+			"FBXUid[0]": 46044237,
+			"GUID[0]": {
+				"Word[0]": -2803328221774397886,
+				"Word[1]": -4650370639051300742,
+				"Word[2]": 3789193757811752135,
+				"Word[3]": -8201004990452179991
+			},
+			"IsSkinned[0]": true,
+			"Name[0]": "DefaultGuy_Hands"
+		},
+		"Mapping[7]": {
+			"FBXId[0]": "<DefaultGuy_Head>[0]",
+			"FBXUid[0]": 249201164,
+			"GUID[0]": {
+				"Word[0]": 7973237541240545672,
+				"Word[1]": -6300941624096034444,
+				"Word[2]": -4219481688164635799,
+				"Word[3]": -3570965231739768041
+			},
+			"IsSkinned[0]": false,
+			"Name[0]": "DefaultGuy_Head"
+		},
+		"Mapping[8]": {
+			"FBXId[0]": "<DefaultGuy_Hook_L>[0]",
+			"FBXUid[0]": 94599787,
+			"GUID[0]": {
+				"Word[0]": -7604204422021479744,
+				"Word[1]": -5497757186932295801,
+				"Word[2]": -8275072008462681454,
+				"Word[3]": 5240598742654275254
+			},
+			"IsSkinned[0]": false,
+			"Name[0]": "DefaultGuy_Hook_L"
+		},
+		"Mapping[9]": {
+			"FBXId[0]": "<DefaultGuy_Hook_R>[0]",
+			"FBXUid[0]": 531525563,
+			"GUID[0]": {
+				"Word[0]": -7880190107869599763,
+				"Word[1]": 577014839099687683,
+				"Word[2]": -8560865932019730391,
+				"Word[3]": -5126221139454163741
+			},
+			"IsSkinned[0]": false,
+			"Name[0]": "DefaultGuy_Hook_R"
+		}
+	},
+	"Triangle meshes[0]": {
+		"Count[0]": 12,
+		"Mapping[0]": {
+			"FBXId[0]": "<DefaultGuy_Batteries_Hand_L>[0]",
+			"GUID[0]": {
+				"Word[0]": 5800890903076456397,
+				"Word[1]": 8552291057909061232,
+				"Word[2]": -2360291801993412100,
+				"Word[3]": -2788863670651442403
+			}
+		},
+		"Mapping[10]": {
+			"FBXId[0]": "<DefaultGuy_Legs>[0]",
+			"GUID[0]": {
+				"Word[0]": 4871316695985033039,
+				"Word[1]": -1112607499798405949,
+				"Word[2]": -5909257670937487203,
+				"Word[3]": -5686328771193847601
+			}
+		},
+		"Mapping[11]": {
+			"FBXId[0]": "<DefaultGuy_Torso>[0]",
+			"GUID[0]": {
+				"Word[0]": 8696708908640509451,
+				"Word[1]": -4986878726314057117,
+				"Word[2]": -6267846364221424033,
+				"Word[3]": -6542115501625158449
+			}
+		},
+		"Mapping[1]": {
+			"FBXId[0]": "<DefaultGuy_Batteries_Hand_R>[0]",
+			"GUID[0]": {
+				"Word[0]": 6202702010100044721,
+				"Word[1]": 8909842667842042821,
+				"Word[2]": -7442073086531511645,
+				"Word[3]": -3661779580203972925
+			}
+		},
+		"Mapping[2]": {
+			"FBXId[0]": "<DefaultGuy_Batteries_Leg_L>[0]",
+			"GUID[0]": {
+				"Word[0]": 7183053965690114191,
+				"Word[1]": 1634454472369306433,
+				"Word[2]": 6522772245805246380,
+				"Word[3]": 5030365468922199178
+			}
+		},
+		"Mapping[3]": {
+			"FBXId[0]": "<DefaultGuy_Batteries_Leg_R>[0]",
+			"GUID[0]": {
+				"Word[0]": 7711576994334998765,
+				"Word[1]": -4258949887850450931,
+				"Word[2]": -1384555195895032198,
+				"Word[3]": -4611633152052108837
+			}
+		},
+		"Mapping[4]": {
+			"FBXId[0]": "<DefaultGuy_Batteries_Torso_Belt>[0]",
+			"GUID[0]": {
+				"Word[0]": 3736743781386529603,
+				"Word[1]": 7881134294619988440,
+				"Word[2]": 2333063767082655769,
+				"Word[3]": 6138469231832547100
+			}
+		},
+		"Mapping[5]": {
+			"FBXId[0]": "<DefaultGuy_Batteries_Torso_Chest>[0]",
+			"GUID[0]": {
+				"Word[0]": -3367845026579199267,
+				"Word[1]": 4052147000241533008,
+				"Word[2]": -3589726805578814398,
+				"Word[3]": 1080736185692324127
+			}
+		},
+		"Mapping[6]": {
+			"FBXId[0]": "<DefaultGuy_Hands>[0]",
+			"GUID[0]": {
+				"Word[0]": 2652764033591787545,
+				"Word[1]": 1581240144058581496,
+				"Word[2]": 1014149375852096702,
+				"Word[3]": -1017599771411216938
+			}
+		},
+		"Mapping[7]": {
+			"FBXId[0]": "<DefaultGuy_Head>[0]",
+			"GUID[0]": {
+				"Word[0]": -7245132339392745969,
+				"Word[1]": 5560740735116411447,
+				"Word[2]": -7176521711981720073,
+				"Word[3]": 8784526629063724185
+			}
+		},
+		"Mapping[8]": {
+			"FBXId[0]": "<DefaultGuy_Hook_L>[0]",
+			"GUID[0]": {
+				"Word[0]": -3534148694319501262,
+				"Word[1]": -6980279521587733443,
+				"Word[2]": -1729665445057169592,
+				"Word[3]": 5550438467035076412
+			}
+		},
+		"Mapping[9]": {
+			"FBXId[0]": "<DefaultGuy_Hook_R>[0]",
+			"GUID[0]": {
+				"Word[0]": -184406066140675813,
+				"Word[1]": -1272712803541710040,
+				"Word[2]": 7149873956213726344,
+				"Word[3]": 6613557920973847724
+			}
+		}
+	}
+}

@@ -5,6 +5,8 @@
 
 namespace Game {
 	JIMARA_REGISTER_TYPE(Game::CharacterMovementController);
+	JIMARA_REGISTER_TYPE(Game::CharacterMovementController::Speed);
+	JIMARA_REGISTER_TYPE(Game::CharacterMovementController::Jumped);
 	JIMARA_REGISTER_TYPE(Game::PlayerMovementInput);
 	JIMARA_REGISTER_TYPE(Game::PlayerJumpInput);
 
@@ -24,6 +26,7 @@ namespace Game {
 				JIMARA_SERIALIZE_FIELD(m_acceleration, "Acceleration", "Velocity change rate");
 				JIMARA_SERIALIZE_FIELD(m_jumpInput, "Jump Input", "Jump-request input");
 				JIMARA_SERIALIZE_FIELD(m_jumpVelocity, "Jump Velocity", "Jump vertical velocity");
+				JIMARA_SERIALIZE_FIELD(m_jumpDelay, "Jump Delay", "Jump velocity-apply delay");
 				JIMARA_SERIALIZE_FIELD(m_groundCheck, "Ground Check", "Cround-check input");
 			};
 		}
@@ -48,10 +51,22 @@ namespace Game {
 
 			const float deltaTime = Context()->Time()->ScaledDeltaTime();
 
+			if (shouldJump && m_jumpTimer <= 0.0f)
+				m_jumpTimer = Math::Max(m_jumpDelay, deltaTime * 0.5f);
+
+			bool shouldApplyJumpVelocity = false;
+			if (m_jumpTimer > 0.0f) {
+				m_jumpTimer -= deltaTime;
+				if (m_jumpTimer <= 0.0f) {
+					shouldApplyJumpVelocity = true;
+					m_jumpTimer = -1.0f;
+				}
+			}
+
 			Vector3 velocity = body->Velocity();
 			velocity = Vector3(
 				Math::RateInvariantErp(velocity.x, movementInput.x * m_maxVelocity, deltaTime * m_acceleration),
-				shouldJump ? m_jumpVelocity : velocity.y,
+				shouldApplyJumpVelocity ? m_jumpVelocity : velocity.y,
 				Math::RateInvariantErp(velocity.z, movementInput.y * m_maxVelocity, deltaTime * m_acceleration));
 
 			body->SetVelocity(velocity);
@@ -67,6 +82,10 @@ namespace Game {
 			const float deltaB = (deltaA <= 0) ? (360.0f + deltaA) : (deltaA - 360.0f);
 			const float delta = ((std::abs(deltaA) < std::abs(deltaB)) ? deltaA : deltaB);
 			body->SetAngularVelocity(delta * Math::Min(m_rotationSpeed * 0.25f, 0.25f) / deltaTime * Math::Up());
+
+			m_speed = (std::abs(m_maxVelocity) <= std::numeric_limits<float>::epsilon()) ? 0.0f :
+				(Math::Magnitude(Vector2(velocity.x, velocity.z)) / m_maxVelocity);
+			m_jumped = shouldJump;
 		}
 
 	private:
@@ -77,7 +96,16 @@ namespace Game {
 		float m_rotationSpeed = 1.0f;
 		WeakReference<InputProvider<bool>> m_jumpInput;
 		float m_jumpVelocity = 4.0f;
+		float m_jumpDelay = 0.01f;
 		WeakReference<InputProvider<bool>> m_groundCheck;
+
+		float m_speed = 0.0f;
+		float m_jumpTimer = -1.0f;
+		bool m_jumped = false;
+
+	public:
+		DT_IMPLEMENT_FIELD_INPUT_COMPONENT(Speed, CharacterMovementController, m_speed);
+		DT_IMPLEMENT_FIELD_INPUT_COMPONENT(Jumped, CharacterMovementController, m_jumped);
 	};
 
 	class PlayerMovementInput : public virtual ::Jimara::VectorInput::ComponentFrom<Vector2> {
@@ -130,5 +158,7 @@ namespace Game {
 }
 
 DT_EXPOSE_COMPONENT_DETAILS(::Game::CharacterMovementController, "Game/Player/CharacterMovementController", "");
+DT_EXPOSE_COMPONENT_DETAILS(::Game::CharacterMovementController::Speed, "Game/Player/CharacterMovementController/Speed", "");
+DT_EXPOSE_COMPONENT_DETAILS(::Game::CharacterMovementController::Jumped, "Game/Player/CharacterMovementController/Jumped", "");
 DT_EXPOSE_COMPONENT_DETAILS(::Game::PlayerMovementInput, "Game/Player/PlayerMovementInput", "");
 DT_EXPOSE_COMPONENT_DETAILS(::Game::PlayerJumpInput, "Game/Player/PlayerJumpInput", "");

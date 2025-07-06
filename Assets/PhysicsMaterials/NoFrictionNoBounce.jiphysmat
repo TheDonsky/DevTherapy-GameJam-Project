@@ -1,7 +1,7 @@
 {
 	"Bounciness Combine[0]": 2,
 	"Bounciness[0]": 0.0,
-	"Dynamic Friction[0]": 1.0,
+	"Dynamic Friction[0]": 0.0,
 	"Friction Combine[0]": 2,
-	"Static Friction[0]": 1.0
+	"Static Friction[0]": 0.0
 }
