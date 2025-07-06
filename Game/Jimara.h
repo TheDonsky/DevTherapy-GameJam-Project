@@ -9,6 +9,7 @@
 #include <Jimara/Components/Physics/Collider.h>
 #include <Jimara/Components/Physics/Rigidbody.h>
 #include <Jimara/Components/Animation/Animator.h>
+#include <Jimara/Components/Audio/AudioSource.h>
 #include <Jimara/Components/GraphicsObjects/ParticleRenderer.h>
 #include <Jimara/Core/EnumClassBooleanOperands.h>
 #include <Jimara-GenericInputs/Base/VectorInput.h>
@@ -62,6 +63,7 @@ namespace Game {
 	using Collider = ::Jimara::Collider;
 	using Animator = ::Jimara::Animator;
 	using Camera = ::Jimara::Camera;
+	using AudioSource = ::Jimara::AudioSource;
 
 	using SerializedObject = ::Jimara::Serialization::SerializedObject;
 	using ReportFiedlFn = Callback<SerializedObject>;

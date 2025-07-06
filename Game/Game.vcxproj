@@ -246,7 +246,9 @@ python "%JIMARA_REPO%\__Scripts__\jimara_implement_type_registrator.py" %game_sr
     <ClInclude Include="Player\CharacterMovementController.h" />
     <ClInclude Include="Player\ReturnToGroundIfKillPlaneReached.h" />
     <ClInclude Include="TypeRegistry.h" />
+    <ClInclude Include="Utilities\AudioVolumeFade.h" />
     <ClInclude Include="Utilities\ParticleSystemGroup.h" />
+    <ClInclude Include="Utilities\SoundSequencePlayer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
