@@ -1,1 +1,59 @@
-{}
+{
+	"Shader[0]": "Jimara/Data/Materials/PBR/Jimara_PBR_Shader_Opaque",
+	"albedo[0]": [
+		1.0,
+		1.0,
+		1.0
+	],
+	"baseColor[0]": {
+		"Word[0]": 9104966551721096141,
+		"Word[1]": 445202934919603661,
+		"Word[2]": -6849408379390732805,
+		"Word[3]": 2461022012785382479
+	},
+	"emissionMap[0]": {
+		"Word[0]": 0,
+		"Word[1]": 0,
+		"Word[2]": 0,
+		"Word[3]": 0
+	},
+	"emission[0]": [
+		0.0,
+		0.0,
+		0.0
+	],
+	"metalnessMap[0]": {
+		"Word[0]": 0,
+		"Word[1]": 0,
+		"Word[2]": 0,
+		"Word[3]": 0
+	},
+	"metalness[0]": 0.0,
+	"normalMap[0]": {
+		"Word[0]": 7350398931892109969,
+		"Word[1]": -1401036352085246486,
+		"Word[2]": 4916336047980911038,
+		"Word[3]": 5871228155065257253
+	},
+	"occlusionMap[0]": {
+		"Word[0]": 0,
+		"Word[1]": 0,
+		"Word[2]": 0,
+		"Word[3]": 0
+	},
+	"offset[0]": [
+		0.0,
+		0.0
+	],
+	"roughnessMap[0]": {
+		"Word[0]": 0,
+		"Word[1]": 0,
+		"Word[2]": 0,
+		"Word[3]": 0
+	},
+	"roughness[0]": 0.7540000081062317,
+	"tiling[0]": [
+		1.0,
+		1.0
+	]
+}
