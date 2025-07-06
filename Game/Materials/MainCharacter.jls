@@ -1,0 +1,95 @@
+#include "Data/Materials/PBR/PBR.glh"
+
+// Expose Editor name and discription:
+#pragma JM_MaterialPath(name = "DefaultGuy", path = "Game/DefaultGuy", hint = "Material For Default-Guy");
+
+// We blend as opaque:
+#pragma JM_BlendMode JM_Blend_Opaque
+
+// Flags:
+#pragma JM_MaterialFlags 0
+
+// Settings:
+#pragma JM_MaterialProperty(alias = "MetalHighlightMask", hint = "") sampler2D metalHighlightMask;
+#pragma JM_MaterialProperty(alias = "NonMetalMask", hint = "") sampler2D nonMetalMask;
+#pragma JM_MaterialProperty(alias = "EmissiveMask", hint = "") sampler2D emissiveMask;
+
+#pragma JM_MaterialProperty(alias = "MetalAlbedo", hint = "Main color of the material", default = { 1.0f, 1.0f, 1.0f }, color = true) vec3 metalAlbedo;
+#pragma JM_MaterialProperty(alias = "MetalMetalness", hint = "Tells if the material is metallic or dielectric", range = { 0.0, 1.0 }) float metalMetalness;
+#pragma JM_MaterialProperty(alias = "MetalRoughness", hint = "Tells how rough the material surface is", range = { 0.0, 1.0 }) float metalRoughness;
+
+#pragma JM_MaterialProperty(alias = "HighlightAlbedo", hint = "Main color of the material", default = { 1.0f, 1.0f, 1.0f }, color = true) vec3 highlightAlbedo;
+#pragma JM_MaterialProperty(alias = "HighlightMetalness", hint = "Tells if the material is metallic or dielectric", range = { 0.0, 1.0 }) float highlightMetalness;
+#pragma JM_MaterialProperty(alias = "HighlightRoughness", hint = "Tells how rough the material surface is", range = { 0.0, 1.0 }) float highlightRoughness;
+
+#pragma JM_MaterialProperty(alias = "NonMetalAlbedo", hint = "Main color of the material", default = { 1.0f, 1.0f, 1.0f }, color = true) vec3 nonMetalAlbedo;
+#pragma JM_MaterialProperty(alias = "NonMetalMetalness", hint = "Tells if the material is metallic or dielectric", range = { 0.0, 1.0 }) float nonMetalMetalness;
+#pragma JM_MaterialProperty(alias = "NonMetalRoughness", hint = "Tells how rough the material surface is", range = { 0.0, 1.0 }) float nonMetalRoughness;
+
+#pragma JM_MaterialProperty(alias = "EmissionColor", hint = "Main color of the material", default = { 1.0f, 1.0f, 1.0f }, color = true) vec3 emissionColor;
+
+
+// Fragment input: 
+#pragma JM_FragmentField vec3 normal;
+#pragma JM_FragmentField vec2 uv;
+
+// Shading state
+struct JM_ShadingState {
+    vec4 emission;
+    vec3 position;
+	vec3 normal;
+	vec3 albedo;
+	float metalness;
+	float roughness;
+};
+#pragma JM_ShadingStateSize (Jimara_PBR_Fragment_Size + 16);
+
+JM_FragmentData JM_EvaluateVertex(in const JM_VertexInput vertexInput, in const JM_MaterialProperties materialProperties) {
+	JM_FragmentData fragment;
+	fragment.JM_Position = (vertexInput.transform * vec4(vertexInput.position, 1.0)).xyz;
+	fragment.normal = (vertexInput.transform * vec4(vertexInput.normal, 0.0)).xyz;
+	fragment.uv = vertexInput.uv;
+	return fragment;
+}
+
+bool JM_Init(in const JM_FragmentData fragmentInput, in const JM_MaterialProperties materialProperties, out JM_ShadingState state) {
+    const float highlightW = texture(materialProperties.metalHighlightMask, fragmentInput.uv).r;
+    const float nonMetalW = texture(materialProperties.nonMetalMask, fragmentInput.uv).g;
+    const vec3 emissiveW = texture(materialProperties.emissiveMask, fragmentInput.uv).rgb;
+    state.emission = vec4(emissiveW * materialProperties.emissionColor, 1.0);
+	state.position = fragmentInput.JM_Position;
+	state.normal = fragmentInput.normal;
+	state.albedo = mix(
+        mix(materialProperties.metalAlbedo, materialProperties.highlightAlbedo, highlightW), 
+        materialProperties.nonMetalAlbedo, nonMetalW);
+	state.metalness = mix(
+        mix(materialProperties.metalMetalness, materialProperties.highlightMetalness, highlightW), 
+        materialProperties.nonMetalMetalness, nonMetalW);
+	state.roughness = mix(
+        mix(materialProperties.metalRoughness, materialProperties.highlightRoughness, highlightW), 
+        materialProperties.nonMetalRoughness, nonMetalW);
+	return true;
+}
+
+vec3 JM_Emission(inout JM_ShadingState state, in const vec3 viewDelta) {
+	return state.emission.rgb;
+}
+
+Jimara_PBR_Fragment ToPBRFrag(in const JM_ShadingState state) {
+    Jimara_PBR_Fragment frag;
+    frag.position = state.position;
+    frag.normal = state.normal;
+    frag.albedo = state.albedo;
+    frag.metalness = state.metalness;
+    frag.roughness = state.roughness;
+    return frag;
+}
+
+vec3 JM_EvaluateBrdf(inout JM_ShadingState state, in const JM_BrdfQuery query) {
+	return Jimara_PBR_BRDF(ToPBRFrag(state), query);
+}
+
+bool JM_RequestBounceSample(inout JM_ShadingState state, in const vec3 viewDelta, out JM_BounceSample requestedSample) {
+	return Jimara_PBR_RequestBounceSample(ToPBRFrag(state), viewDelta, requestedSample);
+}
+

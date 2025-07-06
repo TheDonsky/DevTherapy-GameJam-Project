@@ -1,59 +1,47 @@
 {
-	"Shader[0]": "Jimara/Data/Materials/PBR/Jimara_PBR_Shader_Opaque",
-	"albedo[0]": [
-		0.3893805146217346,
-		0.2774820327758789,
-		0.08097736537456512
+	"Shader[0]": "Game/Materials/MainCharacter",
+	"emissionColor[0]": [
+		4.0,
+		4.0,
+		2.0
 	],
-	"baseColor[0]": {
-		"Word[0]": 0,
-		"Word[1]": 0,
-		"Word[2]": 0,
-		"Word[3]": 0
+	"emissiveMask[0]": {
+		"Word[0]": 7621142218042729758,
+		"Word[1]": 7335649625701739055,
+		"Word[2]": -8429669710334349222,
+		"Word[3]": 2689596948566799101
 	},
-	"emissionMap[0]": {
-		"Word[0]": 0,
-		"Word[1]": 0,
-		"Word[2]": 0,
-		"Word[3]": 0
-	},
-	"emission[0]": [
-		0.0,
-		0.0,
-		0.0
+	"highlightAlbedo[0]": [
+		0.8982300758361816,
+		0.6083752512931824,
+		0.09936174750328064
 	],
-	"metalnessMap[0]": {
-		"Word[0]": 0,
-		"Word[1]": 0,
-		"Word[2]": 0,
-		"Word[3]": 0
-	},
-	"metalness[0]": 0.7789999842643738,
-	"normalMap[0]": {
-		"Word[0]": 0,
-		"Word[1]": 0,
-		"Word[2]": 0,
-		"Word[3]": 0
-	},
-	"occlusionMap[0]": {
-		"Word[0]": 0,
-		"Word[1]": 0,
-		"Word[2]": 0,
-		"Word[3]": 0
-	},
-	"offset[0]": [
-		0.0,
-		0.0
+	"highlightMetalness[0]": 0.9620000123977661,
+	"highlightRoughness[0]": 0.03500000014901161,
+	"metalAlbedo[0]": [
+		0.3185840845108032,
+		0.3185840845108032,
+		0.3185840845108032
 	],
-	"roughnessMap[0]": {
-		"Word[0]": 0,
-		"Word[1]": 0,
-		"Word[2]": 0,
-		"Word[3]": 0
+	"metalHighlightMask[0]": {
+		"Word[0]": -5595582308600760758,
+		"Word[1]": -368070517435243987,
+		"Word[2]": 5224040653654339519,
+		"Word[3]": -7612889214422393500
 	},
-	"roughness[0]": 0.0,
-	"tiling[0]": [
-		1.0,
-		1.0
-	]
+	"metalMetalness[0]": 0.8149999976158142,
+	"metalRoughness[0]": 0.578000009059906,
+	"nonMetalAlbedo[0]": [
+		0.06637167930603027,
+		0.06042531132698059,
+		0.00528623815625906
+	],
+	"nonMetalMask[0]": {
+		"Word[0]": 8635492397878712272,
+		"Word[1]": -2913619795166869160,
+		"Word[2]": 2947645847442138790,
+		"Word[3]": -3850728214520591448
+	},
+	"nonMetalMetalness[0]": 0.05400000140070915,
+	"nonMetalRoughness[0]": 0.6380000114440918
 }
