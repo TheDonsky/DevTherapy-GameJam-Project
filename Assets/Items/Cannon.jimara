@@ -37,14 +37,33 @@
 			"Word[3]": 4210254131585379683
 		},
 		"ReferenceId[1]": {
-			"Word[0]": 0,
-			"Word[1]": 0,
-			"Word[2]": 0,
-			"Word[3]": 0
+			"Word[0]": 3800023492673575434,
+			"Word[1]": -1162512678092182560,
+			"Word[2]": -414611357333636507,
+			"Word[3]": -9092085769647658638
 		},
 		"Static[0]": false
 	},
 	"Component[11]": {
+		"Enabled[0]": true,
+		"Is Static[0]": false,
+		"Is Trigger[0]": false,
+		"Layer[0]": 1,
+		"Name[0]": "MeshCollider",
+		"ReferenceId[0]": {
+			"Word[0]": -7947873001619342395,
+			"Word[1]": -167319784920861208,
+			"Word[2]": 2058917437077835334,
+			"Word[3]": 4868031415998900215
+		},
+		"ReferenceId[1]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[12]": {
 		"Enabled[0]": true,
 		"Name[0]": "Canon-LeftTrigger",
 		"Position[0]": [
@@ -63,7 +82,7 @@
 			0.5
 		]
 	},
-	"Component[12]": {
+	"Component[13]": {
 		"Enabled[0]": true,
 		"Name[0]": "Cylinder",
 		"Position[0]": [
@@ -82,7 +101,7 @@
 			1.0
 		]
 	},
-	"Component[13]": {
+	"Component[14]": {
 		"Cast Shadows[0]": false,
 		"ComponentFieldSublist[0]": {
 			"Boundary Offset[0]": [
@@ -123,7 +142,7 @@
 		},
 		"Static[0]": false
 	},
-	"Component[14]": {
+	"Component[15]": {
 		"Alignment[0]": 1,
 		"Enabled[0]": true,
 		"Height[0]": 1.0,
@@ -139,12 +158,12 @@
 			"Word[3]": 0
 		}
 	},
-	"Component[15]": {
+	"Component[16]": {
 		"ComponentFieldSublist[0]": {
 			"Action Name[0]": "SetEnabled",
 			"Enabled[0]": false,
 			"ReferenceId[0]": {
-				"Word[0]": 17,
+				"Word[0]": 18,
 				"Word[1]": 0,
 				"Word[2]": 0,
 				"Word[3]": 0
@@ -154,7 +173,7 @@
 			"Action Name[0]": "SetEnabled",
 			"Enabled[0]": true,
 			"ReferenceId[0]": {
-				"Word[0]": 17,
+				"Word[0]": 18,
 				"Word[1]": 0,
 				"Word[2]": 0,
 				"Word[3]": 0
@@ -163,7 +182,7 @@
 		"Enabled[0]": true,
 		"Name[0]": "RotatePlatform",
 		"ReferenceId[0]": {
-			"Word[0]": 15,
+			"Word[0]": 16,
 			"Word[1]": 0,
 			"Word[2]": 0,
 			"Word[3]": 0
@@ -177,7 +196,7 @@
 		"Rotation Amount[0]": 90.0,
 		"Rotation Speed[0]": 45.0
 	},
-	"Component[16]": {
+	"Component[17]": {
 		"Enabled[0]": true,
 		"Name[0]": "Canon-RightTrigger",
 		"Position[0]": [
@@ -196,7 +215,7 @@
 			0.5
 		]
 	},
-	"Component[17]": {
+	"Component[18]": {
 		"Enabled[0]": true,
 		"Name[0]": "Cylinder",
 		"Position[0]": [
@@ -215,7 +234,7 @@
 			1.0
 		]
 	},
-	"Component[18]": {
+	"Component[19]": {
 		"Cast Shadows[0]": false,
 		"ComponentFieldSublist[0]": {
 			"Boundary Offset[0]": [
@@ -255,22 +274,6 @@
 			"Word[3]": -3071984667425425041
 		},
 		"Static[0]": false
-	},
-	"Component[19]": {
-		"Alignment[0]": 1,
-		"Enabled[0]": true,
-		"Height[0]": 1.0,
-		"Is Static[0]": false,
-		"Is Trigger[0]": true,
-		"Layer[0]": 0,
-		"Name[0]": "PlatformTrigger",
-		"Radius[0]": 0.5,
-		"ReferenceId[0]": {
-			"Word[0]": 0,
-			"Word[1]": 0,
-			"Word[2]": 0,
-			"Word[3]": 0
-		}
 	},
 	"Component[1]": {
 		"Enabled[0]": true,
@@ -292,11 +295,27 @@
 		]
 	},
 	"Component[20]": {
+		"Alignment[0]": 1,
+		"Enabled[0]": true,
+		"Height[0]": 1.0,
+		"Is Static[0]": false,
+		"Is Trigger[0]": true,
+		"Layer[0]": 0,
+		"Name[0]": "PlatformTrigger",
+		"Radius[0]": 0.5,
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		}
+	},
+	"Component[21]": {
 		"ComponentFieldSublist[0]": {
 			"Action Name[0]": "SetEnabled",
 			"Enabled[0]": false,
 			"ReferenceId[0]": {
-				"Word[0]": 12,
+				"Word[0]": 13,
 				"Word[1]": 0,
 				"Word[2]": 0,
 				"Word[3]": 0
@@ -306,7 +325,7 @@
 			"Action Name[0]": "SetEnabled",
 			"Enabled[0]": true,
 			"ReferenceId[0]": {
-				"Word[0]": 12,
+				"Word[0]": 13,
 				"Word[1]": 0,
 				"Word[2]": 0,
 				"Word[3]": 0
@@ -315,7 +334,7 @@
 		"Enabled[0]": true,
 		"Name[0]": "RotatePlatform",
 		"ReferenceId[0]": {
-			"Word[0]": 20,
+			"Word[0]": 21,
 			"Word[1]": 0,
 			"Word[2]": 0,
 			"Word[3]": 0
@@ -329,7 +348,7 @@
 		"Rotation Amount[0]": -90.0,
 		"Rotation Speed[0]": 45.0
 	},
-	"Component[21]": {
+	"Component[22]": {
 		"Enabled[0]": true,
 		"Name[0]": "Canon-ThrowTrigger",
 		"Position[0]": [
@@ -348,7 +367,7 @@
 			0.5
 		]
 	},
-	"Component[22]": {
+	"Component[23]": {
 		"Enabled[0]": true,
 		"Name[0]": "Cylinder",
 		"Position[0]": [
@@ -367,7 +386,7 @@
 			1.0
 		]
 	},
-	"Component[23]": {
+	"Component[24]": {
 		"Cast Shadows[0]": false,
 		"ComponentFieldSublist[0]": {
 			"Boundary Offset[0]": [
@@ -408,7 +427,7 @@
 		},
 		"Static[0]": false
 	},
-	"Component[24]": {
+	"Component[25]": {
 		"Alignment[0]": 1,
 		"Enabled[0]": true,
 		"Height[0]": 1.0,
@@ -424,12 +443,27 @@
 			"Word[3]": 0
 		}
 	},
-	"Component[25]": {
+	"Component[26]": {
 		"Cannon Ball Speed[0]": 24.0,
+		"ComponentFieldSublist[0]": {
+			"Action Name[0]": "PlayOneShot",
+			"ReferenceId[0]": {
+				"Word[0]": 28,
+				"Word[1]": 0,
+				"Word[2]": 0,
+				"Word[3]": 0
+			},
+			"ReferenceId[1]": {
+				"Word[0]": 4624561671198909311,
+				"Word[1]": -7996984144497782928,
+				"Word[2]": 7477675369966665282,
+				"Word[3]": 4247240413469025173
+			}
+		},
 		"Enabled[0]": true,
 		"Name[0]": "Cannon",
 		"ReferenceId[0]": {
-			"Word[0]": 25,
+			"Word[0]": 26,
 			"Word[1]": 0,
 			"Word[2]": 0,
 			"Word[3]": 0
@@ -441,13 +475,28 @@
 			"Word[3]": 0
 		},
 		"ReferenceId[2]": {
-			"Word[0]": 28,
+			"Word[0]": 30,
 			"Word[1]": 0,
 			"Word[2]": 0,
 			"Word[3]": 0
 		}
 	},
-	"Component[26]": {
+	"Component[27]": {
+		"Enabled[0]": true,
+		"Looping[0]": false,
+		"Name[0]": "AudioSource3D",
+		"Pitch[0]": 1.0,
+		"Playing[0]": false,
+		"Priority[0]": 0,
+		"ReferenceId[0]": {
+			"Word[0]": 0,
+			"Word[1]": 0,
+			"Word[2]": 0,
+			"Word[3]": 0
+		},
+		"Volume[0]": 1.0
+	},
+	"Component[28]": {
 		"Enabled[0]": true,
 		"Name[0]": "Canonball",
 		"Position[0]": [
@@ -466,7 +515,7 @@
 			0.25
 		]
 	},
-	"Component[27]": {
+	"Component[29]": {
 		"Angular Velocity[0]": [
 			0.0,
 			0.0,
@@ -484,7 +533,26 @@
 			0.0
 		]
 	},
-	"Component[28]": {
+	"Component[2]": {
+		"Enabled[0]": true,
+		"Name[0]": "Canon-Mesh",
+		"Position[0]": [
+			-1.2738297527903342e-08,
+			0.634292721748352,
+			0.26898136734962463
+		],
+		"Rotation[0]": [
+			90.0,
+			0.0,
+			-90.0
+		],
+		"Scale[0]": [
+			0.02500000037252903,
+			0.02500000037252903,
+			0.02500000037252903
+		]
+	},
+	"Component[30]": {
 		"Enabled[0]": true,
 		"Is Static[0]": false,
 		"Is Trigger[0]": false,
@@ -498,7 +566,7 @@
 			"Word[3]": 0
 		}
 	},
-	"Component[29]": {
+	"Component[31]": {
 		"Cast Shadows[0]": true,
 		"ComponentFieldSublist[0]": {
 			"Boundary Offset[0]": [
@@ -532,31 +600,12 @@
 			"Word[3]": -8906723582597140993
 		},
 		"ReferenceId[1]": {
-			"Word[0]": -5544762299122072879,
-			"Word[1]": -395579393725961726,
-			"Word[2]": -3748659858529901406,
-			"Word[3]": 5712365680221368726
+			"Word[0]": 6982620792453730979,
+			"Word[1]": -4925924094294711143,
+			"Word[2]": 3071284006702714761,
+			"Word[3]": -6972694187347317810
 		},
 		"Static[0]": false
-	},
-	"Component[2]": {
-		"Enabled[0]": true,
-		"Name[0]": "Canon-Mesh",
-		"Position[0]": [
-			-1.2738297527903342e-08,
-			0.634292721748352,
-			0.26898136734962463
-		],
-		"Rotation[0]": [
-			90.0,
-			0.0,
-			-90.0
-		],
-		"Scale[0]": [
-			0.02500000037252903,
-			0.02500000037252903,
-			0.02500000037252903
-		]
 	},
 	"Component[3]": {
 		"Cast Shadows[0]": true,
@@ -684,7 +733,7 @@
 		"Height[0]": 41.570980072021484,
 		"Is Static[0]": false,
 		"Is Trigger[0]": false,
-		"Layer[0]": 0,
+		"Layer[0]": 1,
 		"Name[0]": "CapsuleCollider",
 		"Radius[0]": 20.18651008605957,
 		"ReferenceId[0]": {
@@ -735,7 +784,7 @@
 	"Node[0]": {
 		"Child Count[0]": 2,
 		"Node[0]": {
-			"Child Count[0]": 5,
+			"Child Count[0]": 6,
 			"Node[0]": {
 				"Child Count[0]": 4,
 				"Node[0]": {
@@ -765,10 +814,14 @@
 				"Type[0]": "Jimara::Transform"
 			},
 			"Node[1]": {
-				"Child Count[0]": 1,
+				"Child Count[0]": 2,
 				"Node[0]": {
 					"Child Count[0]": 0,
 					"Type[0]": "Jimara::MeshRenderer"
+				},
+				"Node[1]": {
+					"Child Count[0]": 0,
+					"Type[0]": "Jimara::MeshCollider"
 				},
 				"Type[0]": "Jimara::Transform"
 			},
@@ -832,6 +885,10 @@
 				},
 				"Type[0]": "Jimara::Transform"
 			},
+			"Node[5]": {
+				"Child Count[0]": 0,
+				"Type[0]": "Jimara::AudioSource3D"
+			},
 			"Type[0]": "Jimara::Transform"
 		},
 		"Node[1]": {
@@ -853,12 +910,18 @@
 		"Type[0]": "Jimara::Component"
 	},
 	"Resources[0]": {
-		"Count[0]": 8,
+		"Count[0]": 11,
 		"ResourceId[0]": {
 			"Word[0]": -1839588546995293685,
 			"Word[1]": -1378970150990643154,
 			"Word[2]": -8312435684049662056,
 			"Word[3]": 5387071763674378915
+		},
+		"ResourceId[10]": {
+			"Word[0]": 6982620792453730979,
+			"Word[1]": -4925924094294711143,
+			"Word[2]": 3071284006702714761,
+			"Word[3]": -6972694187347317810
 		},
 		"ResourceId[1]": {
 			"Word[0]": 5514470020493482756,
@@ -879,28 +942,40 @@
 			"Word[3]": 4210254131585379683
 		},
 		"ResourceId[4]": {
+			"Word[0]": 3800023492673575434,
+			"Word[1]": -1162512678092182560,
+			"Word[2]": -414611357333636507,
+			"Word[3]": -9092085769647658638
+		},
+		"ResourceId[5]": {
+			"Word[0]": -7947873001619342395,
+			"Word[1]": -167319784920861208,
+			"Word[2]": 2058917437077835334,
+			"Word[3]": 4868031415998900215
+		},
+		"ResourceId[6]": {
 			"Word[0]": 5878721109056754504,
 			"Word[1]": -3572221403601257083,
 			"Word[2]": -1638342316288954287,
 			"Word[3]": -3071984667425425041
 		},
-		"ResourceId[5]": {
+		"ResourceId[7]": {
 			"Word[0]": 3631957013737130657,
 			"Word[1]": -461491381574338984,
 			"Word[2]": -2384153707193378794,
 			"Word[3]": -614311739483940912
 		},
-		"ResourceId[6]": {
+		"ResourceId[8]": {
+			"Word[0]": 4624561671198909311,
+			"Word[1]": -7996984144497782928,
+			"Word[2]": 7477675369966665282,
+			"Word[3]": 4247240413469025173
+		},
+		"ResourceId[9]": {
 			"Word[0]": -3117669937722425407,
 			"Word[1]": -1787254677233709921,
 			"Word[2]": 6999931498375764614,
 			"Word[3]": -8906723582597140993
-		},
-		"ResourceId[7]": {
-			"Word[0]": -5544762299122072879,
-			"Word[1]": -395579393725961726,
-			"Word[2]": -3748659858529901406,
-			"Word[3]": 5712365680221368726
 		}
 	}
 }

@@ -18,6 +18,7 @@ namespace Game {
 				JIMARA_SERIALIZE_FIELD(m_spawnPoint, "Spawn Point", "Origin coordinates for object spawning");
 				JIMARA_SERIALIZE_FIELD(m_cannonBall, "Cannon Ball", "Rigidbody of the cannon ball");
 				JIMARA_SERIALIZE_FIELD(m_cannonBallSpeed, "Cannon Ball Speed", "Speed of the cannon ball");
+				JIMARA_SERIALIZE_FIELD(m_onThrow, "On Trrow", "");
 			};
 		}
 
@@ -33,6 +34,7 @@ namespace Game {
 		WeakReference<Transform> m_spawnPoint;
 		WeakReference<Rigidbody> m_cannonBall;
 		float m_cannonBallSpeed = 32.0f;
+		Jimara::Serialization::SerializedCallback::ProvidedInstance m_onThrow;
 
 		void Throw(Object*) {
 			Reference<Rigidbody> cannonBall = m_cannonBall;
@@ -46,6 +48,7 @@ namespace Game {
 				return;
 			transform->SetWorldPosition(spawnPoint->WorldPosition());
 			cannonBall->SetVelocity(spawnPoint->Forward() * m_cannonBallSpeed);
+			m_onThrow.Invoke();
 		}
 	};
 }

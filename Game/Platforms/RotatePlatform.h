@@ -19,7 +19,7 @@ namespace Game {
 				JIMARA_SERIALIZE_FIELD(m_rotationSpeed, "Rotation Speed", "");
 				JIMARA_SERIALIZE_FIELD(m_rotationAmount, "Rotation Amount", "");
 				JIMARA_SERIALIZE_FIELD(m_onRotationStarted, "On Rotation Started", "");
-				JIMARA_SERIALIZE_FIELD(m_onRotationFinished, "On Rotation Started", "");
+				JIMARA_SERIALIZE_FIELD(m_onRotationFinished, "On Rotation Finished", "");
 			};
 		}
 

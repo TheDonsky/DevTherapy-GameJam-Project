@@ -67,7 +67,7 @@
 		"Enabled[0]": true,
 		"Is Static[0]": false,
 		"Is Trigger[0]": false,
-		"Layer[0]": 0,
+		"Layer[0]": 2,
 		"Name[0]": "BoxCollider",
 		"ReferenceId[0]": {
 			"Word[0]": 0,
