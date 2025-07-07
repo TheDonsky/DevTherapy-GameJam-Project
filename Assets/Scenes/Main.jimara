@@ -713,6 +713,16 @@
 				"Target Volume[0]": 2.0
 			},
 			"ComponentFieldSublist[4]": {
+				"Action Name[0]": "SetEnabled",
+				"Enabled[0]": true,
+				"ReferenceId[0]": {
+					"Word[0]": 139,
+					"Word[1]": 0,
+					"Word[2]": 0,
+					"Word[3]": 0
+				}
+			},
+			"ComponentFieldSublist[5]": {
 				"Action Name[0]": "PlayOneShot",
 				"ReferenceId[0]": {
 					"Word[0]": 139,
@@ -727,7 +737,7 @@
 					"Word[3]": -5420166017992270194
 				}
 			},
-			"ComponentFieldSublist[5]": {
+			"ComponentFieldSublist[6]": {
 				"Action Name[0]": "PlayOneShot",
 				"ReferenceId[0]": {
 					"Word[0]": 139,
@@ -742,7 +752,7 @@
 					"Word[3]": -4163414481850724452
 				}
 			},
-			"Size[0]": 6
+			"Size[0]": 7
 		},
 		"Enabled[0]": true,
 		"Name[0]": "ToggleActions"
@@ -899,7 +909,7 @@
 		]
 	},
 	"Component[138]": {
-		"Enabled[0]": true,
+		"Enabled[0]": false,
 		"Looping[0]": false,
 		"Name[0]": "WindBlocker-Sound",
 		"Pitch[0]": 1.0,
