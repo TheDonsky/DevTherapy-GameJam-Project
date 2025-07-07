@@ -19,6 +19,7 @@ namespace Game {
 				JIMARA_SERIALIZE_FIELD(m_spawnPoint, "Spawn Point", "Origin coordinates for object spawning");
 				JIMARA_SERIALIZE_FIELD(m_cannonBall, "Cannon Ball", "Rigidbody of the cannon ball");
 				JIMARA_SERIALIZE_FIELD(m_cannonBallSpeed, "Cannon Ball Speed", "Speed of the cannon ball");
+				JIMARA_SERIALIZE_FIELD(m_throwColldown, "Throw cooldown", "Minimal interval between canonball-thows");
 				JIMARA_SERIALIZE_FIELD(m_onThrow, "On Trrow", "");
 			};
 		}
@@ -26,6 +27,10 @@ namespace Game {
 		inline Rigidbody* CannonBall()const { return m_cannonBall.operator Jimara::Reference<Jimara::Rigidbody, Jimara::JimaraReferenceCounter>(); }
 
 		inline void Throw() {
+			const float time = Context()->Time()->TotalScaledTime();
+			if ((time - m_lastThrowTime) < m_throwColldown)
+				return;
+			m_lastThrowTime = time;
 			Context()->ExecuteAfterUpdate(Callback<Object*>(&Cannon::Throw_callback, this), this);
 		}
 
@@ -41,7 +46,10 @@ namespace Game {
 		WeakReference<Transform> m_spawnPoint;
 		WeakReference<Rigidbody> m_cannonBall;
 		float m_cannonBallSpeed = 32.0f;
+		float m_throwColldown = 1.0f;
 		Jimara::Serialization::SerializedCallback::ProvidedInstance m_onThrow;
+
+		float m_lastThrowTime = -std::numeric_limits<float>::infinity();
 
 		void Throw_callback(Object*) {
 			Reference<Rigidbody> cannonBall = m_cannonBall;
