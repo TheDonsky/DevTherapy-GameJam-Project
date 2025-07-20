@@ -17,7 +17,7 @@ namespace Game {
 				return;
 
 			// Camera-Transform:
-			Transform* const transform = camera->GetTransfrom();
+			Transform* const transform = camera->GetTransform();
 			if (transform == nullptr)
 				return;
 

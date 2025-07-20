@@ -58,7 +58,7 @@ namespace Game {
 			Reference<Transform> spawnPoint = m_spawnPoint;
 			if (spawnPoint == nullptr)
 				return;
-			Transform* transform = cannonBall->GetTransfrom();
+			Transform* transform = cannonBall->GetTransform();
 			if (transform == nullptr)
 				return;
 			transform->SetWorldPosition(spawnPoint->WorldPosition());

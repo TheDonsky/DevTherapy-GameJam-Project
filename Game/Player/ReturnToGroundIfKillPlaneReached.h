@@ -28,7 +28,7 @@ namespace Game {
 			if (body == nullptr)
 				return;
 
-			Transform* transform = body->GetTransfrom();
+			Transform* transform = body->GetTransform();
 			if (transform == nullptr)
 				return;
 
